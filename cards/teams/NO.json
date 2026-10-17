@@ -1,0 +1,380 @@
+{
+  "model_version": "v15",
+  "team": "NO",
+  "name": "New Orleans Saints",
+  "city": "New Orleans, LA",
+  "division": "NFC South",
+  "season": 2026,
+  "record": "1-4",
+  "streak": {
+    "type": "L",
+    "length": 3,
+    "display": "L3"
+  },
+  "seed": null,
+  "ppg_for": 23.6,
+  "ppg_against": 30.2,
+  "power": {
+    "rank": 28,
+    "points": -3.878,
+    "rank_change": -1,
+    "offense_rank": 28,
+    "defense_rank": 20
+  },
+  "categories": {
+    "offense": {
+      "rank": 28,
+      "value": -0.079,
+      "rank_change": -1
+    },
+    "defense": {
+      "rank": 20,
+      "value": 0.02,
+      "rank_change": 1
+    },
+    "passing_offense": {
+      "rank": 25,
+      "value": -0.022,
+      "rank_change": -1
+    },
+    "passing_defense": {
+      "rank": 22,
+      "value": 0.09,
+      "rank_change": -2
+    },
+    "rushing_offense": {
+      "rank": 29,
+      "value": -0.178,
+      "rank_change": 0
+    },
+    "rushing_defense": {
+      "rank": 17,
+      "value": -0.083,
+      "rank_change": 4
+    },
+    "quarterback": {
+      "rank": 23,
+      "value": -0.025,
+      "rank_change": -1
+    }
+  },
+  "qb": {
+    "name": "T.Shough",
+    "rating": -0.025
+  },
+  "odds": {
+    "team": "NO",
+    "record": "1-4",
+    "projected_wins": 5.983,
+    "p_playoffs": 0.106,
+    "p_division": 0.094,
+    "p_bye": 0.0,
+    "p_seed": [
+      0.0,
+      0.001,
+      0.017,
+      0.076,
+      0.001,
+      0.003,
+      0.009
+    ],
+    "win_dist": [
+      0.0,
+      0.003,
+      0.018,
+      0.061,
+      0.129,
+      0.189,
+      0.215,
+      0.185,
+      0.117,
+      0.056,
+      0.022,
+      0.004,
+      0.001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_06_NO_NYG",
+      "opponent": "NYG",
+      "home_away": "away",
+      "p_playoffs_if_win": 0.18,
+      "p_playoffs_if_loss": 0.069,
+      "p_division_if_win": 0.154,
+      "p_division_if_loss": 0.063
+    }
+  },
+  "next_game": {
+    "opponent": "NYG",
+    "home_away": "away",
+    "date": "2026-10-18",
+    "game_id": "2026_06_NO_NYG"
+  },
+  "last5": [
+    {
+      "opponent": "MIN",
+      "home_away": "home",
+      "points_for": 13.0,
+      "points_against": 23.0,
+      "result": "L"
+    },
+    {
+      "opponent": "ATL",
+      "home_away": "home",
+      "points_for": 24.0,
+      "points_against": 45.0,
+      "result": "L"
+    },
+    {
+      "opponent": "LV",
+      "home_away": "home",
+      "points_for": 27.0,
+      "points_against": 35.0,
+      "result": "L"
+    },
+    {
+      "opponent": "BAL",
+      "home_away": "away",
+      "points_for": 24.0,
+      "points_against": 17.0,
+      "result": "W"
+    },
+    {
+      "opponent": "DET",
+      "home_away": "away",
+      "points_for": 30.0,
+      "points_against": 31.0,
+      "result": "L"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_NO_DET",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 13:00 ET",
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "opponent": "DET",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 31.0,
+      "result": "L",
+      "team_spread": 7.0,
+      "ats": "W",
+      "total_line": 49.5,
+      "ou": "O"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_NO_BAL",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 13:00 ET",
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "opponent": "BAL",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 17.0,
+      "result": "W",
+      "team_spread": 8.5,
+      "ats": "W",
+      "total_line": 45.5,
+      "ou": "U"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_LV_NO",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 16:25 ET",
+      "kickoff_utc": "2026-09-27T20:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 27.0,
+      "points_against": 35.0,
+      "result": "L",
+      "team_spread": -3.5,
+      "ats": "L",
+      "total_line": 43.5,
+      "ou": "O"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_ATL_NO",
+      "date": "2026-10-05",
+      "kickoff_et": "2026-10-05 20:15 ET",
+      "kickoff_utc": "2026-10-06T00:15:00+00:00",
+      "opponent": "ATL",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 45.0,
+      "result": "L",
+      "team_spread": -1.5,
+      "ats": "L",
+      "total_line": 47.5,
+      "ou": "O"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_MIN_NO",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 13:00 ET",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "opponent": "MIN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 13.0,
+      "points_against": 23.0,
+      "result": "L",
+      "team_spread": 2.5,
+      "ats": "L",
+      "total_line": 41.5,
+      "ou": "U"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_NO_NYG",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "opponent": "NYG",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": "2026_06_NO_NYG.json"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_PIT_NO",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 09:30 ET",
+      "kickoff_utc": "2026-10-25T13:30:00+00:00",
+      "opponent": "PIT",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_CLE_NO",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "CLE",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_CAR_NO",
+      "date": "2026-11-15",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "opponent": "CAR",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_NO_CHI",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 13:00 ET",
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "opponent": "CHI",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_NO_CIN",
+      "date": "2026-11-29",
+      "kickoff_et": "2026-11-29 13:00 ET",
+      "kickoff_utc": "2026-11-29T18:00:00+00:00",
+      "opponent": "CIN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_GB_NO",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 13:00 ET",
+      "kickoff_utc": "2026-12-06T18:00:00+00:00",
+      "opponent": "GB",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_NO_CAR",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "CAR",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_NO_TB",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 13:00 ET",
+      "kickoff_utc": "2026-12-20T18:00:00+00:00",
+      "opponent": "TB",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_ARI_NO",
+      "date": "2026-12-27",
+      "kickoff_et": "2026-12-27 13:00 ET",
+      "kickoff_utc": "2026-12-27T18:00:00+00:00",
+      "opponent": "ARI",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_NO_ATL",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "ATL",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_TB_NO",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "TB",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 8,
+  "disclaimer": "For information and entertainment only."
+}

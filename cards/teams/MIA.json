@@ -1,0 +1,375 @@
+{
+  "model_version": "v15",
+  "team": "MIA",
+  "name": "Miami Dolphins",
+  "city": "Miami Gardens, FL",
+  "division": "AFC East",
+  "season": 2026,
+  "record": "0-5",
+  "streak": {
+    "type": "L",
+    "length": 5,
+    "display": "L5"
+  },
+  "seed": null,
+  "ppg_for": 14.0,
+  "ppg_against": 26.4,
+  "power": {
+    "rank": 30,
+    "points": -5.704,
+    "rank_change": 1,
+    "offense_rank": 24,
+    "defense_rank": 26
+  },
+  "categories": {
+    "offense": {
+      "rank": 24,
+      "value": -0.052,
+      "rank_change": -1
+    },
+    "defense": {
+      "rank": 26,
+      "value": 0.076,
+      "rank_change": -1
+    },
+    "passing_offense": {
+      "rank": 27,
+      "value": -0.041,
+      "rank_change": -1
+    },
+    "passing_defense": {
+      "rank": 28,
+      "value": 0.198,
+      "rank_change": 0
+    },
+    "rushing_offense": {
+      "rank": 19,
+      "value": -0.093,
+      "rank_change": 1
+    },
+    "rushing_defense": {
+      "rank": 18,
+      "value": -0.08,
+      "rank_change": -5
+    },
+    "quarterback": {
+      "rank": 28,
+      "value": -0.059,
+      "rank_change": -2
+    }
+  },
+  "qb": {
+    "name": "M.Willis",
+    "rating": -0.059
+  },
+  "odds": {
+    "team": "MIA",
+    "record": "0-5",
+    "projected_wins": 3.842,
+    "p_playoffs": 0.001,
+    "p_division": 0.0,
+    "p_bye": 0.0,
+    "p_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "win_dist": [
+      0.011,
+      0.062,
+      0.15,
+      0.215,
+      0.225,
+      0.172,
+      0.1,
+      0.046,
+      0.014,
+      0.004,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_07_MIA_NYJ",
+      "opponent": "NYJ",
+      "home_away": "away",
+      "p_playoffs_if_win": 0.002,
+      "p_playoffs_if_loss": 0.0,
+      "p_division_if_win": 0.001,
+      "p_division_if_loss": 0.0
+    }
+  },
+  "next_game": null,
+  "last5": [
+    {
+      "opponent": "CIN",
+      "home_away": "home",
+      "points_for": 24.0,
+      "points_against": 31.0,
+      "result": "L"
+    },
+    {
+      "opponent": "MIN",
+      "home_away": "away",
+      "points_for": 10.0,
+      "points_against": 15.0,
+      "result": "L"
+    },
+    {
+      "opponent": "KC",
+      "home_away": "home",
+      "points_for": 10.0,
+      "points_against": 24.0,
+      "result": "L"
+    },
+    {
+      "opponent": "SF",
+      "home_away": "away",
+      "points_for": 13.0,
+      "points_against": 35.0,
+      "result": "L"
+    },
+    {
+      "opponent": "LV",
+      "home_away": "away",
+      "points_for": 13.0,
+      "points_against": 27.0,
+      "result": "L"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_MIA_LV",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 16:25 ET",
+      "kickoff_utc": "2026-09-13T20:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 13.0,
+      "points_against": 27.0,
+      "result": "L",
+      "team_spread": 3.0,
+      "ats": "L",
+      "total_line": 40.5,
+      "ou": "U"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_MIA_SF",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 16:25 ET",
+      "kickoff_utc": "2026-09-20T20:25:00+00:00",
+      "opponent": "SF",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 13.0,
+      "points_against": 35.0,
+      "result": "L",
+      "team_spread": 12.5,
+      "ats": "L",
+      "total_line": 44.5,
+      "ou": "O"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_KC_MIA",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 13:00 ET",
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "opponent": "KC",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 10.0,
+      "points_against": 24.0,
+      "result": "L",
+      "team_spread": 10.0,
+      "ats": "L",
+      "total_line": 45.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_MIA_MIN",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 16:05 ET",
+      "kickoff_utc": "2026-10-04T20:05:00+00:00",
+      "opponent": "MIN",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 10.0,
+      "points_against": 15.0,
+      "result": "L",
+      "team_spread": 10.0,
+      "ats": "W",
+      "total_line": 38.5,
+      "ou": "U"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_CIN_MIA",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 13:00 ET",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "opponent": "CIN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 31.0,
+      "result": "L",
+      "team_spread": 7.0,
+      "ats": "P",
+      "total_line": 44.5,
+      "ou": "O"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_MIA_NYJ",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 13:00 ET",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "opponent": "NYJ",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_NE_MIA",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 16:25 ET",
+      "kickoff_utc": "2026-11-01T21:25:00+00:00",
+      "opponent": "NE",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_DET_MIA",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "DET",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_MIA_IND",
+      "date": "2026-11-15",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "opponent": "IND",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_MIA_BUF",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 13:00 ET",
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "opponent": "BUF",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_NYJ_MIA",
+      "date": "2026-11-29",
+      "kickoff_et": "2026-11-29 13:00 ET",
+      "kickoff_utc": "2026-11-29T18:00:00+00:00",
+      "opponent": "NYJ",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_MIA_DEN",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 16:05 ET",
+      "kickoff_utc": "2026-12-06T21:05:00+00:00",
+      "opponent": "DEN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_CHI_MIA",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "CHI",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_MIA_GB",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 13:00 ET",
+      "kickoff_utc": "2026-12-20T18:00:00+00:00",
+      "opponent": "GB",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_LAC_MIA",
+      "date": "2026-12-27",
+      "kickoff_et": "2026-12-27 13:00 ET",
+      "kickoff_utc": "2026-12-27T18:00:00+00:00",
+      "opponent": "LAC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_BUF_MIA",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "BUF",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_MIA_NE",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "NE",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 6,
+  "disclaimer": "For information and entertainment only."
+}

@@ -1,0 +1,839 @@
+{
+  "card_version": 1,
+  "model_version": "v15",
+  "generated_at": "2026-10-17T17:49:25+00:00",
+  "season": 2026,
+  "week": 6,
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "games": [
+    {
+      "game_id": "2026_06_HOU_JAX",
+      "kickoff_et": "2026-10-18 09:30 ET",
+      "kickoff_utc": "2026-10-18T13:30:00+00:00",
+      "away": "HOU",
+      "home": "JAX",
+      "predicted_margin_home": 5.185,
+      "favored_team": "JAX",
+      "win_prob_favored": 0.651,
+      "margin_range_80": [
+        -11.381,
+        21.647
+      ],
+      "predicted_total": 42.557,
+      "projected_score": {
+        "home": 23.871,
+        "away": 18.686
+      },
+      "total_range_80": [
+        25.899,
+        60.067
+      ],
+      "away_name": "Houston Texans",
+      "home_name": "Jacksonville Jaguars",
+      "stadium": "Wembley Stadium",
+      "city": null,
+      "weather": {
+        "indoors": false,
+        "source": "unavailable",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "4-1",
+        "away": "1-4"
+      },
+      "market": {
+        "spread_home": 2.5,
+        "favorite": "JAX",
+        "favorite_spread": 2.5,
+        "total_line": 42.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "HOU 1-4 ATS last 5",
+          "team": "HOU"
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 4 straight (JAX)",
+          "team": "JAX"
+        }
+      ],
+      "badges": [
+        "divisional",
+        "neutral_site"
+      ],
+      "card": "2026_06_HOU_JAX.json"
+    },
+    {
+      "game_id": "2026_06_PIT_TB",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "PIT",
+      "home": "TB",
+      "predicted_margin_home": -1.608,
+      "favored_team": "PIT",
+      "win_prob_favored": 0.579,
+      "margin_range_80": [
+        -18.173,
+        14.854
+      ],
+      "predicted_total": 43.617,
+      "projected_score": {
+        "home": 21.005,
+        "away": 22.612
+      },
+      "total_range_80": [
+        26.959,
+        61.127
+      ],
+      "away_name": "Pittsburgh Steelers",
+      "home_name": "Tampa Bay Buccaneers",
+      "stadium": "Raymond James Stadium",
+      "city": "Tampa, FL",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 77.667,
+        "wind_mph": 17.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Mostly Sunny"
+      },
+      "records": {
+        "home": "1-4",
+        "away": "3-2"
+      },
+      "market": {
+        "spread_home": -2.5,
+        "favorite": "PIT",
+        "favorite_spread": 2.5,
+        "total_line": 38.5
+      },
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Wind 17 mph",
+          "team": null
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (PIT)",
+          "team": "PIT"
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 3 straight (TB)",
+          "team": "TB"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "windy"
+      ],
+      "card": "2026_06_PIT_TB.json"
+    },
+    {
+      "game_id": "2026_06_CAR_PHI",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "CAR",
+      "home": "PHI",
+      "predicted_margin_home": 5.621,
+      "favored_team": "PHI",
+      "win_prob_favored": 0.675,
+      "margin_range_80": [
+        -10.945,
+        22.083
+      ],
+      "predicted_total": 41.973,
+      "projected_score": {
+        "home": 23.797,
+        "away": 18.176
+      },
+      "total_range_80": [
+        25.315,
+        59.483
+      ],
+      "away_name": "Carolina Panthers",
+      "home_name": "Philadelphia Eagles",
+      "stadium": "Lincoln Financial Field",
+      "city": "Philadelphia, PA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 55.667,
+        "wind_mph": 10.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "2-3",
+        "away": "2-2"
+      },
+      "market": {
+        "spread_home": -3.0,
+        "favorite": "CAR",
+        "favorite_spread": 3.0,
+        "total_line": 39.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "CAR off a bye",
+          "team": "CAR"
+        },
+        {
+          "kind": "ats",
+          "text": "PHI 1-4 ATS last 5",
+          "team": "PHI"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "off_bye"
+      ],
+      "card": "2026_06_CAR_PHI.json"
+    },
+    {
+      "game_id": "2026_06_NYJ_NE",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "NYJ",
+      "home": "NE",
+      "predicted_margin_home": 11.223,
+      "favored_team": "NE",
+      "win_prob_favored": 0.831,
+      "margin_range_80": [
+        -5.343,
+        27.685
+      ],
+      "predicted_total": 45.682,
+      "projected_score": {
+        "home": 28.452,
+        "away": 17.23
+      },
+      "total_range_80": [
+        29.024,
+        63.192
+      ],
+      "away_name": "New York Jets",
+      "home_name": "New England Patriots",
+      "stadium": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 52.0,
+        "wind_mph": 3.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "3-2",
+        "away": "2-3"
+      },
+      "market": {
+        "spread_home": 7.5,
+        "favorite": "NE",
+        "favorite_spread": 7.5,
+        "total_line": 43.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        }
+      ],
+      "badges": [
+        "divisional"
+      ],
+      "card": "2026_06_NYJ_NE.json"
+    },
+    {
+      "game_id": "2026_06_TEN_IND",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "TEN",
+      "home": "IND",
+      "predicted_margin_home": 9.184,
+      "favored_team": "IND",
+      "win_prob_favored": 0.775,
+      "margin_range_80": [
+        -7.381,
+        25.646
+      ],
+      "predicted_total": 42.866,
+      "projected_score": {
+        "home": 26.025,
+        "away": 16.841
+      },
+      "total_range_80": [
+        26.209,
+        60.377
+      ],
+      "away_name": "Tennessee Titans",
+      "home_name": "Indianapolis Colts",
+      "stadium": "Lucas Oil Stadium",
+      "city": "Indianapolis, IN",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 60.0,
+        "wind_mph": 6.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "2-3",
+        "away": "0-5"
+      },
+      "market": {
+        "spread_home": 7.0,
+        "favorite": "IND",
+        "favorite_spread": 7.0,
+        "total_line": 44.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 3 straight (TEN)",
+          "team": "TEN"
+        }
+      ],
+      "badges": [
+        "divisional"
+      ],
+      "card": "2026_06_TEN_IND.json"
+    },
+    {
+      "game_id": "2026_06_BAL_CLE",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "BAL",
+      "home": "CLE",
+      "predicted_margin_home": 0.835,
+      "favored_team": "CLE",
+      "win_prob_favored": 0.547,
+      "margin_range_80": [
+        -15.731,
+        17.297
+      ],
+      "predicted_total": 41.656,
+      "projected_score": {
+        "home": 21.245,
+        "away": 20.41
+      },
+      "total_range_80": [
+        24.998,
+        59.166
+      ],
+      "away_name": "Baltimore Ravens",
+      "home_name": "Cleveland Browns",
+      "stadium": "Huntington Bank Field",
+      "city": "Cleveland, OH",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 58.0,
+        "wind_mph": 9.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "3-2",
+        "away": "4-1"
+      },
+      "market": {
+        "spread_home": -3.0,
+        "favorite": "BAL",
+        "favorite_spread": 3.0,
+        "total_line": 39.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-0 in BAL road games",
+          "team": "BAL"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "divisional"
+      ],
+      "card": "2026_06_BAL_CLE.json"
+    },
+    {
+      "game_id": "2026_06_CHI_ATL",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "CHI",
+      "home": "ATL",
+      "predicted_margin_home": 4.126,
+      "favored_team": "ATL",
+      "win_prob_favored": 0.67,
+      "margin_range_80": [
+        -12.439,
+        20.588
+      ],
+      "predicted_total": 44.358,
+      "projected_score": {
+        "home": 24.242,
+        "away": 20.116
+      },
+      "total_range_80": [
+        27.701,
+        61.869
+      ],
+      "away_name": "Chicago Bears",
+      "home_name": "Atlanta Falcons",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 61.667,
+        "wind_mph": 15.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "2-3",
+        "away": "3-2"
+      },
+      "market": {
+        "spread_home": -1.5,
+        "favorite": "CHI",
+        "favorite_spread": 1.5,
+        "total_line": 52.5
+      },
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Wind 15 mph",
+          "team": null
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 4 straight (CHI)",
+          "team": "CHI"
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (ATL)",
+          "team": "ATL"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "windy"
+      ],
+      "card": "2026_06_CHI_ATL.json"
+    },
+    {
+      "game_id": "2026_06_NO_NYG",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away": "NO",
+      "home": "NYG",
+      "predicted_margin_home": 5.758,
+      "favored_team": "NYG",
+      "win_prob_favored": 0.688,
+      "margin_range_80": [
+        -10.807,
+        22.22
+      ],
+      "predicted_total": 47.214,
+      "projected_score": {
+        "home": 26.486,
+        "away": 20.728
+      },
+      "total_range_80": [
+        30.556,
+        64.724
+      ],
+      "away_name": "New Orleans Saints",
+      "home_name": "New York Giants",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 56.0,
+        "wind_mph": 5.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "3-1-1",
+        "away": "1-4"
+      },
+      "market": {
+        "spread_home": -1.5,
+        "favorite": "NO",
+        "favorite_spread": 1.5,
+        "total_line": 46.5
+      },
+      "chips": [
+        {
+          "kind": "ats",
+          "text": "NO failed to cover 3 straight",
+          "team": "NO"
+        },
+        {
+          "kind": "ats",
+          "text": "NYG 3-0 ATS at home",
+          "team": "NYG"
+        },
+        {
+          "kind": "ats",
+          "text": "NYG 4-1 ATS last 5",
+          "team": "NYG"
+        },
+        {
+          "kind": "ats",
+          "text": "NYG covered 3 straight",
+          "team": "NYG"
+        }
+      ],
+      "badges": [],
+      "card": "2026_06_NO_NYG.json"
+    },
+    {
+      "game_id": "2026_06_ARI_LA",
+      "kickoff_et": "2026-10-18 16:05 ET",
+      "kickoff_utc": "2026-10-18T20:05:00+00:00",
+      "away": "ARI",
+      "home": "LA",
+      "predicted_margin_home": 10.792,
+      "favored_team": "LA",
+      "win_prob_favored": 0.795,
+      "margin_range_80": [
+        -5.774,
+        27.254
+      ],
+      "predicted_total": 49.854,
+      "projected_score": {
+        "home": 30.323,
+        "away": 19.531
+      },
+      "total_range_80": [
+        33.196,
+        67.364
+      ],
+      "away_name": "Arizona Cardinals",
+      "home_name": "Los Angeles Rams",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood, CA",
+      "weather": {
+        "indoors": true,
+        "source": "indoors",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "2-3",
+        "away": "1-4"
+      },
+      "market": {
+        "spread_home": 12.5,
+        "favorite": "LA",
+        "favorite_spread": 12.5,
+        "total_line": 51.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (ARI)",
+          "team": "ARI"
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (LA)",
+          "team": "LA"
+        },
+        {
+          "kind": "weather",
+          "text": "Indoors",
+          "team": null
+        }
+      ],
+      "badges": [
+        "divisional"
+      ],
+      "card": "2026_06_ARI_LA.json"
+    },
+    {
+      "game_id": "2026_06_BUF_LV",
+      "kickoff_et": "2026-10-18 16:25 ET",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "away": "BUF",
+      "home": "LV",
+      "predicted_margin_home": -4.684,
+      "favored_team": "BUF",
+      "win_prob_favored": 0.647,
+      "margin_range_80": [
+        -21.249,
+        11.778
+      ],
+      "predicted_total": 50.744,
+      "projected_score": {
+        "home": 23.03,
+        "away": 27.714
+      },
+      "total_range_80": [
+        34.086,
+        68.254
+      ],
+      "away_name": "Buffalo Bills",
+      "home_name": "Las Vegas Raiders",
+      "stadium": "Allegiant Stadium",
+      "city": "Las Vegas, NV",
+      "weather": {
+        "indoors": true,
+        "source": "indoors",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "3-2",
+        "away": "4-1"
+      },
+      "market": {
+        "spread_home": -5.5,
+        "favorite": "BUF",
+        "favorite_spread": 5.5,
+        "total_line": 53.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "BUF travels 1,980 mi",
+          "team": "BUF"
+        },
+        {
+          "kind": "ats",
+          "text": "BUF 4-1 ATS last 5",
+          "team": "BUF"
+        },
+        {
+          "kind": "ats",
+          "text": "LV 4-1 ATS last 5",
+          "team": "LV"
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (LV)",
+          "team": "LV"
+        }
+      ],
+      "badges": [
+        "long_travel"
+      ],
+      "card": "2026_06_BUF_LV.json"
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "kickoff_et": "2026-10-18 16:25 ET",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "away": "LAC",
+      "home": "KC",
+      "predicted_margin_home": 7.677,
+      "favored_team": "KC",
+      "win_prob_favored": 0.743,
+      "margin_range_80": [
+        -8.888,
+        24.139
+      ],
+      "predicted_total": 41.589,
+      "projected_score": {
+        "home": 24.633,
+        "away": 16.956
+      },
+      "total_range_80": [
+        24.931,
+        59.099
+      ],
+      "away_name": "Los Angeles Chargers",
+      "home_name": "Kansas City Chiefs",
+      "stadium": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, MO",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 65.0,
+        "wind_mph": 12.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "4-0",
+        "away": "0-5"
+      },
+      "market": {
+        "spread_home": 7.5,
+        "favorite": "KC",
+        "favorite_spread": 7.5,
+        "total_line": 41.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "KC off a bye",
+          "team": "KC"
+        },
+        {
+          "kind": "situation",
+          "text": "LAC crosses 2 time zones",
+          "team": "LAC"
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        }
+      ],
+      "badges": [
+        "off_bye",
+        "divisional"
+      ],
+      "card": "2026_06_LAC_KC.json"
+    },
+    {
+      "game_id": "2026_06_DAL_GB",
+      "kickoff_et": "2026-10-18 20:20 ET",
+      "kickoff_utc": "2026-10-19T00:20:00+00:00",
+      "away": "DAL",
+      "home": "GB",
+      "predicted_margin_home": 2.349,
+      "favored_team": "GB",
+      "win_prob_favored": 0.63,
+      "margin_range_80": [
+        -14.217,
+        18.811
+      ],
+      "predicted_total": 49.321,
+      "projected_score": {
+        "home": 25.835,
+        "away": 23.486
+      },
+      "total_range_80": [
+        32.663,
+        66.831
+      ],
+      "away_name": "Dallas Cowboys",
+      "home_name": "Green Bay Packers",
+      "stadium": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 52.75,
+        "wind_mph": 9.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Clear"
+      },
+      "records": {
+        "home": "3-2",
+        "away": "2-3"
+      },
+      "market": {
+        "spread_home": 1.5,
+        "favorite": "GB",
+        "favorite_spread": 1.5,
+        "total_line": 53.5
+      },
+      "chips": [],
+      "badges": [],
+      "card": "2026_06_DAL_GB.json"
+    },
+    {
+      "game_id": "2026_06_WAS_SF",
+      "kickoff_et": "2026-10-19 20:15 ET",
+      "kickoff_utc": "2026-10-20T00:15:00+00:00",
+      "away": "WAS",
+      "home": "SF",
+      "predicted_margin_home": 12.247,
+      "favored_team": "SF",
+      "win_prob_favored": 0.847,
+      "margin_range_80": [
+        -4.319,
+        28.709
+      ],
+      "predicted_total": 49.836,
+      "projected_score": {
+        "home": 31.041,
+        "away": 18.794
+      },
+      "total_range_80": [
+        33.178,
+        67.346
+      ],
+      "away_name": "Washington Commanders",
+      "home_name": "San Francisco 49ers",
+      "stadium": "Levi's Stadium",
+      "city": "Santa Clara, CA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 61.25,
+        "wind_mph": 12.0,
+        "precip_chance_pct": 2.0,
+        "summary": "Mostly Sunny"
+      },
+      "records": {
+        "home": "5-0",
+        "away": "1-3-1"
+      },
+      "market": {
+        "spread_home": 7.5,
+        "favorite": "SF",
+        "favorite_spread": 7.5,
+        "total_line": 52.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "WAS travels 2,428 mi",
+          "team": "WAS"
+        },
+        {
+          "kind": "ats",
+          "text": "SF 4-1 ATS last 5",
+          "team": "SF"
+        }
+      ],
+      "badges": [
+        "long_travel"
+      ],
+      "card": "2026_06_WAS_SF.json"
+    }
+  ]
+}

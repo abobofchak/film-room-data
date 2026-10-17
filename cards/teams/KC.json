@@ -1,0 +1,366 @@
+{
+  "model_version": "v15",
+  "team": "KC",
+  "name": "Kansas City Chiefs",
+  "city": "Kansas City, MO",
+  "division": "AFC West",
+  "season": 2026,
+  "record": "4-0",
+  "streak": {
+    "type": "W",
+    "length": 4,
+    "display": "W4"
+  },
+  "seed": 1,
+  "ppg_for": 29.5,
+  "ppg_against": 19.25,
+  "power": {
+    "rank": 3,
+    "points": 4.824,
+    "rank_change": 0,
+    "offense_rank": 11,
+    "defense_rank": 9
+  },
+  "categories": {
+    "offense": {
+      "rank": 11,
+      "value": 0.055,
+      "rank_change": 0
+    },
+    "defense": {
+      "rank": 9,
+      "value": -0.022,
+      "rank_change": 3
+    },
+    "passing_offense": {
+      "rank": 12,
+      "value": 0.082,
+      "rank_change": 0
+    },
+    "passing_defense": {
+      "rank": 15,
+      "value": 0.042,
+      "rank_change": 1
+    },
+    "rushing_offense": {
+      "rank": 7,
+      "value": -0.016,
+      "rank_change": -1
+    },
+    "rushing_defense": {
+      "rank": 9,
+      "value": -0.127,
+      "rank_change": -1
+    },
+    "quarterback": {
+      "rank": 2,
+      "value": 0.194,
+      "rank_change": 0
+    }
+  },
+  "qb": {
+    "name": "P.Mahomes",
+    "rating": 0.194
+  },
+  "odds": {
+    "team": "KC",
+    "record": "4-0",
+    "projected_wins": 11.983,
+    "p_playoffs": 0.914,
+    "p_division": 0.724,
+    "p_bye": 0.26,
+    "p_seed": [
+      0.26,
+      0.185,
+      0.157,
+      0.121,
+      0.085,
+      0.059,
+      0.048
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.001,
+      0.006,
+      0.023,
+      0.064,
+      0.115,
+      0.175,
+      0.221,
+      0.188,
+      0.125,
+      0.06,
+      0.019,
+      0.003
+    ],
+    "next_game": {
+      "game_id": "2026_06_LAC_KC",
+      "opponent": "LAC",
+      "home_away": "home",
+      "p_playoffs_if_win": 0.94,
+      "p_playoffs_if_loss": 0.832,
+      "p_division_if_win": 0.764,
+      "p_division_if_loss": 0.594
+    }
+  },
+  "next_game": {
+    "opponent": "LAC",
+    "home_away": "home",
+    "date": "2026-10-18",
+    "game_id": "2026_06_LAC_KC"
+  },
+  "last5": [
+    {
+      "opponent": "LV",
+      "home_away": "away",
+      "points_for": 30.0,
+      "points_against": 27.0,
+      "result": "W"
+    },
+    {
+      "opponent": "MIA",
+      "home_away": "away",
+      "points_for": 24.0,
+      "points_against": 10.0,
+      "result": "W"
+    },
+    {
+      "opponent": "IND",
+      "home_away": "home",
+      "points_for": 33.0,
+      "points_against": 30.0,
+      "result": "W"
+    },
+    {
+      "opponent": "DEN",
+      "home_away": "home",
+      "points_for": 31.0,
+      "points_against": 10.0,
+      "result": "W"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_DEN_KC",
+      "date": "2026-09-14",
+      "kickoff_et": "2026-09-14 20:15 ET",
+      "kickoff_utc": "2026-09-15T00:15:00+00:00",
+      "opponent": "DEN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 31.0,
+      "points_against": 10.0,
+      "result": "W",
+      "team_spread": -2.5,
+      "ats": "W",
+      "total_line": 42.5,
+      "ou": "U"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_IND_KC",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 20:20 ET",
+      "kickoff_utc": "2026-09-21T00:20:00+00:00",
+      "opponent": "IND",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 33.0,
+      "points_against": 30.0,
+      "result": "W",
+      "team_spread": -6.0,
+      "ats": "L",
+      "total_line": 46.5,
+      "ou": "O"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_KC_MIA",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 13:00 ET",
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "opponent": "MIA",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 10.0,
+      "result": "W",
+      "team_spread": -10.0,
+      "ats": "W",
+      "total_line": 45.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_KC_LV",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 16:25 ET",
+      "kickoff_utc": "2026-10-04T20:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 27.0,
+      "result": "W",
+      "team_spread": -4.5,
+      "ats": "L",
+      "total_line": 47.5,
+      "ou": "O"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_LAC_KC",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 16:25 ET",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "opponent": "LAC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": "2026_06_LAC_KC.json"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_KC_SEA",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 20:20 ET",
+      "kickoff_utc": "2026-10-26T00:20:00+00:00",
+      "opponent": "SEA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_KC_DEN",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 16:25 ET",
+      "kickoff_utc": "2026-11-01T21:25:00+00:00",
+      "opponent": "DEN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_NYJ_KC",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "NYJ",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_KC_ATL",
+      "date": "2026-11-15",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "opponent": "ATL",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_ARI_KC",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 13:00 ET",
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "opponent": "ARI",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_KC_BUF",
+      "date": "2026-11-26",
+      "kickoff_et": "2026-11-26 20:20 ET",
+      "kickoff_utc": "2026-11-27T01:20:00+00:00",
+      "opponent": "BUF",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_KC_LA",
+      "date": "2026-12-03",
+      "kickoff_et": "2026-12-03 20:15 ET",
+      "kickoff_utc": "2026-12-04T01:15:00+00:00",
+      "opponent": "LA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_KC_CIN",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 16:25 ET",
+      "kickoff_utc": "2026-12-13T21:25:00+00:00",
+      "opponent": "CIN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_NE_KC",
+      "date": "2026-12-21",
+      "kickoff_et": "2026-12-21 20:15 ET",
+      "kickoff_utc": "2026-12-22T01:15:00+00:00",
+      "opponent": "NE",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_SF_KC",
+      "date": "2026-12-27",
+      "kickoff_et": "2026-12-27 16:25 ET",
+      "kickoff_utc": "2026-12-27T21:25:00+00:00",
+      "opponent": "SF",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_KC_LAC",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "LAC",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_LV_KC",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "LV",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 5,
+  "disclaimer": "For information and entertainment only."
+}
