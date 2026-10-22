@@ -1,0 +1,387 @@
+{
+  "model_version": "v15",
+  "team": "IND",
+  "name": "Indianapolis Colts",
+  "city": "Indianapolis, IN",
+  "division": "AFC South",
+  "season": 2026,
+  "record": "2-4",
+  "streak": {
+    "type": "L",
+    "length": 2,
+    "display": "L2"
+  },
+  "seed": null,
+  "ppg_for": 24.0,
+  "ppg_against": 27.333,
+  "power": {
+    "rank": 24,
+    "points": -2.599,
+    "rank_change": -1,
+    "offense_rank": 14,
+    "defense_rank": 23
+  },
+  "categories": {
+    "offense": {
+      "rank": 14,
+      "value": 0.012,
+      "rank_change": 0
+    },
+    "defense": {
+      "rank": 23,
+      "value": 0.035,
+      "rank_change": 1
+    },
+    "passing_offense": {
+      "rank": 21,
+      "value": 0.005,
+      "rank_change": 2
+    },
+    "passing_defense": {
+      "rank": 23,
+      "value": 0.099,
+      "rank_change": 1
+    },
+    "rushing_offense": {
+      "rank": 3,
+      "value": 0.015,
+      "rank_change": 0
+    },
+    "rushing_defense": {
+      "rank": 24,
+      "value": -0.054,
+      "rank_change": -1
+    },
+    "quarterback": {
+      "rank": 27,
+      "value": -0.052,
+      "rank_change": 1
+    }
+  },
+  "qb": {
+    "name": "D.Jones",
+    "rating": -0.052
+  },
+  "odds": {
+    "team": "IND",
+    "record": "2-4",
+    "projected_wins": 6.649,
+    "p_playoffs": 0.058,
+    "p_division": 0.026,
+    "p_bye": 0.0,
+    "p_seed": [
+      0.0,
+      0.001,
+      0.004,
+      0.022,
+      0.003,
+      0.009,
+      0.019
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.003,
+      0.022,
+      0.076,
+      0.154,
+      0.216,
+      0.223,
+      0.168,
+      0.088,
+      0.038,
+      0.009,
+      0.002,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_07_IND_MIN",
+      "opponent": "MIN",
+      "home_away": "away",
+      "p_playoffs_if_win": 0.118,
+      "p_playoffs_if_loss": 0.038,
+      "p_division_if_win": 0.053,
+      "p_division_if_loss": 0.018
+    }
+  },
+  "next_game": {
+    "opponent": "MIN",
+    "home_away": "away",
+    "date": "2026-10-25",
+    "game_id": "2026_07_IND_MIN"
+  },
+  "last5": [
+    {
+      "opponent": "TEN",
+      "home_away": "home",
+      "points_for": 20.0,
+      "points_against": 26.0,
+      "result": "L"
+    },
+    {
+      "opponent": "PIT",
+      "home_away": "away",
+      "points_for": 22.0,
+      "points_against": 34.0,
+      "result": "L"
+    },
+    {
+      "opponent": "WAS",
+      "home_away": "away",
+      "points_for": 30.0,
+      "points_against": 13.0,
+      "result": "W"
+    },
+    {
+      "opponent": "HOU",
+      "home_away": "home",
+      "points_for": 19.0,
+      "points_against": 17.0,
+      "result": "W"
+    },
+    {
+      "opponent": "KC",
+      "home_away": "away",
+      "points_for": 30.0,
+      "points_against": 33.0,
+      "result": "L"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_BAL_IND",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 13:00 ET",
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "opponent": "BAL",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 23.0,
+      "points_against": 41.0,
+      "result": "L",
+      "team_spread": 3.0,
+      "ats": "L",
+      "total_line": 48.5,
+      "ou": "O"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_IND_KC",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 20:20 ET",
+      "kickoff_utc": "2026-09-21T00:20:00+00:00",
+      "opponent": "KC",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 33.0,
+      "result": "L",
+      "team_spread": 6.0,
+      "ats": "W",
+      "total_line": 46.5,
+      "ou": "O"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_HOU_IND",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 13:00 ET",
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "opponent": "HOU",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 19.0,
+      "points_against": 17.0,
+      "result": "W",
+      "team_spread": 1.5,
+      "ats": "W",
+      "total_line": 41.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_IND_WAS",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 09:30 ET",
+      "kickoff_utc": "2026-10-04T13:30:00+00:00",
+      "opponent": "WAS",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 13.0,
+      "result": "W",
+      "team_spread": -4.5,
+      "ats": "W",
+      "total_line": 46.5,
+      "ou": "U"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_IND_PIT",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 13:00 ET",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "opponent": "PIT",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 22.0,
+      "points_against": 34.0,
+      "result": "L",
+      "team_spread": 3.0,
+      "ats": "L",
+      "total_line": 41.5,
+      "ou": "O"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_TEN_IND",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "opponent": "TEN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 20.0,
+      "points_against": 26.0,
+      "result": "L",
+      "team_spread": -6.5,
+      "ats": "L",
+      "total_line": 43.5,
+      "ou": "O"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_IND_MIN",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 13:00 ET",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "opponent": "MIN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": "2026_07_IND_MIN.json"
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_IND_JAX",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 13:00 ET",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "opponent": "JAX",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_DAL_IND",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "DAL",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_MIA_IND",
+      "date": "2026-11-15",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "opponent": "MIA",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_IND_HOU",
+      "date": "2026-11-19",
+      "kickoff_et": "2026-11-19 20:15 ET",
+      "kickoff_utc": "2026-11-20T01:15:00+00:00",
+      "opponent": "HOU",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_NYG_IND",
+      "date": "2026-11-29",
+      "kickoff_et": "2026-11-29 13:00 ET",
+      "kickoff_utc": "2026-11-29T18:00:00+00:00",
+      "opponent": "NYG",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_IND_PHI",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "PHI",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_IND_TEN",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 13:00 ET",
+      "kickoff_utc": "2026-12-20T18:00:00+00:00",
+      "opponent": "TEN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_CIN_IND",
+      "date": "2026-12-27",
+      "kickoff_et": "2026-12-27 13:00 ET",
+      "kickoff_utc": "2026-12-27T18:00:00+00:00",
+      "opponent": "CIN",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_IND_CLE",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "CLE",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_JAX_IND",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "JAX",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 13,
+  "disclaimer": "For information and entertainment only."
+}

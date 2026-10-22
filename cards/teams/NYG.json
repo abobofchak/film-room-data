@@ -1,0 +1,387 @@
+{
+  "model_version": "v15",
+  "team": "NYG",
+  "name": "New York Giants",
+  "city": "East Rutherford, NJ",
+  "division": "NFC East",
+  "season": 2026,
+  "record": "3-2-1",
+  "streak": {
+    "type": "L",
+    "length": 1,
+    "display": "L1"
+  },
+  "seed": 4,
+  "ppg_for": 22.667,
+  "ppg_against": 23.333,
+  "power": {
+    "rank": 21,
+    "points": -1.263,
+    "rank_change": -2,
+    "offense_rank": 23,
+    "defense_rank": 27
+  },
+  "categories": {
+    "offense": {
+      "rank": 23,
+      "value": -0.037,
+      "rank_change": 0
+    },
+    "defense": {
+      "rank": 27,
+      "value": 0.076,
+      "rank_change": -2
+    },
+    "passing_offense": {
+      "rank": 18,
+      "value": 0.028,
+      "rank_change": 2
+    },
+    "passing_defense": {
+      "rank": 24,
+      "value": 0.115,
+      "rank_change": 1
+    },
+    "rushing_offense": {
+      "rank": 25,
+      "value": -0.144,
+      "rank_change": -1
+    },
+    "rushing_defense": {
+      "rank": 32,
+      "value": 0.017,
+      "rank_change": 0
+    },
+    "quarterback": {
+      "rank": 17,
+      "value": 0.042,
+      "rank_change": 1
+    }
+  },
+  "qb": {
+    "name": "J.Winston",
+    "rating": 0.042
+  },
+  "odds": {
+    "team": "NYG",
+    "record": "3-2-1",
+    "projected_wins": 8.353,
+    "p_playoffs": 0.494,
+    "p_division": 0.446,
+    "p_bye": 0.004,
+    "p_seed": [
+      0.004,
+      0.026,
+      0.241,
+      0.175,
+      0.004,
+      0.014,
+      0.03
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.019,
+      0.0,
+      0.204,
+      0.0,
+      0.424,
+      0.0,
+      0.286,
+      0.0,
+      0.064,
+      0.0,
+      0.003,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_07_NYG_HOU",
+      "opponent": "HOU",
+      "home_away": "away",
+      "p_playoffs_if_win": 0.632,
+      "p_playoffs_if_loss": 0.415,
+      "p_division_if_win": 0.568,
+      "p_division_if_loss": 0.376
+    }
+  },
+  "next_game": {
+    "opponent": "HOU",
+    "home_away": "away",
+    "date": "2026-10-25",
+    "game_id": "2026_07_NYG_HOU"
+  },
+  "last5": [
+    {
+      "opponent": "NO",
+      "home_away": "home",
+      "points_for": 27.0,
+      "points_against": 34.0,
+      "result": "L"
+    },
+    {
+      "opponent": "WAS",
+      "home_away": "away",
+      "points_for": 27.0,
+      "points_against": 27.0,
+      "result": "T"
+    },
+    {
+      "opponent": "ARI",
+      "home_away": "home",
+      "points_for": 36.0,
+      "points_against": 24.0,
+      "result": "W"
+    },
+    {
+      "opponent": "TEN",
+      "home_away": "home",
+      "points_for": 12.0,
+      "points_against": 7.0,
+      "result": "W"
+    },
+    {
+      "opponent": "LA",
+      "home_away": "away",
+      "points_for": 6.0,
+      "points_against": 28.0,
+      "result": "L"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_DAL_NYG",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 20:20 ET",
+      "kickoff_utc": "2026-09-14T00:20:00+00:00",
+      "opponent": "DAL",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 28.0,
+      "points_against": 20.0,
+      "result": "W",
+      "team_spread": 3.0,
+      "ats": "W",
+      "total_line": 47.5,
+      "ou": "O"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_NYG_LA",
+      "date": "2026-09-21",
+      "kickoff_et": "2026-09-21 20:15 ET",
+      "kickoff_utc": "2026-09-22T00:15:00+00:00",
+      "opponent": "LA",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 6.0,
+      "points_against": 28.0,
+      "result": "L",
+      "team_spread": 6.5,
+      "ats": "L",
+      "total_line": 47.5,
+      "ou": "U"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_TEN_NYG",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 13:00 ET",
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "opponent": "TEN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 12.0,
+      "points_against": 7.0,
+      "result": "W",
+      "team_spread": -2.5,
+      "ats": "W",
+      "total_line": 37.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_ARI_NYG",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 13:00 ET",
+      "kickoff_utc": "2026-10-04T17:00:00+00:00",
+      "opponent": "ARI",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 36.0,
+      "points_against": 24.0,
+      "result": "W",
+      "team_spread": 2.5,
+      "ats": "W",
+      "total_line": 44.5,
+      "ou": "O"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_NYG_WAS",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 13:00 ET",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "opponent": "WAS",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 27.0,
+      "points_against": 27.0,
+      "result": "T",
+      "team_spread": 3.5,
+      "ats": "W",
+      "total_line": 41.5,
+      "ou": "O"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_NO_NYG",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "opponent": "NO",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 27.0,
+      "points_against": 34.0,
+      "result": "L",
+      "team_spread": 1.5,
+      "ats": "L",
+      "total_line": 46.5,
+      "ou": "O"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_NYG_HOU",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 13:00 ET",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "opponent": "HOU",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": "2026_07_NYG_HOU.json"
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_NYG_PHI",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "PHI",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_WAS_NYG",
+      "date": "2026-11-12",
+      "kickoff_et": "2026-11-12 20:15 ET",
+      "kickoff_utc": "2026-11-13T01:15:00+00:00",
+      "opponent": "WAS",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_JAX_NYG",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 13:00 ET",
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "opponent": "JAX",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_NYG_IND",
+      "date": "2026-11-29",
+      "kickoff_et": "2026-11-29 13:00 ET",
+      "kickoff_utc": "2026-11-29T18:00:00+00:00",
+      "opponent": "IND",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_SF_NYG",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 13:00 ET",
+      "kickoff_utc": "2026-12-06T18:00:00+00:00",
+      "opponent": "SF",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_NYG_SEA",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 16:25 ET",
+      "kickoff_utc": "2026-12-13T21:25:00+00:00",
+      "opponent": "SEA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_CLE_NYG",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 13:00 ET",
+      "kickoff_utc": "2026-12-20T18:00:00+00:00",
+      "opponent": "CLE",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_NYG_DET",
+      "date": "2026-12-28",
+      "kickoff_et": "2026-12-28 20:15 ET",
+      "kickoff_utc": "2026-12-29T01:15:00+00:00",
+      "opponent": "DET",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_NYG_DAL",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "DAL",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_PHI_NYG",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "PHI",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 8,
+  "disclaimer": "For information and entertainment only."
+}

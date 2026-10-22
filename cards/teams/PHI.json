@@ -1,0 +1,387 @@
+{
+  "model_version": "v15",
+  "team": "PHI",
+  "name": "Philadelphia Eagles",
+  "city": "Philadelphia, PA",
+  "division": "NFC East",
+  "season": 2026,
+  "record": "2-4",
+  "streak": {
+    "type": "L",
+    "length": 4,
+    "display": "L4"
+  },
+  "seed": null,
+  "ppg_for": 17.667,
+  "ppg_against": 22.833,
+  "power": {
+    "rank": 20,
+    "points": -1.21,
+    "rank_change": -6,
+    "offense_rank": 15,
+    "defense_rank": 7
+  },
+  "categories": {
+    "offense": {
+      "rank": 15,
+      "value": 0.009,
+      "rank_change": 1
+    },
+    "defense": {
+      "rank": 7,
+      "value": -0.048,
+      "rank_change": 0
+    },
+    "passing_offense": {
+      "rank": 15,
+      "value": 0.061,
+      "rank_change": 1
+    },
+    "passing_defense": {
+      "rank": 9,
+      "value": 0.0,
+      "rank_change": 0
+    },
+    "rushing_offense": {
+      "rank": 14,
+      "value": -0.064,
+      "rank_change": 0
+    },
+    "rushing_defense": {
+      "rank": 8,
+      "value": -0.133,
+      "rank_change": -4
+    },
+    "quarterback": {
+      "rank": 21,
+      "value": 0.012,
+      "rank_change": -5
+    }
+  },
+  "qb": {
+    "name": "T.McKee",
+    "rating": 0.012
+  },
+  "odds": {
+    "team": "PHI",
+    "record": "2-4",
+    "projected_wins": 7.262,
+    "p_playoffs": 0.249,
+    "p_division": 0.218,
+    "p_bye": 0.0,
+    "p_seed": [
+      0.0,
+      0.005,
+      0.1,
+      0.113,
+      0.002,
+      0.008,
+      0.021
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.002,
+      0.013,
+      0.04,
+      0.105,
+      0.178,
+      0.218,
+      0.2,
+      0.141,
+      0.074,
+      0.023,
+      0.005,
+      0.001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_07_DAL_PHI",
+      "opponent": "DAL",
+      "home_away": "home",
+      "p_playoffs_if_win": 0.342,
+      "p_playoffs_if_loss": 0.128,
+      "p_division_if_win": 0.302,
+      "p_division_if_loss": 0.109
+    }
+  },
+  "next_game": {
+    "opponent": "DAL",
+    "home_away": "home",
+    "date": "2026-10-26",
+    "game_id": "2026_07_DAL_PHI"
+  },
+  "last5": [
+    {
+      "opponent": "CAR",
+      "home_away": "home",
+      "points_for": 14.0,
+      "points_against": 25.0,
+      "result": "L"
+    },
+    {
+      "opponent": "JAX",
+      "home_away": "away",
+      "points_for": 17.0,
+      "points_against": 19.0,
+      "result": "L"
+    },
+    {
+      "opponent": "LA",
+      "home_away": "home",
+      "points_for": 20.0,
+      "points_against": 24.0,
+      "result": "L"
+    },
+    {
+      "opponent": "CHI",
+      "home_away": "away",
+      "points_for": 7.0,
+      "points_against": 27.0,
+      "result": "L"
+    },
+    {
+      "opponent": "TEN",
+      "home_away": "away",
+      "points_for": 24.0,
+      "points_against": 20.0,
+      "result": "W"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_WAS_PHI",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 16:25 ET",
+      "kickoff_utc": "2026-09-13T20:25:00+00:00",
+      "opponent": "WAS",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 22.0,
+      "result": "W",
+      "team_spread": -6.0,
+      "ats": "L",
+      "total_line": 43.5,
+      "ou": "O"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_PHI_TEN",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 13:00 ET",
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "opponent": "TEN",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 20.0,
+      "result": "W",
+      "team_spread": -7.0,
+      "ats": "L",
+      "total_line": 39.5,
+      "ou": "O"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_PHI_CHI",
+      "date": "2026-09-28",
+      "kickoff_et": "2026-09-28 20:15 ET",
+      "kickoff_utc": "2026-09-29T00:15:00+00:00",
+      "opponent": "CHI",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 7.0,
+      "points_against": 27.0,
+      "result": "L",
+      "team_spread": -3.5,
+      "ats": "L",
+      "total_line": 42.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_LA_PHI",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 13:00 ET",
+      "kickoff_utc": "2026-10-04T17:00:00+00:00",
+      "opponent": "LA",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 20.0,
+      "points_against": 24.0,
+      "result": "L",
+      "team_spread": 3.5,
+      "ats": "L",
+      "total_line": 42.5,
+      "ou": "O"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_PHI_JAX",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 09:30 ET",
+      "kickoff_utc": "2026-10-11T13:30:00+00:00",
+      "opponent": "JAX",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 17.0,
+      "points_against": 19.0,
+      "result": "L",
+      "team_spread": 7.5,
+      "ats": "W",
+      "total_line": 41.5,
+      "ou": "U"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_CAR_PHI",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "opponent": "CAR",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 14.0,
+      "points_against": 25.0,
+      "result": "L",
+      "team_spread": 3.0,
+      "ats": "L",
+      "total_line": 39.5,
+      "ou": "U"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_DAL_PHI",
+      "date": "2026-10-26",
+      "kickoff_et": "2026-10-26 20:15 ET",
+      "kickoff_utc": "2026-10-27T00:15:00+00:00",
+      "opponent": "DAL",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": "2026_07_DAL_PHI.json"
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_PHI_WAS",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 20:20 ET",
+      "kickoff_utc": "2026-11-02T01:20:00+00:00",
+      "opponent": "WAS",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_NYG_PHI",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "NYG",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_PIT_PHI",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 16:25 ET",
+      "kickoff_utc": "2026-11-22T21:25:00+00:00",
+      "opponent": "PIT",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_PHI_DAL",
+      "date": "2026-11-26",
+      "kickoff_et": "2026-11-26 16:30 ET",
+      "kickoff_utc": "2026-11-26T21:30:00+00:00",
+      "opponent": "DAL",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_PHI_ARI",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 16:05 ET",
+      "kickoff_utc": "2026-12-06T21:05:00+00:00",
+      "opponent": "ARI",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_IND_PHI",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "IND",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_SEA_PHI",
+      "date": "2026-12-19",
+      "kickoff_et": "2026-12-19 17:00 ET",
+      "kickoff_utc": "2026-12-19T22:00:00+00:00",
+      "opponent": "SEA",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_HOU_PHI",
+      "date": "2026-12-24",
+      "kickoff_et": "2026-12-24 20:15 ET",
+      "kickoff_utc": "2026-12-25T01:15:00+00:00",
+      "opponent": "HOU",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_PHI_SF",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 20:20 ET",
+      "kickoff_utc": "2027-01-04T01:20:00+00:00",
+      "opponent": "SF",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_PHI_NYG",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "NYG",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 10,
+  "disclaimer": "For information and entertainment only."
+}

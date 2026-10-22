@@ -1,0 +1,568 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-10-22T18:15:51+00:00",
+  "season": 2026,
+  "note": "Ordered by win percentage, then point margin. Real NFL tiebreakers are more involved.",
+  "divisions": [
+    {
+      "division": "AFC East",
+      "conference": "AFC",
+      "teams": [
+        {
+          "team": "BUF",
+          "name": "Buffalo Bills",
+          "record": "5-1",
+          "pct": 0.833,
+          "pf": 197,
+          "pa": 171,
+          "diff": 26,
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "seed": 2,
+          "games_back": 0.0
+        },
+        {
+          "team": "NE",
+          "name": "New England Patriots",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 136,
+          "pa": 113,
+          "diff": 23,
+          "streak": {
+            "type": "W",
+            "length": 3,
+            "display": "W3"
+          },
+          "seed": 5,
+          "games_back": 0.0
+        },
+        {
+          "team": "NYJ",
+          "name": "New York Jets",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 112,
+          "pa": 122,
+          "diff": -10,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": null,
+          "games_back": 2.0
+        },
+        {
+          "team": "MIA",
+          "name": "Miami Dolphins",
+          "record": "0-5",
+          "pct": 0.0,
+          "pf": 70,
+          "pa": 132,
+          "diff": -62,
+          "streak": {
+            "type": "L",
+            "length": 5,
+            "display": "L5"
+          },
+          "seed": null,
+          "games_back": 3.5
+        }
+      ]
+    },
+    {
+      "division": "AFC North",
+      "conference": "AFC",
+      "teams": [
+        {
+          "team": "BAL",
+          "name": "Baltimore Ravens",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 156,
+          "pa": 132,
+          "diff": 24,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": 4,
+          "games_back": 0.0
+        },
+        {
+          "team": "PIT",
+          "name": "Pittsburgh Steelers",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 137,
+          "pa": 128,
+          "diff": 9,
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "seed": 6,
+          "games_back": 0.0
+        },
+        {
+          "team": "CLE",
+          "name": "Cleveland Browns",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 106,
+          "pa": 122,
+          "diff": -16,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": null,
+          "games_back": 0.0
+        },
+        {
+          "team": "CIN",
+          "name": "Cincinnati Bengals",
+          "record": "3-2",
+          "pct": 0.6,
+          "pf": 128,
+          "pa": 109,
+          "diff": 19,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": null,
+          "games_back": 0.5
+        }
+      ]
+    },
+    {
+      "division": "AFC South",
+      "conference": "AFC",
+      "teams": [
+        {
+          "team": "JAX",
+          "name": "Jacksonville Jaguars",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 154,
+          "pa": 104,
+          "diff": 50,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": 3,
+          "games_back": 0.0
+        },
+        {
+          "team": "HOU",
+          "name": "Houston Texans",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 144,
+          "pa": 143,
+          "diff": 1,
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "seed": null,
+          "games_back": 2.0
+        },
+        {
+          "team": "IND",
+          "name": "Indianapolis Colts",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 144,
+          "pa": 164,
+          "diff": -20,
+          "streak": {
+            "type": "L",
+            "length": 2,
+            "display": "L2"
+          },
+          "seed": null,
+          "games_back": 2.0
+        },
+        {
+          "team": "TEN",
+          "name": "Tennessee Titans",
+          "record": "1-5",
+          "pct": 0.167,
+          "pf": 84,
+          "pa": 129,
+          "diff": -45,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": null,
+          "games_back": 3.0
+        }
+      ]
+    },
+    {
+      "division": "AFC West",
+      "conference": "AFC",
+      "teams": [
+        {
+          "team": "KC",
+          "name": "Kansas City Chiefs",
+          "record": "5-0",
+          "pct": 1.0,
+          "pf": 140,
+          "pa": 83,
+          "diff": 57,
+          "streak": {
+            "type": "W",
+            "length": 5,
+            "display": "W5"
+          },
+          "seed": 1,
+          "games_back": 0.0
+        },
+        {
+          "team": "DEN",
+          "name": "Denver Broncos",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 114,
+          "pa": 125,
+          "diff": -11,
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "seed": 7,
+          "games_back": 0.0
+        },
+        {
+          "team": "LV",
+          "name": "Las Vegas Raiders",
+          "record": "3-3",
+          "pct": 0.5,
+          "pf": 162,
+          "pa": 162,
+          "diff": 0,
+          "streak": {
+            "type": "L",
+            "length": 3,
+            "display": "L3"
+          },
+          "seed": null,
+          "games_back": 1.0
+        },
+        {
+          "team": "LAC",
+          "name": "Los Angeles Chargers",
+          "record": "0-6",
+          "pct": 0.0,
+          "pf": 90,
+          "pa": 151,
+          "diff": -61,
+          "streak": {
+            "type": "L",
+            "length": 6,
+            "display": "L6"
+          },
+          "seed": null,
+          "games_back": 4.0
+        }
+      ]
+    },
+    {
+      "division": "NFC East",
+      "conference": "NFC",
+      "teams": [
+        {
+          "team": "NYG",
+          "name": "New York Giants",
+          "record": "3-2-1",
+          "pct": 0.583,
+          "pf": 136,
+          "pa": 140,
+          "diff": -4,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": 4,
+          "games_back": 0.0
+        },
+        {
+          "team": "DAL",
+          "name": "Dallas Cowboys",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 151,
+          "pa": 159,
+          "diff": -8,
+          "streak": {
+            "type": "L",
+            "length": 2,
+            "display": "L2"
+          },
+          "seed": null,
+          "games_back": 1.5
+        },
+        {
+          "team": "PHI",
+          "name": "Philadelphia Eagles",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 106,
+          "pa": 137,
+          "diff": -31,
+          "streak": {
+            "type": "L",
+            "length": 4,
+            "display": "L4"
+          },
+          "seed": null,
+          "games_back": 1.5
+        },
+        {
+          "team": "WAS",
+          "name": "Washington Commanders",
+          "record": "1-4-1",
+          "pct": 0.25,
+          "pf": 132,
+          "pa": 172,
+          "diff": -40,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": null,
+          "games_back": 2.0
+        }
+      ]
+    },
+    {
+      "division": "NFC North",
+      "conference": "NFC",
+      "teams": [
+        {
+          "team": "MIN",
+          "name": "Minnesota Vikings",
+          "record": "5-0",
+          "pct": 1.0,
+          "pf": 109,
+          "pa": 64,
+          "diff": 45,
+          "streak": {
+            "type": "W",
+            "length": 5,
+            "display": "W5"
+          },
+          "seed": 2,
+          "games_back": 0.0
+        },
+        {
+          "team": "CHI",
+          "name": "Chicago Bears",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 150,
+          "pa": 119,
+          "diff": 31,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": 5,
+          "games_back": 0.0
+        },
+        {
+          "team": "GB",
+          "name": "Green Bay Packers",
+          "record": "4-2",
+          "pct": 0.667,
+          "pf": 127,
+          "pa": 125,
+          "diff": 2,
+          "streak": {
+            "type": "W",
+            "length": 3,
+            "display": "W3"
+          },
+          "seed": 6,
+          "games_back": 0.0
+        },
+        {
+          "team": "DET",
+          "name": "Detroit Lions",
+          "record": "3-2",
+          "pct": 0.6,
+          "pf": 164,
+          "pa": 148,
+          "diff": 16,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": 7,
+          "games_back": 0.0
+        }
+      ]
+    },
+    {
+      "division": "NFC South",
+      "conference": "NFC",
+      "teams": [
+        {
+          "team": "CAR",
+          "name": "Carolina Panthers",
+          "record": "3-2",
+          "pct": 0.6,
+          "pf": 146,
+          "pa": 123,
+          "diff": 23,
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "seed": 3,
+          "games_back": 0.0
+        },
+        {
+          "team": "ATL",
+          "name": "Atlanta Falcons",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 142,
+          "pa": 153,
+          "diff": -11,
+          "streak": {
+            "type": "L",
+            "length": 2,
+            "display": "L2"
+          },
+          "seed": null,
+          "games_back": 1.5
+        },
+        {
+          "team": "NO",
+          "name": "New Orleans Saints",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 152,
+          "pa": 178,
+          "diff": -26,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": null,
+          "games_back": 1.5
+        },
+        {
+          "team": "TB",
+          "name": "Tampa Bay Buccaneers",
+          "record": "1-5",
+          "pct": 0.167,
+          "pf": 119,
+          "pa": 138,
+          "diff": -19,
+          "streak": {
+            "type": "L",
+            "length": 1,
+            "display": "L1"
+          },
+          "seed": null,
+          "games_back": 2.5
+        }
+      ]
+    },
+    {
+      "division": "NFC West",
+      "conference": "NFC",
+      "teams": [
+        {
+          "team": "SF",
+          "name": "San Francisco 49ers",
+          "record": "6-0",
+          "pct": 1.0,
+          "pf": 177,
+          "pa": 110,
+          "diff": 67,
+          "streak": {
+            "type": "W",
+            "length": 6,
+            "display": "W6"
+          },
+          "seed": 1,
+          "games_back": 0.0
+        },
+        {
+          "team": "SEA",
+          "name": "Seattle Seahawks",
+          "record": "3-3",
+          "pct": 0.5,
+          "pf": 148,
+          "pa": 122,
+          "diff": 26,
+          "streak": {
+            "type": "L",
+            "length": 2,
+            "display": "L2"
+          },
+          "seed": null,
+          "games_back": 0.5
+        },
+        {
+          "team": "LA",
+          "name": "Los Angeles Rams",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 135,
+          "pa": 138,
+          "diff": -3,
+          "streak": {
+            "type": "L",
+            "length": 2,
+            "display": "L2"
+          },
+          "seed": null,
+          "games_back": 1.5
+        },
+        {
+          "team": "ARI",
+          "name": "Arizona Cardinals",
+          "record": "2-4",
+          "pct": 0.333,
+          "pf": 126,
+          "pa": 178,
+          "diff": -52,
+          "streak": {
+            "type": "W",
+            "length": 1,
+            "display": "W1"
+          },
+          "seed": null,
+          "games_back": 1.5
+        }
+      ]
+    }
+  ]
+}
