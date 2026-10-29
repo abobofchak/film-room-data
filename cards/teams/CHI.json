@@ -1,0 +1,394 @@
+{
+  "model_version": "v15",
+  "team": "CHI",
+  "name": "Chicago Bears",
+  "city": "Chicago, IL",
+  "division": "NFC North",
+  "season": 2026,
+  "record": "5-2",
+  "streak": {
+    "type": "W",
+    "length": 2,
+    "display": "W2"
+  },
+  "seed": 5,
+  "ppg_for": 25.714,
+  "ppg_against": 20.429,
+  "power": {
+    "rank": 13,
+    "points": 1.627,
+    "rank_change": 0,
+    "offense_rank": 13,
+    "defense_rank": 12
+  },
+  "categories": {
+    "offense": {
+      "rank": 13,
+      "value": 0.036,
+      "rank_change": 0
+    },
+    "defense": {
+      "rank": 12,
+      "value": -0.023,
+      "rank_change": -2
+    },
+    "passing_offense": {
+      "rank": 13,
+      "value": 0.095,
+      "rank_change": 0
+    },
+    "passing_defense": {
+      "rank": 7,
+      "value": -0.007,
+      "rank_change": -2
+    },
+    "rushing_offense": {
+      "rank": 12,
+      "value": -0.062,
+      "rank_change": 0
+    },
+    "rushing_defense": {
+      "rank": 24,
+      "value": -0.063,
+      "rank_change": 2
+    },
+    "quarterback": {
+      "rank": 21,
+      "value": 0.015,
+      "rank_change": 1
+    }
+  },
+  "qb": {
+    "name": "C.Williams",
+    "rating": 0.015
+  },
+  "odds": {
+    "team": "CHI",
+    "record": "5-2",
+    "projected_wins": 10.156,
+    "p_playoffs": 0.692,
+    "p_division": 0.128,
+    "p_bye": 0.038,
+    "p_seed": [
+      0.038,
+      0.081,
+      0.008,
+      0.001,
+      0.211,
+      0.186,
+      0.166
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.001,
+      0.009,
+      0.04,
+      0.11,
+      0.185,
+      0.234,
+      0.211,
+      0.136,
+      0.054,
+      0.018,
+      0.002,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_08_CHI_SEA",
+      "opponent": "SEA",
+      "home_away": "away",
+      "p_playoffs_if_win": 0.833,
+      "p_playoffs_if_loss": 0.59,
+      "p_division_if_win": 0.19,
+      "p_division_if_loss": 0.083
+    }
+  },
+  "next_game": {
+    "opponent": "SEA",
+    "home_away": "away",
+    "date": "2026-11-02",
+    "game_id": "2026_08_CHI_SEA"
+  },
+  "last5": [
+    {
+      "opponent": "NE",
+      "home_away": "home",
+      "points_for": 30.0,
+      "points_against": 24.0,
+      "result": "W"
+    },
+    {
+      "opponent": "ATL",
+      "home_away": "away",
+      "points_for": 31.0,
+      "points_against": 23.0,
+      "result": "W"
+    },
+    {
+      "opponent": "GB",
+      "home_away": "away",
+      "points_for": 7.0,
+      "points_against": 31.0,
+      "result": "L"
+    },
+    {
+      "opponent": "NYJ",
+      "home_away": "home",
+      "points_for": 23.0,
+      "points_against": 12.0,
+      "result": "W"
+    },
+    {
+      "opponent": "PHI",
+      "home_away": "home",
+      "points_for": 27.0,
+      "points_against": 7.0,
+      "result": "W"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_CHI_CAR",
+      "date": "2026-09-13",
+      "kickoff_et": "2026-09-13 13:00 ET",
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "opponent": "CAR",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 59.0,
+      "points_against": 37.0,
+      "result": "W",
+      "team_spread": -3.0,
+      "ats": "W",
+      "total_line": 47.5,
+      "ou": "O"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_MIN_CHI",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 13:00 ET",
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "opponent": "MIN",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 3.0,
+      "points_against": 9.0,
+      "result": "L",
+      "team_spread": -4.5,
+      "ats": "L",
+      "total_line": 46.5,
+      "ou": "U"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_PHI_CHI",
+      "date": "2026-09-28",
+      "kickoff_et": "2026-09-28 20:15 ET",
+      "kickoff_utc": "2026-09-29T00:15:00+00:00",
+      "opponent": "PHI",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 27.0,
+      "points_against": 7.0,
+      "result": "W",
+      "team_spread": 3.5,
+      "ats": "W",
+      "total_line": 42.5,
+      "ou": "U"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_NYJ_CHI",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 13:00 ET",
+      "kickoff_utc": "2026-10-04T17:00:00+00:00",
+      "opponent": "NYJ",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 23.0,
+      "points_against": 12.0,
+      "result": "W",
+      "team_spread": -3.5,
+      "ats": "W",
+      "total_line": 43.5,
+      "ou": "U"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_CHI_GB",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 13:00 ET",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "opponent": "GB",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 7.0,
+      "points_against": 31.0,
+      "result": "L",
+      "team_spread": -1.5,
+      "ats": "L",
+      "total_line": 46.5,
+      "ou": "U"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_CHI_ATL",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 13:00 ET",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "opponent": "ATL",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 31.0,
+      "points_against": 23.0,
+      "result": "W",
+      "team_spread": -1.5,
+      "ats": "W",
+      "total_line": 51.5,
+      "ou": "O"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_NE_CHI",
+      "date": "2026-10-22",
+      "kickoff_et": "2026-10-22 20:15 ET",
+      "kickoff_utc": "2026-10-23T00:15:00+00:00",
+      "opponent": "NE",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 24.0,
+      "result": "W",
+      "team_spread": -3.0,
+      "ats": "W",
+      "total_line": 50.5,
+      "ou": "O"
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_CHI_SEA",
+      "date": "2026-11-02",
+      "kickoff_et": "2026-11-02 20:15 ET",
+      "kickoff_utc": "2026-11-03T01:15:00+00:00",
+      "opponent": "SEA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": "2026_08_CHI_SEA.json"
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_TB_CHI",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 20:20 ET",
+      "kickoff_utc": "2026-11-09T01:20:00+00:00",
+      "opponent": "TB",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_NO_CHI",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 13:00 ET",
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "opponent": "NO",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_CHI_DET",
+      "date": "2026-11-26",
+      "kickoff_et": "2026-11-26 13:00 ET",
+      "kickoff_utc": "2026-11-26T18:00:00+00:00",
+      "opponent": "DET",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_JAX_CHI",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 13:00 ET",
+      "kickoff_utc": "2026-12-06T18:00:00+00:00",
+      "opponent": "JAX",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_CHI_MIA",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "MIA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_CHI_BUF",
+      "date": "2026-12-19",
+      "kickoff_et": "2026-12-19 20:20 ET",
+      "kickoff_utc": "2026-12-20T01:20:00+00:00",
+      "opponent": "BUF",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_GB_CHI",
+      "date": "2026-12-25",
+      "kickoff_et": "2026-12-25 13:00 ET",
+      "kickoff_utc": "2026-12-25T18:00:00+00:00",
+      "opponent": "GB",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_DET_CHI",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 16:25 ET",
+      "kickoff_utc": "2027-01-03T21:25:00+00:00",
+      "opponent": "DET",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_CHI_MIN",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "MIN",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 10,
+  "disclaimer": "For information and entertainment only."
+}

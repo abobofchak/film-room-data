@@ -1,0 +1,265 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-10-29T19:24:57+00:00",
+  "season": 2026,
+  "week": 8,
+  "source": "National Weather Service hourly forecast near kickoff",
+  "note": "Strong wind and cold tend to hurt passing and kicking. Forecasts change; check again closer to kickoff.",
+  "watch": [
+    {
+      "game_id": "2026_08_ATL_TB",
+      "away": "ATL",
+      "home": "TB",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "Raymond James Stadium",
+      "city": "Tampa, FL",
+      "card": "2026_08_ATL_TB.json",
+      "temp_f": 80.0,
+      "wind_mph": 13.0,
+      "precip_chance_pct": 69.0,
+      "summary": "Chance Showers And Thunderstorms",
+      "forecast_updated": "2026-10-29T19:02:59+00:00",
+      "alerts": [
+        {
+          "level": 2,
+          "label": "Snow or storms",
+          "detail": "69% chance"
+        }
+      ],
+      "level": 2,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_IND_JAX",
+      "away": "IND",
+      "home": "JAX",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "EverBank Stadium",
+      "city": "Jacksonville, FL",
+      "card": "2026_08_IND_JAX.json",
+      "temp_f": 74.0,
+      "wind_mph": 17.0,
+      "precip_chance_pct": 36.0,
+      "summary": "Chance Showers And Thunderstorms",
+      "forecast_updated": "2026-10-29T18:30:07+00:00",
+      "alerts": [
+        {
+          "level": 1,
+          "label": "Windy",
+          "detail": "17 mph"
+        },
+        {
+          "level": 2,
+          "label": "Snow or storms",
+          "detail": "36% chance"
+        }
+      ],
+      "level": 2,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_NE_MIA",
+      "away": "NE",
+      "home": "MIA",
+      "kickoff_utc": "2026-11-01T21:25:00+00:00",
+      "stadium": "Hard Rock Stadium",
+      "city": "Miami Gardens, FL",
+      "card": "2026_08_NE_MIA.json",
+      "temp_f": 78.75,
+      "wind_mph": 14.0,
+      "precip_chance_pct": 89.0,
+      "summary": "Showers And Thunderstorms",
+      "forecast_updated": "2026-10-29T19:24:16+00:00",
+      "alerts": [
+        {
+          "level": 2,
+          "label": "Snow or storms",
+          "detail": "89% chance"
+        }
+      ],
+      "level": 2,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_TEN_CIN",
+      "away": "TEN",
+      "home": "CIN",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "Paycor Stadium",
+      "city": "Cincinnati, OH",
+      "card": "2026_08_TEN_CIN.json",
+      "temp_f": 69.333,
+      "wind_mph": 3.0,
+      "precip_chance_pct": 40.0,
+      "summary": "Chance Light Rain",
+      "forecast_updated": "2026-10-29T19:00:08+00:00",
+      "alerts": [
+        {
+          "level": 1,
+          "label": "Rain likely",
+          "detail": "40% chance"
+        }
+      ],
+      "level": 1,
+      "change": null
+    }
+  ],
+  "calm": [
+    {
+      "game_id": "2026_08_CAR_GB",
+      "away": "CAR",
+      "home": "GB",
+      "kickoff_utc": "2026-10-30T00:15:00+00:00",
+      "stadium": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "card": "2026_08_CAR_GB.json",
+      "temp_f": 48.5,
+      "wind_mph": 6.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Clear",
+      "forecast_updated": "2026-10-29T18:52:10+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "away": "CLE",
+      "home": "PIT",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "Acrisure Stadium",
+      "city": "Pittsburgh, PA",
+      "card": "2026_08_CLE_PIT.json",
+      "temp_f": 68.333,
+      "wind_mph": 2.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Mostly Cloudy",
+      "forecast_updated": "2026-10-29T19:24:18+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_ARI_DAL",
+      "away": "ARI",
+      "home": "DAL",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington, TX",
+      "card": "2026_08_ARI_DAL.json",
+      "temp_f": 79.0,
+      "wind_mph": 5.0,
+      "precip_chance_pct": 1.0,
+      "summary": "Partly Sunny",
+      "forecast_updated": "2026-10-29T18:30:05+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_BAL_BUF",
+      "away": "BAL",
+      "home": "BUF",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "Highmark Stadium",
+      "city": "Orchard Park, NY",
+      "card": "2026_08_BAL_BUF.json",
+      "temp_f": 64.0,
+      "wind_mph": 3.0,
+      "precip_chance_pct": 5.0,
+      "summary": "Partly Sunny",
+      "forecast_updated": "2026-10-29T18:52:10+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_LV_NYJ",
+      "away": "LV",
+      "home": "NYJ",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "card": "2026_08_LV_NYJ.json",
+      "temp_f": 62.667,
+      "wind_mph": 3.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Partly Sunny",
+      "forecast_updated": "2026-10-29T18:30:08+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_KC_DEN",
+      "away": "KC",
+      "home": "DEN",
+      "kickoff_utc": "2026-11-01T21:25:00+00:00",
+      "stadium": "Empower Field at Mile High",
+      "city": "Denver, CO",
+      "card": "2026_08_KC_DEN.json",
+      "temp_f": 60.0,
+      "wind_mph": 6.0,
+      "precip_chance_pct": 24.0,
+      "summary": "Partly Sunny",
+      "forecast_updated": "2026-10-29T18:52:10+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "away": "PHI",
+      "home": "WAS",
+      "kickoff_utc": "2026-11-02T01:20:00+00:00",
+      "stadium": "Northwest Stadium",
+      "city": "Landover, MD",
+      "card": "2026_08_PHI_WAS.json",
+      "temp_f": 51.25,
+      "wind_mph": 3.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Partly Cloudy",
+      "forecast_updated": "2026-10-29T19:24:15+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "away": "CHI",
+      "home": "SEA",
+      "kickoff_utc": "2026-11-03T01:15:00+00:00",
+      "stadium": "Lumen Field",
+      "city": "Seattle, WA",
+      "card": "2026_08_CHI_SEA.json",
+      "temp_f": 50.25,
+      "wind_mph": 1.0,
+      "precip_chance_pct": 12.0,
+      "summary": "Mostly Cloudy",
+      "forecast_updated": "2026-10-29T18:41:44+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    }
+  ],
+  "indoors": [
+    {
+      "game_id": "2026_08_MIN_DET",
+      "away": "MIN",
+      "home": "DET",
+      "kickoff_utc": "2026-11-01T18:00:00+00:00",
+      "stadium": "Ford Field",
+      "city": "Detroit, MI",
+      "card": "2026_08_MIN_DET.json"
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "away": "LAC",
+      "home": "LA",
+      "kickoff_utc": "2026-11-01T21:05:00+00:00",
+      "stadium": "SoFi Stadium",
+      "city": "Inglewood, CA",
+      "card": "2026_08_LAC_LA.json"
+    }
+  ]
+}

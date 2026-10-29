@@ -1,0 +1,203 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-10-29T19:24:57+00:00",
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "live": {
+    "games_logged": 56,
+    "games_graded": 42,
+    "games_pending": 14,
+    "straight_up_pct": 0.585,
+    "avg_margin_error": 9.657,
+    "log_loss": 0.681,
+    "range80_coverage": 0.786,
+    "confidence_tiers": [
+      {
+        "confidence_at_least": 0.5,
+        "games": 41,
+        "model_right_pct": 0.585
+      },
+      {
+        "confidence_at_least": 0.6,
+        "games": 26,
+        "model_right_pct": 0.615
+      },
+      {
+        "confidence_at_least": 0.7,
+        "games": 10,
+        "model_right_pct": 0.6
+      },
+      {
+        "confidence_at_least": 0.8,
+        "games": 3,
+        "model_right_pct": 1.0
+      }
+    ],
+    "calibration": [
+      {
+        "bucket": "(0.0, 0.3]",
+        "games": 2,
+        "predicted": 0.272,
+        "actual": 0.5
+      },
+      {
+        "bucket": "(0.3, 0.4]",
+        "games": 7,
+        "predicted": 0.331,
+        "actual": 0.0
+      },
+      {
+        "bucket": "(0.4, 0.5]",
+        "games": 9,
+        "predicted": 0.454,
+        "actual": 0.444
+      },
+      {
+        "bucket": "(0.5, 0.6]",
+        "games": 6,
+        "predicted": 0.551,
+        "actual": 0.5
+      },
+      {
+        "bucket": "(0.6, 0.7]",
+        "games": 9,
+        "predicted": 0.66,
+        "actual": 0.333
+      },
+      {
+        "bucket": "(0.7, 1.0]",
+        "games": 8,
+        "predicted": 0.785,
+        "actual": 0.625
+      }
+    ],
+    "by_week": [
+      {
+        "season": 2026,
+        "week": 5,
+        "games": 14,
+        "straight_up_correct": 9,
+        "avg_margin_error": 9.593
+      },
+      {
+        "season": 2026,
+        "week": 6,
+        "games": 14,
+        "straight_up_correct": 8,
+        "avg_margin_error": 8.313
+      },
+      {
+        "season": 2026,
+        "week": 7,
+        "games": 14,
+        "straight_up_correct": 7,
+        "avg_margin_error": 11.066
+      }
+    ],
+    "market": {
+      "games": 42,
+      "model_mae": 9.657,
+      "line_mae": 8.774,
+      "market_straight_up_pct": 0.659
+    },
+    "totals": {
+      "games": 42,
+      "avg_total_error": 10.637,
+      "bias": -0.567,
+      "range80_coverage": 0.833,
+      "market": {
+        "games": 42,
+        "model_mae": 10.637,
+        "line_mae": 10.5
+      }
+    }
+  },
+  "backtest": {
+    "games": 2944,
+    "seasons": "2014-2026",
+    "avg_margin_error": 10.224,
+    "straight_up_pct": 0.64,
+    "log_loss": 0.632,
+    "confidence_tiers": [
+      {
+        "confidence_at_least": 0.5,
+        "games": 2944,
+        "model_right_pct": 0.64,
+        "market_right_pct": 0.664
+      },
+      {
+        "confidence_at_least": 0.6,
+        "games": 1973,
+        "model_right_pct": 0.693,
+        "market_right_pct": 0.697
+      },
+      {
+        "confidence_at_least": 0.7,
+        "games": 1123,
+        "model_right_pct": 0.755,
+        "market_right_pct": 0.75
+      },
+      {
+        "confidence_at_least": 0.8,
+        "games": 468,
+        "model_right_pct": 0.797,
+        "market_right_pct": 0.797
+      }
+    ],
+    "calibration": [
+      {
+        "bucket": "(0.0, 0.3]",
+        "games": 313,
+        "predicted": 0.219,
+        "actual": 0.249
+      },
+      {
+        "bucket": "(0.3, 0.4]",
+        "games": 345,
+        "predicted": 0.354,
+        "actual": 0.397
+      },
+      {
+        "bucket": "(0.4, 0.5]",
+        "games": 436,
+        "predicted": 0.451,
+        "actual": 0.436
+      },
+      {
+        "bucket": "(0.5, 0.6]",
+        "games": 535,
+        "predicted": 0.551,
+        "actual": 0.505
+      },
+      {
+        "bucket": "(0.6, 0.7]",
+        "games": 505,
+        "predicted": 0.652,
+        "actual": 0.616
+      },
+      {
+        "bucket": "(0.7, 1.0]",
+        "games": 810,
+        "predicted": 0.794,
+        "actual": 0.757
+      }
+    ],
+    "market": {
+      "line_mae": 9.888,
+      "log_loss": 0.611,
+      "straight_up_pct": 0.664
+    }
+  },
+  "backtest_totals": {
+    "games": 2956,
+    "seasons": "2014-2026",
+    "avg_total_error": 10.724,
+    "bias": 0.316,
+    "market": {
+      "line_mae": 10.439
+    }
+  },
+  "notes": [
+    "'live' only counts predictions saved before kickoff.",
+    "'backtest' re-predicts past weeks using only data available before each week."
+  ]
+}

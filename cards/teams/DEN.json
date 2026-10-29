@@ -1,0 +1,394 @@
+{
+  "model_version": "v15",
+  "team": "DEN",
+  "name": "Denver Broncos",
+  "city": "Denver, CO",
+  "division": "AFC West",
+  "season": 2026,
+  "record": "5-2",
+  "streak": {
+    "type": "W",
+    "length": 3,
+    "display": "W3"
+  },
+  "seed": 5,
+  "ppg_for": 20.571,
+  "ppg_against": 20.143,
+  "power": {
+    "rank": 9,
+    "points": 2.854,
+    "rank_change": 0,
+    "offense_rank": 15,
+    "defense_rank": 3
+  },
+  "categories": {
+    "offense": {
+      "rank": 15,
+      "value": 0.012,
+      "rank_change": 3
+    },
+    "defense": {
+      "rank": 3,
+      "value": -0.068,
+      "rank_change": 0
+    },
+    "passing_offense": {
+      "rank": 15,
+      "value": 0.061,
+      "rank_change": 2
+    },
+    "passing_defense": {
+      "rank": 3,
+      "value": -0.056,
+      "rank_change": 1
+    },
+    "rushing_offense": {
+      "rank": 14,
+      "value": -0.074,
+      "rank_change": 1
+    },
+    "rushing_defense": {
+      "rank": 12,
+      "value": -0.102,
+      "rank_change": 0
+    },
+    "quarterback": {
+      "rank": 17,
+      "value": 0.041,
+      "rank_change": 0
+    }
+  },
+  "qb": {
+    "name": "B.Nix",
+    "rating": 0.041
+  },
+  "odds": {
+    "team": "DEN",
+    "record": "5-2",
+    "projected_wins": 10.886,
+    "p_playoffs": 0.786,
+    "p_division": 0.303,
+    "p_bye": 0.065,
+    "p_seed": [
+      0.065,
+      0.082,
+      0.087,
+      0.069,
+      0.185,
+      0.162,
+      0.136
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.003,
+      0.015,
+      0.054,
+      0.121,
+      0.206,
+      0.241,
+      0.198,
+      0.117,
+      0.038,
+      0.007,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_08_KC_DEN",
+      "opponent": "KC",
+      "home_away": "home",
+      "p_playoffs_if_win": 0.869,
+      "p_playoffs_if_loss": 0.705,
+      "p_division_if_win": 0.47,
+      "p_division_if_loss": 0.142
+    }
+  },
+  "next_game": {
+    "opponent": "KC",
+    "home_away": "home",
+    "date": "2026-11-01",
+    "game_id": "2026_08_KC_DEN"
+  },
+  "last5": [
+    {
+      "opponent": "ARI",
+      "home_away": "away",
+      "points_for": 30.0,
+      "points_against": 16.0,
+      "result": "W"
+    },
+    {
+      "opponent": "SEA",
+      "home_away": "home",
+      "points_for": 17.0,
+      "points_against": 14.0,
+      "result": "W"
+    },
+    {
+      "opponent": "LAC",
+      "home_away": "away",
+      "points_for": 23.0,
+      "points_against": 17.0,
+      "result": "W"
+    },
+    {
+      "opponent": "SF",
+      "home_away": "away",
+      "points_for": 14.0,
+      "points_against": 24.0,
+      "result": "L"
+    },
+    {
+      "opponent": "LA",
+      "home_away": "home",
+      "points_for": 30.0,
+      "points_against": 26.0,
+      "result": "W"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_DEN_KC",
+      "date": "2026-09-14",
+      "kickoff_et": "2026-09-14 20:15 ET",
+      "kickoff_utc": "2026-09-15T00:15:00+00:00",
+      "opponent": "KC",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 10.0,
+      "points_against": 31.0,
+      "result": "L",
+      "team_spread": 2.5,
+      "ats": "L",
+      "total_line": 42.5,
+      "ou": "U"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_JAX_DEN",
+      "date": "2026-09-20",
+      "kickoff_et": "2026-09-20 16:05 ET",
+      "kickoff_utc": "2026-09-20T20:05:00+00:00",
+      "opponent": "JAX",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 20.0,
+      "points_against": 13.0,
+      "result": "W",
+      "team_spread": -2.5,
+      "ats": "W",
+      "total_line": 45.5,
+      "ou": "U"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_LA_DEN",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 20:20 ET",
+      "kickoff_utc": "2026-09-28T00:20:00+00:00",
+      "opponent": "LA",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 26.0,
+      "result": "W",
+      "team_spread": -1.5,
+      "ats": "W",
+      "total_line": 43.5,
+      "ou": "O"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_DEN_SF",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 16:25 ET",
+      "kickoff_utc": "2026-10-04T20:25:00+00:00",
+      "opponent": "SF",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 14.0,
+      "points_against": 24.0,
+      "result": "L",
+      "team_spread": 3.0,
+      "ats": "L",
+      "total_line": 48.5,
+      "ou": "U"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_DEN_LAC",
+      "date": "2026-10-11",
+      "kickoff_et": "2026-10-11 16:05 ET",
+      "kickoff_utc": "2026-10-11T20:05:00+00:00",
+      "opponent": "LAC",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 23.0,
+      "points_against": 17.0,
+      "result": "W",
+      "team_spread": -3.5,
+      "ats": "W",
+      "total_line": 42.5,
+      "ou": "U"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_SEA_DEN",
+      "date": "2026-10-15",
+      "kickoff_et": "2026-10-15 20:15 ET",
+      "kickoff_utc": "2026-10-16T00:15:00+00:00",
+      "opponent": "SEA",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 17.0,
+      "points_against": 14.0,
+      "result": "W",
+      "team_spread": 2.5,
+      "ats": "W",
+      "total_line": 40.5,
+      "ou": "U"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_DEN_ARI",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 16:05 ET",
+      "kickoff_utc": "2026-10-25T20:05:00+00:00",
+      "opponent": "ARI",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 30.0,
+      "points_against": 16.0,
+      "result": "W",
+      "team_spread": -4.5,
+      "ats": "W",
+      "total_line": 44.5,
+      "ou": "O"
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_KC_DEN",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 16:25 ET",
+      "kickoff_utc": "2026-11-01T21:25:00+00:00",
+      "opponent": "KC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": "2026_08_KC_DEN.json"
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_DEN_CAR",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "CAR",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 11,
+      "game_id": "2026_11_LV_DEN",
+      "date": "2026-11-22",
+      "kickoff_et": "2026-11-22 16:25 ET",
+      "kickoff_utc": "2026-11-22T21:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_DEN_PIT",
+      "date": "2026-11-27",
+      "kickoff_et": "2026-11-27 15:00 ET",
+      "kickoff_utc": "2026-11-27T20:00:00+00:00",
+      "opponent": "PIT",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_MIA_DEN",
+      "date": "2026-12-06",
+      "kickoff_et": "2026-12-06 16:05 ET",
+      "kickoff_utc": "2026-12-06T21:05:00+00:00",
+      "opponent": "MIA",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_DEN_NYJ",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 13:00 ET",
+      "kickoff_utc": "2026-12-13T18:00:00+00:00",
+      "opponent": "NYJ",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_DEN_LV",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 16:25 ET",
+      "kickoff_utc": "2026-12-20T21:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_BUF_DEN",
+      "date": "2026-12-25",
+      "kickoff_et": "2026-12-25 16:30 ET",
+      "kickoff_utc": "2026-12-25T21:30:00+00:00",
+      "opponent": "BUF",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_DEN_NE",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "NE",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_LAC_DEN",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "LAC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 10,
+  "disclaimer": "For information and entertainment only."
+}

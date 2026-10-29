@@ -1,0 +1,394 @@
+{
+  "model_version": "v15",
+  "team": "LA",
+  "name": "Los Angeles Rams",
+  "city": "Inglewood, CA",
+  "division": "NFC West",
+  "season": 2026,
+  "record": "3-4",
+  "streak": {
+    "type": "W",
+    "length": 1,
+    "display": "W1"
+  },
+  "seed": null,
+  "ppg_for": 24.286,
+  "ppg_against": 22.714,
+  "power": {
+    "rank": 10,
+    "points": 2.717,
+    "rank_change": 0,
+    "offense_rank": 3,
+    "defense_rank": 10
+  },
+  "categories": {
+    "offense": {
+      "rank": 3,
+      "value": 0.126,
+      "rank_change": 1
+    },
+    "defense": {
+      "rank": 10,
+      "value": -0.026,
+      "rank_change": 5
+    },
+    "passing_offense": {
+      "rank": 7,
+      "value": 0.191,
+      "rank_change": 0
+    },
+    "passing_defense": {
+      "rank": 14,
+      "value": 0.037,
+      "rank_change": 6
+    },
+    "rushing_offense": {
+      "rank": 7,
+      "value": -0.006,
+      "rank_change": 1
+    },
+    "rushing_defense": {
+      "rank": 10,
+      "value": -0.109,
+      "rank_change": 0
+    },
+    "quarterback": {
+      "rank": 10,
+      "value": 0.078,
+      "rank_change": 0
+    }
+  },
+  "qb": {
+    "name": "M.Stafford",
+    "rating": 0.078
+  },
+  "odds": {
+    "team": "LA",
+    "record": "3-4",
+    "projected_wins": 8.666,
+    "p_playoffs": 0.401,
+    "p_division": 0.039,
+    "p_bye": 0.006,
+    "p_seed": [
+      0.006,
+      0.026,
+      0.006,
+      0.001,
+      0.079,
+      0.128,
+      0.154
+    ],
+    "win_dist": [
+      0.0,
+      0.0,
+      0.0,
+      0.001,
+      0.004,
+      0.024,
+      0.065,
+      0.143,
+      0.213,
+      0.24,
+      0.182,
+      0.097,
+      0.029,
+      0.004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_game": {
+      "game_id": "2026_08_LAC_LA",
+      "opponent": "LAC",
+      "home_away": "home",
+      "p_playoffs_if_win": 0.462,
+      "p_playoffs_if_loss": 0.234,
+      "p_division_if_win": 0.048,
+      "p_division_if_loss": 0.014
+    }
+  },
+  "next_game": {
+    "opponent": "LAC",
+    "home_away": "home",
+    "date": "2026-11-01",
+    "game_id": "2026_08_LAC_LA"
+  },
+  "last5": [
+    {
+      "opponent": "LV",
+      "home_away": "away",
+      "points_for": 35.0,
+      "points_against": 21.0,
+      "result": "W"
+    },
+    {
+      "opponent": "ARI",
+      "home_away": "home",
+      "points_for": 16.0,
+      "points_against": 18.0,
+      "result": "L"
+    },
+    {
+      "opponent": "BUF",
+      "home_away": "home",
+      "points_for": 34.0,
+      "points_against": 37.0,
+      "result": "L"
+    },
+    {
+      "opponent": "PHI",
+      "home_away": "away",
+      "points_for": 24.0,
+      "points_against": 20.0,
+      "result": "W"
+    },
+    {
+      "opponent": "DEN",
+      "home_away": "away",
+      "points_for": 26.0,
+      "points_against": 30.0,
+      "result": "L"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "game_id": "2026_01_SF_LA",
+      "date": "2026-09-10",
+      "kickoff_et": "2026-09-10 20:35 ET",
+      "kickoff_utc": "2026-09-11T00:35:00+00:00",
+      "opponent": "SF",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 7.0,
+      "points_against": 27.0,
+      "result": "L",
+      "team_spread": -3.5,
+      "ats": "L",
+      "total_line": 47.5,
+      "ou": "U"
+    },
+    {
+      "week": 2,
+      "game_id": "2026_02_NYG_LA",
+      "date": "2026-09-21",
+      "kickoff_et": "2026-09-21 20:15 ET",
+      "kickoff_utc": "2026-09-22T00:15:00+00:00",
+      "opponent": "NYG",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 28.0,
+      "points_against": 6.0,
+      "result": "W",
+      "team_spread": -6.5,
+      "ats": "W",
+      "total_line": 47.5,
+      "ou": "U"
+    },
+    {
+      "week": 3,
+      "game_id": "2026_03_LA_DEN",
+      "date": "2026-09-27",
+      "kickoff_et": "2026-09-27 20:20 ET",
+      "kickoff_utc": "2026-09-28T00:20:00+00:00",
+      "opponent": "DEN",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 26.0,
+      "points_against": 30.0,
+      "result": "L",
+      "team_spread": 1.5,
+      "ats": "L",
+      "total_line": 43.5,
+      "ou": "O"
+    },
+    {
+      "week": 4,
+      "game_id": "2026_04_LA_PHI",
+      "date": "2026-10-04",
+      "kickoff_et": "2026-10-04 13:00 ET",
+      "kickoff_utc": "2026-10-04T17:00:00+00:00",
+      "opponent": "PHI",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 24.0,
+      "points_against": 20.0,
+      "result": "W",
+      "team_spread": -3.5,
+      "ats": "W",
+      "total_line": 42.5,
+      "ou": "O"
+    },
+    {
+      "week": 5,
+      "game_id": "2026_05_BUF_LA",
+      "date": "2026-10-12",
+      "kickoff_et": "2026-10-12 20:15 ET",
+      "kickoff_utc": "2026-10-13T00:15:00+00:00",
+      "opponent": "BUF",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 34.0,
+      "points_against": 37.0,
+      "result": "L",
+      "team_spread": -3.5,
+      "ats": "L",
+      "total_line": 55.5,
+      "ou": "O"
+    },
+    {
+      "week": 6,
+      "game_id": "2026_06_ARI_LA",
+      "date": "2026-10-18",
+      "kickoff_et": "2026-10-18 16:05 ET",
+      "kickoff_utc": "2026-10-18T20:05:00+00:00",
+      "opponent": "ARI",
+      "home_away": "home",
+      "status": "final",
+      "card": null,
+      "points_for": 16.0,
+      "points_against": 18.0,
+      "result": "L",
+      "team_spread": -12.5,
+      "ats": "L",
+      "total_line": 51.5,
+      "ou": "U"
+    },
+    {
+      "week": 7,
+      "game_id": "2026_07_LA_LV",
+      "date": "2026-10-25",
+      "kickoff_et": "2026-10-25 16:25 ET",
+      "kickoff_utc": "2026-10-25T20:25:00+00:00",
+      "opponent": "LV",
+      "home_away": "away",
+      "status": "final",
+      "card": null,
+      "points_for": 35.0,
+      "points_against": 21.0,
+      "result": "W",
+      "team_spread": -3.5,
+      "ats": "W",
+      "total_line": 49.5,
+      "ou": "O"
+    },
+    {
+      "week": 8,
+      "game_id": "2026_08_LAC_LA",
+      "date": "2026-11-01",
+      "kickoff_et": "2026-11-01 16:05 ET",
+      "kickoff_utc": "2026-11-01T21:05:00+00:00",
+      "opponent": "LAC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": "2026_08_LAC_LA.json"
+    },
+    {
+      "week": 9,
+      "game_id": "2026_09_LA_WAS",
+      "date": "2026-11-08",
+      "kickoff_et": "2026-11-08 13:00 ET",
+      "kickoff_utc": "2026-11-08T18:00:00+00:00",
+      "opponent": "WAS",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 10,
+      "game_id": "2026_10_LA_ARI",
+      "date": "2026-11-15",
+      "kickoff_et": "2026-11-15 16:05 ET",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "opponent": "ARI",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 12,
+      "game_id": "2026_12_GB_LA",
+      "date": "2026-11-25",
+      "kickoff_et": "2026-11-25 20:00 ET",
+      "kickoff_utc": "2026-11-26T01:00:00+00:00",
+      "opponent": "GB",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 13,
+      "game_id": "2026_13_KC_LA",
+      "date": "2026-12-03",
+      "kickoff_et": "2026-12-03 20:15 ET",
+      "kickoff_utc": "2026-12-04T01:15:00+00:00",
+      "opponent": "KC",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 14,
+      "game_id": "2026_14_LA_SF",
+      "date": "2026-12-13",
+      "kickoff_et": "2026-12-13 16:25 ET",
+      "kickoff_utc": "2026-12-13T21:25:00+00:00",
+      "opponent": "SF",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 15,
+      "game_id": "2026_15_DAL_LA",
+      "date": "2026-12-20",
+      "kickoff_et": "2026-12-20 16:25 ET",
+      "kickoff_utc": "2026-12-20T21:25:00+00:00",
+      "opponent": "DAL",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 16,
+      "game_id": "2026_16_LA_SEA",
+      "date": "2026-12-25",
+      "kickoff_et": "2026-12-25 20:15 ET",
+      "kickoff_utc": "2026-12-26T01:15:00+00:00",
+      "opponent": "SEA",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 17,
+      "game_id": "2026_17_LA_TB",
+      "date": "2027-01-03",
+      "kickoff_et": "2027-01-03 13:00 ET",
+      "kickoff_utc": "2027-01-03T18:00:00+00:00",
+      "opponent": "TB",
+      "home_away": "away",
+      "status": "upcoming",
+      "card": null
+    },
+    {
+      "week": 18,
+      "game_id": "2026_18_SEA_LA",
+      "date": "2027-01-10",
+      "kickoff_et": "2027-01-10 13:00 ET",
+      "kickoff_utc": "2027-01-10T18:00:00+00:00",
+      "opponent": "SEA",
+      "home_away": "home",
+      "status": "upcoming",
+      "card": null
+    }
+  ],
+  "bye_week": 11,
+  "disclaimer": "For information and entertainment only."
+}
