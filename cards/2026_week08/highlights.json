@@ -1,0 +1,53 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-11-02T21:10:53+00:00",
+  "season": 2026,
+  "week": 8,
+  "note": "Ranks games by team quality, how even the ratings are, playoff stakes and rivalry. It does not pick winners.",
+  "game_of_the_week": {
+    "game_id": "2026_08_CHI_SEA",
+    "card": "2026_08_CHI_SEA.json",
+    "away": "CHI",
+    "home": "SEA",
+    "kickoff_utc": "2026-11-03T01:15:00+00:00",
+    "score": 70.6,
+    "rating_gap": 2.6,
+    "playoff_swing": 0.263,
+    "reasons": [
+      "Two top-half teams in the power rankings",
+      "The ratings have these teams nearly even",
+      "Playoff odds swing about 26 points on the result"
+    ],
+    "tags": [
+      "toss_up",
+      "playoff_swing"
+    ]
+  },
+  "games": [
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "card": "2026_08_CHI_SEA.json",
+      "away": "CHI",
+      "home": "SEA",
+      "kickoff_utc": "2026-11-03T01:15:00+00:00",
+      "score": 70.6,
+      "rating_gap": 2.6,
+      "playoff_swing": 0.263,
+      "reasons": [
+        "Two top-half teams in the power rankings",
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 26 points on the result"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing"
+      ]
+    }
+  ],
+  "toss_ups": [
+    "2026_08_CHI_SEA"
+  ],
+  "playoff_swing": [
+    "2026_08_CHI_SEA"
+  ]
+}
