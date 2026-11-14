@@ -1,0 +1,228 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-11-14T19:49:33+00:00",
+  "season": 2026,
+  "week": 10,
+  "source": "National Weather Service hourly forecast near kickoff",
+  "note": "Strong wind and cold tend to hurt passing and kicking. Forecasts change; check again closer to kickoff.",
+  "watch": [
+    {
+      "game_id": "2026_10_HOU_CLE",
+      "away": "HOU",
+      "home": "CLE",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Huntington Bank Field",
+      "city": "Cleveland, OH",
+      "card": "2026_10_HOU_CLE.json",
+      "temp_f": 47.0,
+      "wind_mph": 15.0,
+      "precip_chance_pct": 17.0,
+      "summary": "Slight Chance Rain Showers",
+      "forecast_updated": "2026-11-14T19:40:27+00:00",
+      "alerts": [
+        {
+          "level": 1,
+          "label": "Windy",
+          "detail": "15 mph"
+        },
+        {
+          "level": 1,
+          "label": "Rain likely",
+          "detail": "17% chance"
+        }
+      ],
+      "level": 1,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "away": "SF",
+      "home": "DAL",
+      "kickoff_utc": "2026-11-15T21:25:00+00:00",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington, TX",
+      "card": "2026_10_SF_DAL.json",
+      "temp_f": 51.0,
+      "wind_mph": 10.0,
+      "precip_chance_pct": 30.0,
+      "summary": "Chance Rain Showers",
+      "forecast_updated": "2026-11-14T18:50:01+00:00",
+      "alerts": [
+        {
+          "level": 1,
+          "label": "Rain likely",
+          "detail": "30% chance"
+        }
+      ],
+      "level": 1,
+      "change": "Since the last update: wind down 5 mph"
+    }
+  ],
+  "calm": [
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "away": "JAX",
+      "home": "TEN",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Nissan Stadium",
+      "city": "Nashville, TN",
+      "card": "2026_10_JAX_TEN.json",
+      "temp_f": 55.0,
+      "wind_mph": 5.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Sunny",
+      "forecast_updated": "2026-11-14T19:00:40+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_BUF_NYJ",
+      "away": "BUF",
+      "home": "NYJ",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "card": "2026_10_BUF_NYJ.json",
+      "temp_f": 51.0,
+      "wind_mph": 12.0,
+      "precip_chance_pct": 1.0,
+      "summary": "Sunny",
+      "forecast_updated": "2026-11-14T19:08:11+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_MIA_IND",
+      "away": "MIA",
+      "home": "IND",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Lucas Oil Stadium",
+      "city": "Indianapolis, IN",
+      "card": "2026_10_MIA_IND.json",
+      "temp_f": 49.333,
+      "wind_mph": 5.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Mostly Sunny",
+      "forecast_updated": "2026-11-14T19:15:35+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "away": "MIN",
+      "home": "GB",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "card": "2026_10_MIN_GB.json",
+      "temp_f": 44.0,
+      "wind_mph": 1.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Mostly Sunny",
+      "forecast_updated": "2026-11-14T19:42:59+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "away": "KC",
+      "home": "ATL",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
+      "card": "2026_10_KC_ATL.json",
+      "temp_f": 56.667,
+      "wind_mph": 0.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Partly Sunny",
+      "forecast_updated": "2026-11-14T19:35:21+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "away": "LA",
+      "home": "ARI",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "stadium": "State Farm Stadium",
+      "city": "Glendale, AZ",
+      "card": "2026_10_LA_ARI.json",
+      "temp_f": 76.0,
+      "wind_mph": 5.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Sunny",
+      "forecast_updated": "2026-11-14T19:49:09+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "away": "PIT",
+      "home": "CIN",
+      "kickoff_utc": "2026-11-16T01:20:00+00:00",
+      "stadium": "Paycor Stadium",
+      "city": "Cincinnati, OH",
+      "card": "2026_10_PIT_CIN.json",
+      "temp_f": 40.25,
+      "wind_mph": 0.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Mostly Cloudy",
+      "forecast_updated": "2026-11-14T18:51:46+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "away": "LAC",
+      "home": "BAL",
+      "kickoff_utc": "2026-11-17T01:15:00+00:00",
+      "stadium": "M&T Bank Stadium",
+      "city": "Baltimore, MD",
+      "card": "2026_10_LAC_BAL.json",
+      "temp_f": 41.5,
+      "wind_mph": 2.0,
+      "precip_chance_pct": 0.0,
+      "summary": "Clear",
+      "forecast_updated": "2026-11-14T19:08:11+00:00",
+      "alerts": [],
+      "level": 0,
+      "change": null
+    }
+  ],
+  "indoors": [
+    {
+      "game_id": "2026_10_NE_DET",
+      "away": "NE",
+      "home": "DET",
+      "kickoff_utc": "2026-11-15T14:30:00+00:00",
+      "stadium": "FC Bayern Munich Stadium",
+      "city": null,
+      "card": "2026_10_NE_DET.json"
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "away": "CAR",
+      "home": "NO",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "stadium": "Caesars Superdome",
+      "city": "New Orleans, LA",
+      "card": "2026_10_CAR_NO.json"
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "away": "SEA",
+      "home": "LV",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "stadium": "Allegiant Stadium",
+      "city": "Las Vegas, NV",
+      "card": "2026_10_SEA_LV.json"
+    }
+  ]
+}

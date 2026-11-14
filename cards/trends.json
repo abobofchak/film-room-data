@@ -1,0 +1,1488 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-11-14T19:49:33+00:00",
+  "season": 2026,
+  "week": 10,
+  "market_lines": true,
+  "disclaimer": "Records describe what has already happened over small samples. They do not predict results.",
+  "teams": [
+    {
+      "team": "ARI",
+      "name": "Arizona Cardinals",
+      "games": 9,
+      "record": "3-6",
+      "ppg_for": 19.778,
+      "ppg_against": 28.333,
+      "streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "ats": "4-5",
+      "ats_pct": 0.444,
+      "ats_streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "avg_cover_margin": -2.444,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "ATL",
+      "name": "Atlanta Falcons",
+      "games": 9,
+      "record": "3-6",
+      "ppg_for": 20.889,
+      "ppg_against": 24.778,
+      "streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "ats": "3-6",
+      "ats_pct": 0.333,
+      "ats_streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "avg_cover_margin": -1.556,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "U",
+        "length": 3,
+        "display": "U3"
+      }
+    },
+    {
+      "team": "BAL",
+      "name": "Baltimore Ravens",
+      "games": 9,
+      "record": "4-5",
+      "ppg_for": 21.0,
+      "ppg_against": 26.222,
+      "streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "ats": "2-6-1",
+      "ats_pct": 0.25,
+      "ats_streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "avg_cover_margin": -6.444,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "BUF",
+      "name": "Buffalo Bills",
+      "games": 8,
+      "record": "7-1",
+      "ppg_for": 32.0,
+      "ppg_against": 23.375,
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "ats": "6-2",
+      "ats_pct": 0.75,
+      "ats_streak": {
+        "type": "W",
+        "length": 2,
+        "display": "W2"
+      },
+      "avg_cover_margin": 5.0,
+      "ou": "5-3",
+      "over_pct": 0.625,
+      "ou_streak": {
+        "type": "U",
+        "length": 2,
+        "display": "U2"
+      }
+    },
+    {
+      "team": "CAR",
+      "name": "Carolina Panthers",
+      "games": 8,
+      "record": "3-5",
+      "ppg_for": 24.875,
+      "ppg_against": 27.375,
+      "streak": {
+        "type": "L",
+        "length": 3,
+        "display": "L3"
+      },
+      "ats": "3-5",
+      "ats_pct": 0.375,
+      "ats_streak": {
+        "type": "L",
+        "length": 3,
+        "display": "L3"
+      },
+      "avg_cover_margin": -2.125,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "CHI",
+      "name": "Chicago Bears",
+      "games": 9,
+      "record": "7-2",
+      "ppg_for": 26.778,
+      "ppg_against": 20.444,
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "ats": "6-3",
+      "ats_pct": 0.667,
+      "ats_streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "avg_cover_margin": 4.444,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "O",
+        "length": 4,
+        "display": "O4"
+      }
+    },
+    {
+      "team": "CIN",
+      "name": "Cincinnati Bengals",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 30.0,
+      "ppg_against": 21.875,
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "ats": "4-3-1",
+      "ats_pct": 0.571,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": 4.0,
+      "ou": "5-3",
+      "over_pct": 0.625,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "CLE",
+      "name": "Cleveland Browns",
+      "games": 9,
+      "record": "5-4",
+      "ppg_for": 17.889,
+      "ppg_against": 21.778,
+      "streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "ats": "6-3",
+      "ats_pct": 0.667,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -0.111,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "DAL",
+      "name": "Dallas Cowboys",
+      "games": 9,
+      "record": "4-5",
+      "ppg_for": 27.333,
+      "ppg_against": 26.222,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "3-5-1",
+      "ats_pct": 0.375,
+      "ats_streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "avg_cover_margin": -1.944,
+      "ou": "6-3",
+      "over_pct": 0.667,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "DEN",
+      "name": "Denver Broncos",
+      "games": 9,
+      "record": "7-2",
+      "ppg_for": 22.0,
+      "ppg_against": 20.667,
+      "streak": {
+        "type": "W",
+        "length": 5,
+        "display": "W5"
+      },
+      "ats": "7-2",
+      "ats_pct": 0.778,
+      "ats_streak": {
+        "type": "W",
+        "length": 5,
+        "display": "W5"
+      },
+      "avg_cover_margin": 0.389,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "O",
+        "length": 3,
+        "display": "O3"
+      }
+    },
+    {
+      "team": "DET",
+      "name": "Detroit Lions",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 27.75,
+      "ppg_against": 23.625,
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "ats": "3-4-1",
+      "ats_pct": 0.429,
+      "ats_streak": {
+        "type": "W",
+        "length": 2,
+        "display": "W2"
+      },
+      "avg_cover_margin": 0.188,
+      "ou": "5-3",
+      "over_pct": 0.625,
+      "ou_streak": {
+        "type": "U",
+        "length": 3,
+        "display": "U3"
+      }
+    },
+    {
+      "team": "GB",
+      "name": "Green Bay Packers",
+      "games": 9,
+      "record": "6-3",
+      "ppg_for": 24.0,
+      "ppg_against": 21.222,
+      "streak": {
+        "type": "W",
+        "length": 2,
+        "display": "W2"
+      },
+      "ats": "5-3-1",
+      "ats_pct": 0.625,
+      "ats_streak": {
+        "type": "W",
+        "length": 5,
+        "display": "W5"
+      },
+      "avg_cover_margin": 2.389,
+      "ou": "3-6",
+      "over_pct": 0.333,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "HOU",
+      "name": "Houston Texans",
+      "games": 8,
+      "record": "3-5",
+      "ppg_for": 26.125,
+      "ppg_against": 24.0,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "3-5",
+      "ats_pct": 0.375,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -1.062,
+      "ou": "5-3",
+      "over_pct": 0.625,
+      "ou_streak": {
+        "type": "O",
+        "length": 3,
+        "display": "O3"
+      }
+    },
+    {
+      "team": "IND",
+      "name": "Indianapolis Colts",
+      "games": 9,
+      "record": "2-7",
+      "ppg_for": 20.444,
+      "ppg_against": 27.667,
+      "streak": {
+        "type": "L",
+        "length": 5,
+        "display": "L5"
+      },
+      "ats": "5-4",
+      "ats_pct": 0.556,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -4.611,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "JAX",
+      "name": "Jacksonville Jaguars",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 28.625,
+      "ppg_against": 15.125,
+      "streak": {
+        "type": "W",
+        "length": 2,
+        "display": "W2"
+      },
+      "ats": "5-3",
+      "ats_pct": 0.625,
+      "ats_streak": {
+        "type": "W",
+        "length": 2,
+        "display": "W2"
+      },
+      "avg_cover_margin": 9.125,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "O",
+        "length": 3,
+        "display": "O3"
+      }
+    },
+    {
+      "team": "KC",
+      "name": "Kansas City Chiefs",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 25.25,
+      "ppg_against": 17.875,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "4-4",
+      "ats_pct": 0.5,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": 2.938,
+      "ou": "3-5",
+      "over_pct": 0.375,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "LA",
+      "name": "Los Angeles Rams",
+      "games": 9,
+      "record": "5-4",
+      "ppg_for": 23.778,
+      "ppg_against": 20.111,
+      "streak": {
+        "type": "W",
+        "length": 3,
+        "display": "W3"
+      },
+      "ats": "5-4",
+      "ats_pct": 0.556,
+      "ats_streak": {
+        "type": "W",
+        "length": 3,
+        "display": "W3"
+      },
+      "avg_cover_margin": -1.056,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "U",
+        "length": 2,
+        "display": "U2"
+      }
+    },
+    {
+      "team": "LAC",
+      "name": "Los Angeles Chargers",
+      "games": 8,
+      "record": "0-8",
+      "ppg_for": 15.125,
+      "ppg_against": 27.375,
+      "streak": {
+        "type": "L",
+        "length": 8,
+        "display": "L8"
+      },
+      "ats": "0-7-1",
+      "ats_pct": 0.0,
+      "ats_streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "avg_cover_margin": -9.5,
+      "ou": "2-6",
+      "over_pct": 0.25,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "LV",
+      "name": "Las Vegas Raiders",
+      "games": 9,
+      "record": "4-5",
+      "ppg_for": 26.444,
+      "ppg_against": 29.778,
+      "streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "ats": "6-3",
+      "ats_pct": 0.667,
+      "ats_streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "avg_cover_margin": 0.444,
+      "ou": "7-2",
+      "over_pct": 0.778,
+      "ou_streak": {
+        "type": "O",
+        "length": 7,
+        "display": "O7"
+      }
+    },
+    {
+      "team": "MIA",
+      "name": "Miami Dolphins",
+      "games": 8,
+      "record": "1-7",
+      "ppg_for": 15.75,
+      "ppg_against": 25.0,
+      "streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "ats": "3-4-1",
+      "ats_pct": 0.429,
+      "ats_streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "avg_cover_margin": -1.812,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "MIN",
+      "name": "Minnesota Vikings",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 18.25,
+      "ppg_against": 14.5,
+      "streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "ats": "4-4",
+      "ats_pct": 0.5,
+      "ats_streak": {
+        "type": "L",
+        "length": 3,
+        "display": "L3"
+      },
+      "avg_cover_margin": 2.312,
+      "ou": "1-7",
+      "over_pct": 0.125,
+      "ou_streak": {
+        "type": "U",
+        "length": 7,
+        "display": "U7"
+      }
+    },
+    {
+      "team": "NE",
+      "name": "New England Patriots",
+      "games": 9,
+      "record": "5-4",
+      "ppg_for": 23.444,
+      "ppg_against": 23.0,
+      "streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "ats": "3-5-1",
+      "ats_pct": 0.375,
+      "ats_streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "avg_cover_margin": -0.611,
+      "ou": "6-3",
+      "over_pct": 0.667,
+      "ou_streak": {
+        "type": "O",
+        "length": 6,
+        "display": "O6"
+      }
+    },
+    {
+      "team": "NO",
+      "name": "New Orleans Saints",
+      "games": 8,
+      "record": "3-5",
+      "ppg_for": 23.125,
+      "ppg_against": 27.0,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "3-5",
+      "ats_pct": 0.375,
+      "ats_streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "avg_cover_margin": -2.625,
+      "ou": "5-3",
+      "over_pct": 0.625,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "NYG",
+      "name": "New York Giants",
+      "games": 9,
+      "record": "5-3-1",
+      "ppg_for": 22.556,
+      "ppg_against": 21.778,
+      "streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "ats": "6-3",
+      "ats_pct": 0.667,
+      "ats_streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "avg_cover_margin": 3.0,
+      "ou": "6-3",
+      "over_pct": 0.667,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "NYJ",
+      "name": "New York Jets",
+      "games": 9,
+      "record": "2-7",
+      "ppg_for": 20.222,
+      "ppg_against": 24.778,
+      "streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "ats": "4-4-1",
+      "ats_pct": 0.5,
+      "ats_streak": {
+        "type": "L",
+        "length": 3,
+        "display": "L3"
+      },
+      "avg_cover_margin": -1.778,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "PHI",
+      "name": "Philadelphia Eagles",
+      "games": 9,
+      "record": "2-7",
+      "ppg_for": 16.444,
+      "ppg_against": 24.556,
+      "streak": {
+        "type": "L",
+        "length": 7,
+        "display": "L7"
+      },
+      "ats": "1-8",
+      "ats_pct": 0.111,
+      "ats_streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "avg_cover_margin": -6.889,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "U",
+        "length": 2,
+        "display": "U2"
+      }
+    },
+    {
+      "team": "PIT",
+      "name": "Pittsburgh Steelers",
+      "games": 8,
+      "record": "6-2",
+      "ppg_for": 22.5,
+      "ppg_against": 18.0,
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "ats": "6-2",
+      "ats_pct": 0.75,
+      "ats_streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "avg_cover_margin": 2.875,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "U",
+        "length": 2,
+        "display": "U2"
+      }
+    },
+    {
+      "team": "SEA",
+      "name": "Seattle Seahawks",
+      "games": 9,
+      "record": "5-4",
+      "ppg_for": 22.444,
+      "ppg_against": 18.0,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "3-4-2",
+      "ats_pct": 0.429,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -0.222,
+      "ou": "4-5",
+      "over_pct": 0.444,
+      "ou_streak": {
+        "type": "U",
+        "length": 1,
+        "display": "U1"
+      }
+    },
+    {
+      "team": "SF",
+      "name": "San Francisco 49ers",
+      "games": 8,
+      "record": "7-1",
+      "ppg_for": 29.375,
+      "ppg_against": 19.5,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "5-3",
+      "ats_pct": 0.625,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": 5.5,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "games": 9,
+      "record": "3-6",
+      "ppg_for": 22.444,
+      "ppg_against": 19.778,
+      "streak": {
+        "type": "L",
+        "length": 1,
+        "display": "L1"
+      },
+      "ats": "4-4-1",
+      "ats_pct": 0.5,
+      "ats_streak": {
+        "type": "W",
+        "length": 3,
+        "display": "W3"
+      },
+      "avg_cover_margin": 4.722,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    },
+    {
+      "team": "TEN",
+      "name": "Tennessee Titans",
+      "games": 8,
+      "record": "1-7",
+      "ppg_for": 18.0,
+      "ppg_against": 24.875,
+      "streak": {
+        "type": "L",
+        "length": 2,
+        "display": "L2"
+      },
+      "ats": "4-4",
+      "ats_pct": 0.5,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -0.938,
+      "ou": "4-4",
+      "over_pct": 0.5,
+      "ou_streak": {
+        "type": "O",
+        "length": 3,
+        "display": "O3"
+      }
+    },
+    {
+      "team": "WAS",
+      "name": "Washington Commanders",
+      "games": 9,
+      "record": "3-5-1",
+      "ppg_for": 21.778,
+      "ppg_against": 24.778,
+      "streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "ats": "5-4",
+      "ats_pct": 0.556,
+      "ats_streak": {
+        "type": "W",
+        "length": 1,
+        "display": "W1"
+      },
+      "avg_cover_margin": -0.056,
+      "ou": "5-4",
+      "over_pct": 0.556,
+      "ou_streak": {
+        "type": "O",
+        "length": 1,
+        "display": "O1"
+      }
+    }
+  ],
+  "league": {
+    "games": 137,
+    "favorite_cover_pct": 0.511,
+    "home_cover_pct": 0.427,
+    "over_pct": 0.518,
+    "avg_total_points": 45.92,
+    "avg_posted_total": 45.135
+  },
+  "week_chips": [
+    {
+      "game_id": "2026_10_NE_DET",
+      "away": "NE",
+      "home": "DET",
+      "kickoff_utc": "2026-11-15T14:30:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "ats",
+          "text": "NE 1-3 ATS on the road",
+          "team": "NE",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "NE 1-4 ATS last 5",
+          "team": "NE",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "NE failed to cover 4 straight",
+          "team": "NE",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 6 straight (NE)",
+          "team": "NE",
+          "weight": 7
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 3 straight (DET)",
+          "team": "DET",
+          "weight": 7
+        },
+        {
+          "kind": "weather",
+          "text": "Indoors",
+          "team": null,
+          "weight": 9
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "away": "JAX",
+      "home": "TEN",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "TEN off a bye",
+          "team": "TEN",
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "TEN 1-3 ATS at home",
+          "team": "TEN",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (JAX)",
+          "team": "JAX",
+          "weight": 7
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (TEN)",
+          "team": "TEN",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_BUF_NYJ",
+      "away": "BUF",
+      "home": "NYJ",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "BUF 3-1 ATS on the road",
+          "team": "BUF",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "NYJ failed to cover 3 straight",
+          "team": "NYJ",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-1 in BUF road games",
+          "team": "BUF",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_MIA_IND",
+      "away": "MIA",
+      "home": "IND",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "away": "MIN",
+      "home": "GB",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "MIN 3-1 ATS on the road",
+          "team": "MIN",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "MIN 1-4 ATS last 5",
+          "team": "MIN",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "MIN failed to cover 3 straight",
+          "team": "MIN",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "GB 3-1 ATS at home",
+          "team": "GB",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "GB 5-0 ATS last 5",
+          "team": "GB",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "GB covered 5 straight",
+          "team": "GB",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Under 4-0 in MIN road games",
+          "team": "MIN",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_HOU_CLE",
+      "away": "HOU",
+      "home": "CLE",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Wind 15 mph",
+          "team": null,
+          "weight": 2
+        },
+        {
+          "kind": "weather",
+          "text": "Rain or snow possible",
+          "team": null,
+          "weight": 2
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "ats",
+          "text": "HOU 3-1 ATS on the road",
+          "team": "HOU",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "CLE 3-0 ATS at home",
+          "team": "CLE",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 3 straight (HOU)",
+          "team": "HOU",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "away": "KC",
+      "home": "ATL",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "ats",
+          "text": "KC 1-3 ATS on the road",
+          "team": "KC",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "ATL 1-4 ATS at home",
+          "team": "ATL",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "ATL 1-4 ATS last 5",
+          "team": "ATL",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Under hit 3 straight (ATL)",
+          "team": "ATL",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "away": "CAR",
+      "home": "NO",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "CAR failed to cover 3 straight",
+          "team": "CAR",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "NO 0-5 ATS at home",
+          "team": "NO",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "NO 1-4 ATS last 5",
+          "team": "NO",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Under 4-0 in CAR road games",
+          "team": "CAR",
+          "weight": 7
+        },
+        {
+          "kind": "weather",
+          "text": "Indoors",
+          "team": null,
+          "weight": 9
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "away": "LA",
+      "home": "ARI",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "LA 3-1 ATS on the road",
+          "team": "LA",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "LA covered 3 straight",
+          "team": "LA",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "ARI 0-3 ATS at home",
+          "team": "ARI",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-1 in LA road games",
+          "team": "LA",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "away": "SEA",
+      "home": "LV",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "ats",
+          "text": "LV 3-1 ATS at home",
+          "team": "LV",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-1 in LV home games",
+          "team": "LV",
+          "weight": 7
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 7 straight (LV)",
+          "team": "LV",
+          "weight": 7
+        },
+        {
+          "kind": "weather",
+          "text": "Indoors",
+          "team": null,
+          "weight": 9
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "away": "SF",
+      "home": "DAL",
+      "kickoff_utc": "2026-11-15T21:25:00+00:00",
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Rain or snow possible",
+          "team": null,
+          "weight": 2
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "SF crosses 2 time zones",
+          "team": "SF",
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "DAL 1-4 ATS last 5",
+          "team": "DAL",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-1 in DAL home games",
+          "team": "DAL",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "away": "PIT",
+      "home": "CIN",
+      "kickoff_utc": "2026-11-16T01:20:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "PIT off a bye",
+          "team": "PIT",
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null,
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "PIT 4-1 ATS last 5",
+          "team": "PIT",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "PIT covered 4 straight",
+          "team": "PIT",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "away": "LAC",
+      "home": "BAL",
+      "kickoff_utc": "2026-11-17T01:15:00+00:00",
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null,
+          "weight": 3
+        },
+        {
+          "kind": "situation",
+          "text": "LAC crosses 3 time zones",
+          "team": "LAC",
+          "weight": 4
+        },
+        {
+          "kind": "ats",
+          "text": "LAC 0-3 ATS on the road",
+          "team": "LAC",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "LAC failed to cover 4 straight",
+          "team": "LAC",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "BAL 0-4 ATS at home",
+          "team": "BAL",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "BAL 1-4 ATS last 5",
+          "team": "BAL",
+          "weight": 6
+        },
+        {
+          "kind": "ats",
+          "text": "BAL failed to cover 4 straight",
+          "team": "BAL",
+          "weight": 6
+        },
+        {
+          "kind": "ou",
+          "text": "Under 3-1 in LAC road games",
+          "team": "LAC",
+          "weight": 7
+        }
+      ]
+    }
+  ]
+}

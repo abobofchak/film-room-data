@@ -1,0 +1,2354 @@
+{
+  "card_version": 2,
+  "model_version": "v15",
+  "generated_at": "2026-11-14T19:49:32+00:00",
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "game": {
+    "game_id": "2026_10_BUF_NYJ",
+    "season": 2026,
+    "week": 10,
+    "kickoff_et": "2026-11-15 13:00 ET",
+    "kickoff_utc": "2026-11-15T18:00:00+00:00",
+    "away": "BUF",
+    "home": "NYJ",
+    "stadium": "MetLife Stadium",
+    "neutral_site": false,
+    "away_name": "Buffalo Bills",
+    "home_name": "New York Jets",
+    "city": "East Rutherford, NJ",
+    "divisional": true
+  },
+  "model": {
+    "predicted_margin_home": -8.121,
+    "favored_team": "BUF",
+    "predicted_winning_margin": 8.121,
+    "win_prob_home": 0.23,
+    "win_prob_away": 0.77,
+    "margin_range_50": [
+      -16.898,
+      -0.723
+    ],
+    "margin_range_80": [
+      -24.693,
+      8.295
+    ],
+    "typical_error_points": 13.097,
+    "uncertainty_basis": "walk-forward backtest, 2974 games",
+    "summary": "Model favors BUF by 8.1 points (77% win chance). Biggest factors: Elo rating (BUF +7.0), Quarterback rating (BUF +2.6), Offense EPA/play (recent-weighted) (NYJ +2.4). The baseline of +1.9 covers typical home-field advantage.",
+    "baseline_points": 1.874,
+    "groups": [
+      {
+        "group": "Team strength",
+        "points": -12.315,
+        "favors": "BUF"
+      },
+      {
+        "group": "Quarterback",
+        "points": -2.394,
+        "favors": "BUF"
+      },
+      {
+        "group": "Offense",
+        "points": 1.913,
+        "favors": "NYJ"
+      },
+      {
+        "group": "Defense",
+        "points": 1.778,
+        "favors": "NYJ"
+      },
+      {
+        "group": "Travel",
+        "points": 0.517,
+        "favors": "NYJ"
+      },
+      {
+        "group": "Rest & schedule",
+        "points": 0.429,
+        "favors": "NYJ"
+      },
+      {
+        "group": "Venue & situation",
+        "points": 0.078,
+        "favors": "NYJ"
+      }
+    ],
+    "top_drivers": [
+      {
+        "label": "Elo rating",
+        "group": "Team strength",
+        "favors": "BUF",
+        "points": 7.022
+      },
+      {
+        "label": "Quarterback rating",
+        "group": "Quarterback",
+        "favors": "BUF",
+        "points": 2.611
+      },
+      {
+        "label": "Offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "favors": "NYJ",
+        "points": 2.416
+      },
+      {
+        "label": "Scoring margin (last 8 games)",
+        "group": "Team strength",
+        "favors": "BUF",
+        "points": 2.067
+      },
+      {
+        "label": "Rushing offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "favors": "BUF",
+        "points": 1.854
+      },
+      {
+        "label": "Scoring margin (recent-weighted)",
+        "group": "Team strength",
+        "favors": "BUF",
+        "points": 1.798
+      }
+    ],
+    "features": [
+      {
+        "name": "elo_diff",
+        "label": "Elo rating",
+        "group": "Team strength",
+        "value": -359.065,
+        "points": -7.022,
+        "favors": "BUF"
+      },
+      {
+        "name": "qb_rating_diff",
+        "label": "Quarterback rating",
+        "group": "Quarterback",
+        "value": -0.151,
+        "points": -2.611,
+        "favors": "BUF",
+        "home_value": -0.029,
+        "away_value": 0.122
+      },
+      {
+        "name": "epa_off_ewm_diff",
+        "label": "Offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "value": -0.244,
+        "points": 2.416,
+        "favors": "NYJ",
+        "home_value": -0.105,
+        "away_value": 0.139
+      },
+      {
+        "name": "margin_r8_diff",
+        "label": "Scoring margin (last 8 games)",
+        "group": "Team strength",
+        "value": -15.375,
+        "points": -2.067,
+        "favors": "BUF",
+        "home_value": -6.75,
+        "away_value": 8.625
+      },
+      {
+        "name": "epa_off_rush_ewm_diff",
+        "label": "Rushing offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "value": -0.178,
+        "points": -1.854,
+        "favors": "BUF",
+        "home_value": -0.146,
+        "away_value": 0.032
+      },
+      {
+        "name": "margin_ewm_diff",
+        "label": "Scoring margin (recent-weighted)",
+        "group": "Team strength",
+        "value": -16.701,
+        "points": -1.798,
+        "favors": "BUF",
+        "home_value": -8.461,
+        "away_value": 8.241
+      },
+      {
+        "name": "epa_def_pass_ewm_diff",
+        "label": "Pass defense EPA allowed/play (recent-weighted)",
+        "group": "Defense",
+        "value": 0.346,
+        "points": 1.586,
+        "favors": "NYJ",
+        "home_value": 0.263,
+        "away_value": -0.082
+      },
+      {
+        "name": "margin_blend_diff",
+        "label": "Scoring margin (season blend)",
+        "group": "Team strength",
+        "value": -15.755,
+        "points": -1.429,
+        "favors": "BUF",
+        "home_value": -8.031,
+        "away_value": 7.724
+      },
+      {
+        "name": "epa_off_pass_ewm_diff",
+        "label": "Passing offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "value": -0.3,
+        "points": 1.182,
+        "favors": "NYJ",
+        "home_value": -0.097,
+        "away_value": 0.203
+      },
+      {
+        "name": "epa_def_blend_diff",
+        "label": "Defense EPA allowed/play (season blend)",
+        "group": "Defense",
+        "value": 0.173,
+        "points": -0.916,
+        "favors": "BUF",
+        "home_value": 0.118,
+        "away_value": -0.055
+      },
+      {
+        "name": "epa_def_ewm_diff",
+        "label": "Defense EPA allowed/play (recent-weighted)",
+        "group": "Defense",
+        "value": 0.182,
+        "points": 0.847,
+        "favors": "NYJ",
+        "home_value": 0.112,
+        "away_value": -0.07
+      },
+      {
+        "name": "epa_off_blend_diff",
+        "label": "Offense EPA/play (season blend)",
+        "group": "Offense",
+        "value": -0.243,
+        "points": 0.571,
+        "favors": "NYJ",
+        "home_value": -0.104,
+        "away_value": 0.139
+      },
+      {
+        "name": "travel_k",
+        "label": "Away team travel distance (thousand miles)",
+        "group": "Travel",
+        "value": 0.278,
+        "points": 0.533,
+        "favors": "NYJ"
+      },
+      {
+        "name": "div_game",
+        "label": "Divisional game",
+        "group": "Venue & situation",
+        "value": 1.0,
+        "points": -0.465,
+        "favors": "BUF"
+      },
+      {
+        "name": "h_qb_chg",
+        "label": "Home team changed QB",
+        "group": "Quarterback",
+        "value": 0.0,
+        "points": 0.427,
+        "favors": "NYJ"
+      },
+      {
+        "name": "epa_off_r8_diff",
+        "label": "Offense EPA/play (last 8 games)",
+        "group": "Offense",
+        "value": -0.19,
+        "points": -0.402,
+        "favors": "BUF",
+        "home_value": -0.049,
+        "away_value": 0.14
+      },
+      {
+        "name": "grass",
+        "label": "Natural grass field",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": 0.282,
+        "favors": "NYJ"
+      },
+      {
+        "name": "rest_diff",
+        "label": "Rest days (home minus away)",
+        "group": "Rest & schedule",
+        "value": 1.0,
+        "points": 0.264,
+        "favors": "NYJ"
+      },
+      {
+        "name": "dome",
+        "label": "Indoor stadium",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": 0.236,
+        "favors": "NYJ"
+      },
+      {
+        "name": "a_qb_chg",
+        "label": "Away team changed QB",
+        "group": "Quarterback",
+        "value": 0.0,
+        "points": -0.21,
+        "favors": "BUF"
+      },
+      {
+        "name": "epa_def_r8_diff",
+        "label": "Defense EPA allowed/play (last 8 games)",
+        "group": "Defense",
+        "value": 0.138,
+        "points": 0.186,
+        "favors": "NYJ",
+        "home_value": 0.074,
+        "away_value": -0.064
+      },
+      {
+        "name": "away_short",
+        "label": "Away team on a short week",
+        "group": "Rest & schedule",
+        "value": 0.0,
+        "points": 0.102,
+        "favors": "NYJ"
+      },
+      {
+        "name": "epa_def_rush_ewm_diff",
+        "label": "Rush defense EPA allowed/play (recent-weighted)",
+        "group": "Defense",
+        "value": -0.036,
+        "points": 0.076,
+        "favors": "NYJ",
+        "home_value": -0.086,
+        "away_value": -0.05
+      },
+      {
+        "name": "home_bye",
+        "label": "Home team off a bye",
+        "group": "Rest & schedule",
+        "value": 0.0,
+        "points": 0.069,
+        "favors": "NYJ"
+      },
+      {
+        "name": "neutral",
+        "label": "Neutral-site game",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": 0.025,
+        "favors": "NYJ"
+      },
+      {
+        "name": "west_early",
+        "label": "West-coast team, early body-clock kickoff",
+        "group": "Travel",
+        "value": 0.0,
+        "points": -0.016,
+        "favors": "BUF"
+      },
+      {
+        "name": "away_bye",
+        "label": "Away team off a bye",
+        "group": "Rest & schedule",
+        "value": 0.0,
+        "points": -0.014,
+        "favors": "BUF"
+      },
+      {
+        "name": "home_short",
+        "label": "Home team on a short week",
+        "group": "Rest & schedule",
+        "value": 0.0,
+        "points": 0.009,
+        "favors": "NYJ"
+      },
+      {
+        "name": "tz_shift",
+        "label": "Time zones the away team crossed eastward",
+        "group": "Travel",
+        "value": 0.0,
+        "points": -0.0,
+        "favors": "BUF"
+      }
+    ]
+  },
+  "total_model": {
+    "predicted_total": 47.393,
+    "projected_score": {
+      "home": 19.636,
+      "away": 27.757
+    },
+    "range_50": [
+      37.599,
+      55.567
+    ],
+    "range_80": [
+      30.648,
+      64.878
+    ],
+    "typical_error_points": 13.48,
+    "uncertainty_basis": "walk-forward backtest, 2986 games",
+    "baseline_points": 45.696,
+    "groups": [
+      {
+        "group": "Scoring form",
+        "points": 1.712,
+        "effect": "raises total"
+      },
+      {
+        "group": "Weather",
+        "points": -0.963,
+        "effect": "lowers total"
+      },
+      {
+        "group": "Offense",
+        "points": 0.881,
+        "effect": "raises total"
+      },
+      {
+        "group": "Defense",
+        "points": 0.771,
+        "effect": "raises total"
+      },
+      {
+        "group": "Pace",
+        "points": -0.63,
+        "effect": "lowers total"
+      },
+      {
+        "group": "Venue & situation",
+        "points": -0.315,
+        "effect": "lowers total"
+      },
+      {
+        "group": "Quarterback",
+        "points": 0.27,
+        "effect": "raises total"
+      },
+      {
+        "group": "Rest & schedule",
+        "points": -0.027,
+        "effect": "lowers total"
+      }
+    ],
+    "top_drivers": [
+      {
+        "label": "Expected points from both teams' scoring (season blend)",
+        "group": "Scoring form",
+        "effect": "raises total",
+        "points": 1.03
+      },
+      {
+        "label": "Combined offense EPA/play (last 8 games)",
+        "group": "Offense",
+        "effect": "raises total",
+        "points": 0.809
+      },
+      {
+        "label": "Divisional game",
+        "group": "Venue & situation",
+        "effect": "lowers total",
+        "points": 0.783
+      },
+      {
+        "label": "Wind x pass rate",
+        "group": "Weather",
+        "effect": "lowers total",
+        "points": 0.65
+      },
+      {
+        "label": "Expected points from both teams' scoring (last 8 games)",
+        "group": "Scoring form",
+        "effect": "raises total",
+        "points": 0.64
+      },
+      {
+        "label": "Natural grass field",
+        "group": "Venue & situation",
+        "effect": "raises total",
+        "points": 0.632
+      }
+    ],
+    "features": [
+      {
+        "name": "exp_total_blend",
+        "label": "Expected points from both teams' scoring (season blend)",
+        "group": "Scoring form",
+        "value": 49.311,
+        "points": 1.03,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_off_sum_r8",
+        "label": "Combined offense EPA/play (last 8 games)",
+        "group": "Offense",
+        "value": 0.091,
+        "points": 0.809,
+        "effect": "raises total"
+      },
+      {
+        "name": "div_game",
+        "label": "Divisional game",
+        "group": "Venue & situation",
+        "value": 1.0,
+        "points": -0.783,
+        "effect": "lowers total"
+      },
+      {
+        "name": "wind_x_pass",
+        "label": "Wind x pass rate",
+        "group": "Weather",
+        "value": 0.709,
+        "points": -0.65,
+        "effect": "lowers total"
+      },
+      {
+        "name": "exp_total_r8",
+        "label": "Expected points from both teams' scoring (last 8 games)",
+        "group": "Scoring form",
+        "value": 50.938,
+        "points": 0.64,
+        "effect": "raises total"
+      },
+      {
+        "name": "grass",
+        "label": "Natural grass field",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": 0.632,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_def_rush_sum_ewm",
+        "label": "Combined rush defense EPA allowed/play",
+        "group": "Defense",
+        "value": -0.135,
+        "points": 0.457,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_def_pass_sum_ewm",
+        "label": "Combined pass defense EPA allowed/play",
+        "group": "Defense",
+        "value": 0.181,
+        "points": 0.456,
+        "effect": "raises total"
+      },
+      {
+        "name": "wind_mph",
+        "label": "Wind speed",
+        "group": "Weather",
+        "value": 12.0,
+        "points": -0.382,
+        "effect": "lowers total"
+      },
+      {
+        "name": "pass_rate_avg_ewm",
+        "label": "Average pass rate",
+        "group": "Pace",
+        "value": 0.591,
+        "points": -0.333,
+        "effect": "lowers total"
+      },
+      {
+        "name": "plays_sum_ewm",
+        "label": "Combined plays per game (pace)",
+        "group": "Pace",
+        "value": 127.407,
+        "points": -0.298,
+        "effect": "lowers total"
+      },
+      {
+        "name": "qb_rating_sum",
+        "label": "Combined quarterback ratings",
+        "group": "Quarterback",
+        "value": 0.094,
+        "points": 0.27,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_off_rush_sum_ewm",
+        "label": "Combined rushing offense EPA/play",
+        "group": "Offense",
+        "value": -0.115,
+        "points": 0.262,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_def_sum_ewm",
+        "label": "Combined defense EPA allowed/play (recent-weighted)",
+        "group": "Defense",
+        "value": 0.042,
+        "points": -0.253,
+        "effect": "lowers total"
+      },
+      {
+        "name": "epa_off_sum_ewm",
+        "label": "Combined offense EPA/play (recent-weighted)",
+        "group": "Offense",
+        "value": 0.034,
+        "points": -0.187,
+        "effect": "lowers total"
+      },
+      {
+        "name": "dome",
+        "label": "Indoor stadium",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": -0.175,
+        "effect": "lowers total"
+      },
+      {
+        "name": "epa_def_sum_blend",
+        "label": "Combined defense EPA allowed/play (season blend)",
+        "group": "Defense",
+        "value": 0.063,
+        "points": 0.118,
+        "effect": "raises total"
+      },
+      {
+        "name": "cold",
+        "label": "Cold (below 45F)",
+        "group": "Weather",
+        "value": 0.0,
+        "points": 0.062,
+        "effect": "raises total"
+      },
+      {
+        "name": "exp_total_ewm",
+        "label": "Expected points from both teams' scoring (recent-weighted)",
+        "group": "Scoring form",
+        "value": 48.369,
+        "points": 0.042,
+        "effect": "raises total"
+      },
+      {
+        "name": "short_any",
+        "label": "Teams on a short week",
+        "group": "Rest & schedule",
+        "value": 0.0,
+        "points": -0.027,
+        "effect": "lowers total"
+      },
+      {
+        "name": "epa_off_sum_blend",
+        "label": "Combined offense EPA/play (season blend)",
+        "group": "Offense",
+        "value": 0.034,
+        "points": -0.013,
+        "effect": "lowers total"
+      },
+      {
+        "name": "neutral",
+        "label": "Neutral-site game",
+        "group": "Venue & situation",
+        "value": 0.0,
+        "points": 0.012,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_off_pass_sum_ewm",
+        "label": "Combined passing offense EPA/play",
+        "group": "Offense",
+        "value": 0.106,
+        "points": 0.011,
+        "effect": "raises total"
+      },
+      {
+        "name": "epa_def_sum_r8",
+        "label": "Combined defense EPA allowed/play (last 8 games)",
+        "group": "Defense",
+        "value": 0.01,
+        "points": -0.007,
+        "effect": "lowers total"
+      },
+      {
+        "name": "cold_x_pass",
+        "label": "Cold x pass rate",
+        "group": "Weather",
+        "value": 0.0,
+        "points": 0.006,
+        "effect": "raises total"
+      }
+    ],
+    "summary": "Model projects 47.4 total points (NYJ 20, BUF 28). Biggest factors: Expected points from both teams' scoring (season blend) (raises total 1.0), Combined offense EPA/play (last 8 games) (raises total 0.8), Divisional game (lowers total 0.8). The baseline of 45.7 is the typical NFL total in the training data."
+  },
+  "quarterbacks": {
+    "assumed": true,
+    "home": {
+      "name": "G.Smith",
+      "rating": -0.029,
+      "changed_from_last_game": false
+    },
+    "away": {
+      "name": "J.Allen",
+      "rating": 0.122,
+      "changed_from_last_game": false
+    }
+  },
+  "team_form": {
+    "home": {
+      "games_played": 9,
+      "record": "2-7",
+      "streak": {
+        "type": "L",
+        "length": 4,
+        "display": "L4"
+      },
+      "points_per_game": {
+        "scored": 20.222,
+        "allowed": 24.778,
+        "scored_last5": 21.2,
+        "allowed_last5": 27.8,
+        "avg_margin": -4.556
+      },
+      "at_this_venue": {
+        "venue": "home",
+        "games": 4,
+        "record": "1-3",
+        "scored": 23.0,
+        "allowed": 24.5
+      }
+    },
+    "away": {
+      "games_played": 8,
+      "record": "7-1",
+      "streak": {
+        "type": "W",
+        "length": 4,
+        "display": "W4"
+      },
+      "points_per_game": {
+        "scored": 32.0,
+        "allowed": 23.375,
+        "scored_last5": 31.0,
+        "allowed_last5": 21.8,
+        "avg_margin": 8.625
+      },
+      "at_this_venue": {
+        "venue": "away",
+        "games": 4,
+        "record": "4-0",
+        "scored": 32.25,
+        "allowed": 25.25
+      }
+    }
+  },
+  "qb_what_if": {
+    "note": "Approximate: swaps only the quarterback rating and the model's QB-change flag (a new starter counts as a change). Team offense and defense form stay as they are. A positive margin change favors the home team.",
+    "base": {
+      "predicted_margin_home": -8.121,
+      "win_prob_home": 0.23
+    },
+    "home": [
+      {
+        "team": "NYJ",
+        "qb": "Replacement-level QB",
+        "rating": -0.146,
+        "rating_change": -0.118,
+        "is_replacement_level": true,
+        "predicted_margin_home": -13.348,
+        "margin_change": -5.228,
+        "win_prob_home": 0.126
+      }
+    ],
+    "away": [
+      {
+        "team": "BUF",
+        "qb": "Replacement-level QB",
+        "rating": -0.146,
+        "rating_change": -0.269,
+        "is_replacement_level": true,
+        "predicted_margin_home": -1.739,
+        "margin_change": 6.382,
+        "win_prob_home": 0.437
+      }
+    ]
+  },
+  "team_comparison": {
+    "home": [
+      {
+        "stat": "elo",
+        "label": "Elo rating",
+        "value": 1331.022,
+        "rank": 31,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "margin_ewm",
+        "label": "Scoring margin (recent form)",
+        "value": -8.461,
+        "rank": 32,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_off_ewm",
+        "label": "Offense EPA/play",
+        "value": -0.105,
+        "rank": 27,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_ewm",
+        "label": "Defense EPA allowed/play (lower is better)",
+        "value": 0.112,
+        "rank": 31,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "epa_off_pass_ewm",
+        "label": "Passing offense EPA/play",
+        "value": -0.097,
+        "rank": 30,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_pass_ewm",
+        "label": "Pass defense EPA allowed/play (lower is better)",
+        "value": 0.263,
+        "rank": 32,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "epa_off_rush_ewm",
+        "label": "Rushing offense EPA/play",
+        "value": -0.146,
+        "rank": 25,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_rush_ewm",
+        "label": "Rush defense EPA allowed/play (lower is better)",
+        "value": -0.086,
+        "rank": 17,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "qb_rating",
+        "label": "Quarterback rating (EPA/dropback)",
+        "value": -0.029,
+        "rank": 24,
+        "of": 32,
+        "higher_is_better": true
+      }
+    ],
+    "away": [
+      {
+        "stat": "elo",
+        "label": "Elo rating",
+        "value": 1690.086,
+        "rank": 1,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "margin_ewm",
+        "label": "Scoring margin (recent form)",
+        "value": 8.241,
+        "rank": 2,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_off_ewm",
+        "label": "Offense EPA/play",
+        "value": 0.139,
+        "rank": 2,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_ewm",
+        "label": "Defense EPA allowed/play (lower is better)",
+        "value": -0.07,
+        "rank": 5,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "epa_off_pass_ewm",
+        "label": "Passing offense EPA/play",
+        "value": 0.203,
+        "rank": 5,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_pass_ewm",
+        "label": "Pass defense EPA allowed/play (lower is better)",
+        "value": -0.082,
+        "rank": 4,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "epa_off_rush_ewm",
+        "label": "Rushing offense EPA/play",
+        "value": 0.032,
+        "rank": 2,
+        "of": 32,
+        "higher_is_better": true
+      },
+      {
+        "stat": "epa_def_rush_ewm",
+        "label": "Rush defense EPA allowed/play (lower is better)",
+        "value": -0.05,
+        "rank": 24,
+        "of": 32,
+        "higher_is_better": false
+      },
+      {
+        "stat": "qb_rating",
+        "label": "Quarterback rating (EPA/dropback)",
+        "value": 0.122,
+        "rank": 5,
+        "of": 32,
+        "higher_is_better": true
+      }
+    ]
+  },
+  "matchup_edges": [
+    {
+      "matchup": "NYJ passing offense vs BUF passing defense",
+      "kind": "passing",
+      "offense_team": "NYJ",
+      "defense_team": "BUF",
+      "offense_rank": 30,
+      "defense_rank": 4,
+      "rank_gap": -26,
+      "advantage": "defense",
+      "advantage_team": "BUF"
+    },
+    {
+      "matchup": "BUF passing offense vs NYJ passing defense",
+      "kind": "passing",
+      "offense_team": "BUF",
+      "defense_team": "NYJ",
+      "offense_rank": 5,
+      "defense_rank": 32,
+      "rank_gap": 27,
+      "advantage": "offense",
+      "advantage_team": "BUF"
+    },
+    {
+      "matchup": "NYJ rushing offense vs BUF rushing defense",
+      "kind": "rushing",
+      "offense_team": "NYJ",
+      "defense_team": "BUF",
+      "offense_rank": 25,
+      "defense_rank": 24,
+      "rank_gap": -1,
+      "advantage": "even",
+      "advantage_team": null
+    },
+    {
+      "matchup": "BUF rushing offense vs NYJ rushing defense",
+      "kind": "rushing",
+      "offense_team": "BUF",
+      "defense_team": "NYJ",
+      "offense_rank": 2,
+      "defense_rank": 17,
+      "rank_gap": 15,
+      "advantage": "offense",
+      "advantage_team": "BUF"
+    }
+  ],
+  "injuries": {
+    "status": "listed",
+    "source": "nflverse injury reports",
+    "home": [
+      {
+        "name": "Trevin Wallace",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Groin",
+        "practice": "Did Not Participate In Practice",
+        "updated": null
+      },
+      {
+        "name": "Harrison Phillips",
+        "position": "DT",
+        "status": "Questionable",
+        "injury": "Ankle",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Joseph Ossai",
+        "position": "DE",
+        "status": "Questionable",
+        "injury": "Ankle",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Nahshon Wright",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Back",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Jarvis Brownlee Jr.",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Illness",
+        "practice": "Limited Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "VJ Payne",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Knee",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Garrett Wilson",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Concussion",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Adonai Mitchell",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Knee",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Omar Cooper Jr.",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Ankle",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      }
+    ],
+    "away": [
+      {
+        "name": "Spencer Brown",
+        "position": "T",
+        "status": "Doubtful",
+        "injury": "Ankle",
+        "practice": "Did Not Participate In Practice",
+        "updated": null
+      },
+      {
+        "name": "Sam Franklin Jr.",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Shoulder",
+        "practice": "Limited Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Christian Benford",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Wrist",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Jordan Hancock",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Hamstring",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      },
+      {
+        "name": "Ed Oliver",
+        "position": "DE",
+        "status": null,
+        "injury": null,
+        "practice": "Did Not Participate In Practice",
+        "updated": null
+      },
+      {
+        "name": "Terrel Bernard",
+        "position": "LB",
+        "status": null,
+        "injury": null,
+        "practice": "Did Not Participate In Practice",
+        "updated": null
+      },
+      {
+        "name": "Tyrell Shavers",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Knee",
+        "practice": "Full Participation in Practice",
+        "updated": null
+      }
+    ],
+    "qb_listed": false
+  },
+  "weather": {
+    "stadium": "MetLife Stadium",
+    "roof": "outdoors",
+    "surface": "fieldturf",
+    "indoors": false,
+    "source": "nws_forecast",
+    "temp_f": 51.0,
+    "wind_mph": 12.0,
+    "precip_chance_pct": 1.0,
+    "summary": "Sunny",
+    "forecast_updated": "2026-11-14T19:08:11+00:00",
+    "used_by_total_model": {
+      "wind_mph": 12.0,
+      "cold": 0.0
+    },
+    "used_by_spread_model": false,
+    "note": "Weather is shown for context and feeds only the over/under model, not the spread model."
+  },
+  "schedule_spots": {
+    "home": {
+      "rest_days": 7,
+      "off_bye": false,
+      "short_week": false
+    },
+    "away": {
+      "rest_days": 6,
+      "off_bye": false,
+      "short_week": false
+    },
+    "away_travel_miles": 278.277,
+    "time_zones_crossed_east": 0.0,
+    "west_coast_early_body_clock": false
+  },
+  "history": {
+    "home_recent": [
+      {
+        "date": "2026-11-08",
+        "opponent": "KC",
+        "home_away": "away",
+        "points_for": 12.0,
+        "points_against": 35.0,
+        "result": "L",
+        "epa_off": -0.248,
+        "epa_def": 0.145,
+        "team_spread": 9.5,
+        "ats": "L",
+        "total_line": 47.5,
+        "total_points": 47.0,
+        "ou": "U"
+      },
+      {
+        "date": "2026-11-01",
+        "opponent": "LV",
+        "home_away": "home",
+        "points_for": 33.0,
+        "points_against": 38.0,
+        "result": "L",
+        "epa_off": 0.233,
+        "epa_def": 0.254,
+        "team_spread": -1.5,
+        "ats": "L",
+        "total_line": 46.5,
+        "total_points": 71.0,
+        "ou": "O"
+      },
+      {
+        "date": "2026-10-25",
+        "opponent": "MIA",
+        "home_away": "home",
+        "points_for": 25.0,
+        "points_against": 28.0,
+        "result": "L",
+        "epa_off": 0.204,
+        "epa_def": 0.285,
+        "team_spread": -3.5,
+        "ats": "L",
+        "total_line": 39.5,
+        "total_points": 53.0,
+        "ou": "O"
+      },
+      {
+        "date": "2026-10-18",
+        "opponent": "NE",
+        "home_away": "away",
+        "points_for": 19.0,
+        "points_against": 26.0,
+        "result": "L",
+        "epa_off": -0.061,
+        "epa_def": 0.024,
+        "team_spread": 7.5,
+        "ats": "W",
+        "total_line": 43.5,
+        "total_points": 45.0,
+        "ou": "O"
+      },
+      {
+        "date": "2026-10-11",
+        "opponent": "CLE",
+        "home_away": "home",
+        "points_for": 17.0,
+        "points_against": 12.0,
+        "result": "W",
+        "epa_off": -0.172,
+        "epa_def": -0.259,
+        "team_spread": -2.5,
+        "ats": "W",
+        "total_line": 38.5,
+        "total_points": 29.0,
+        "ou": "U"
+      }
+    ],
+    "away_recent": [
+      {
+        "date": "2026-11-09",
+        "opponent": "MIN",
+        "home_away": "away",
+        "points_for": 23.0,
+        "points_against": 6.0,
+        "result": "W",
+        "epa_off": -0.013,
+        "epa_def": -0.69,
+        "team_spread": -3.0,
+        "ats": "W",
+        "total_line": 45.5,
+        "total_points": 29.0,
+        "ou": "U"
+      },
+      {
+        "date": "2026-11-01",
+        "opponent": "BAL",
+        "home_away": "home",
+        "points_for": 36.0,
+        "points_against": 10.0,
+        "result": "W",
+        "epa_off": -0.101,
+        "epa_def": -0.422,
+        "team_spread": -3.0,
+        "ats": "W",
+        "total_line": 54.5,
+        "total_points": 46.0,
+        "ou": "U"
+      },
+      {
+        "date": "2026-10-18",
+        "opponent": "LV",
+        "home_away": "away",
+        "points_for": 33.0,
+        "points_against": 30.0,
+        "result": "W",
+        "epa_off": 0.209,
+        "epa_def": 0.048,
+        "team_spread": -5.5,
+        "ats": "L",
+        "total_line": 53.5,
+        "total_points": 63.0,
+        "ou": "O"
+      },
+      {
+        "date": "2026-10-12",
+        "opponent": "LA",
+        "home_away": "away",
+        "points_for": 37.0,
+        "points_against": 34.0,
+        "result": "W",
+        "epa_off": 0.273,
+        "epa_def": 0.271,
+        "team_spread": 3.5,
+        "ats": "W",
+        "total_line": 55.5,
+        "total_points": 71.0,
+        "ou": "O"
+      },
+      {
+        "date": "2026-10-04",
+        "opponent": "NE",
+        "home_away": "home",
+        "points_for": 26.0,
+        "points_against": 29.0,
+        "result": "L",
+        "epa_off": 0.109,
+        "epa_def": 0.191,
+        "team_spread": -7.0,
+        "ats": "L",
+        "total_line": 49.5,
+        "total_points": 55.0,
+        "ou": "O"
+      }
+    ],
+    "head_to_head": [
+      {
+        "date": "2026-01-04",
+        "home": "BUF",
+        "away": "NYJ",
+        "home_score": 35.0,
+        "away_score": 8.0,
+        "total_points": 43.0,
+        "winner": "BUF",
+        "favorite_team": "BUF",
+        "favorite_spread": 12.5,
+        "spread_home": 12.5,
+        "home_ats": "W",
+        "total_line": 39.5,
+        "ou": "O"
+      },
+      {
+        "date": "2025-09-14",
+        "home": "NYJ",
+        "away": "BUF",
+        "home_score": 10.0,
+        "away_score": 30.0,
+        "total_points": 40.0,
+        "winner": "BUF",
+        "favorite_team": "BUF",
+        "favorite_spread": 6.0,
+        "spread_home": -6.0,
+        "home_ats": "L",
+        "total_line": 47.5,
+        "ou": "U"
+      },
+      {
+        "date": "2024-12-29",
+        "home": "BUF",
+        "away": "NYJ",
+        "home_score": 40.0,
+        "away_score": 14.0,
+        "total_points": 54.0,
+        "winner": "BUF",
+        "favorite_team": "BUF",
+        "favorite_spread": 10.0,
+        "spread_home": 10.0,
+        "home_ats": "W",
+        "total_line": 44.5,
+        "ou": "O"
+      },
+      {
+        "date": "2024-10-14",
+        "home": "NYJ",
+        "away": "BUF",
+        "home_score": 20.0,
+        "away_score": 23.0,
+        "total_points": 43.0,
+        "winner": "BUF",
+        "favorite_team": "BUF",
+        "favorite_spread": 1.0,
+        "spread_home": -1.0,
+        "home_ats": "L",
+        "total_line": 42.0,
+        "ou": "O"
+      },
+      {
+        "date": "2023-11-19",
+        "home": "BUF",
+        "away": "NYJ",
+        "home_score": 32.0,
+        "away_score": 6.0,
+        "total_points": 38.0,
+        "winner": "BUF",
+        "favorite_team": "BUF",
+        "favorite_spread": 8.0,
+        "spread_home": 8.0,
+        "home_ats": "W",
+        "total_line": 39.5,
+        "ou": "U"
+      }
+    ]
+  },
+  "sections": {
+    "betting": {
+      "available": true,
+      "note": null,
+      "home": {
+        "last5": [
+          {
+            "date": "2026-11-08",
+            "season": 2026,
+            "week": 9,
+            "opponent": "KC",
+            "home_away": "away",
+            "points_for": 12.0,
+            "points_against": 35.0,
+            "result": "L",
+            "team_spread": 9.5,
+            "ats": "L",
+            "cover_margin": -13.5,
+            "total_line": 47.5,
+            "total_points": 47.0,
+            "ou": "U"
+          },
+          {
+            "date": "2026-11-01",
+            "season": 2026,
+            "week": 8,
+            "opponent": "LV",
+            "home_away": "home",
+            "points_for": 33.0,
+            "points_against": 38.0,
+            "result": "L",
+            "team_spread": -1.5,
+            "ats": "L",
+            "cover_margin": -6.5,
+            "total_line": 46.5,
+            "total_points": 71.0,
+            "ou": "O"
+          },
+          {
+            "date": "2026-10-25",
+            "season": 2026,
+            "week": 7,
+            "opponent": "MIA",
+            "home_away": "home",
+            "points_for": 25.0,
+            "points_against": 28.0,
+            "result": "L",
+            "team_spread": -3.5,
+            "ats": "L",
+            "cover_margin": -6.5,
+            "total_line": 39.5,
+            "total_points": 53.0,
+            "ou": "O"
+          },
+          {
+            "date": "2026-10-18",
+            "season": 2026,
+            "week": 6,
+            "opponent": "NE",
+            "home_away": "away",
+            "points_for": 19.0,
+            "points_against": 26.0,
+            "result": "L",
+            "team_spread": 7.5,
+            "ats": "W",
+            "cover_margin": 0.5,
+            "total_line": 43.5,
+            "total_points": 45.0,
+            "ou": "O"
+          },
+          {
+            "date": "2026-10-11",
+            "season": 2026,
+            "week": 5,
+            "opponent": "CLE",
+            "home_away": "home",
+            "points_for": 17.0,
+            "points_against": 12.0,
+            "result": "W",
+            "team_spread": -2.5,
+            "ats": "W",
+            "cover_margin": 2.5,
+            "total_line": 38.5,
+            "total_points": 29.0,
+            "ou": "U"
+          }
+        ],
+        "ats": {
+          "season": {
+            "record": "4-4-1",
+            "covered": 4,
+            "failed": 4,
+            "pushed": 1,
+            "games": 9,
+            "cover_pct": 0.5
+          },
+          "last5": {
+            "record": "2-3",
+            "covered": 2,
+            "failed": 3,
+            "pushed": 0,
+            "games": 5,
+            "cover_pct": 0.4
+          },
+          "venue": {
+            "venue": "home",
+            "record": "2-2",
+            "covered": 2,
+            "failed": 2,
+            "pushed": 0,
+            "games": 4,
+            "cover_pct": 0.5
+          },
+          "streak": {
+            "type": "L",
+            "length": 3,
+            "display": "L3"
+          },
+          "avg_cover_margin": -1.778,
+          "role": {
+            "role": "underdog",
+            "record": "3-2-1",
+            "covered": 3,
+            "failed": 2,
+            "pushed": 1,
+            "games": 6,
+            "cover_pct": 0.6
+          }
+        },
+        "over_under": {
+          "season": {
+            "record": "4-5",
+            "overs": 4,
+            "unders": 5,
+            "pushes": 0,
+            "games": 9,
+            "over_pct": 0.444
+          },
+          "last5": {
+            "record": "3-2",
+            "overs": 3,
+            "unders": 2,
+            "pushes": 0,
+            "games": 5,
+            "over_pct": 0.6
+          },
+          "venue": {
+            "venue": "home",
+            "record": "2-2",
+            "overs": 2,
+            "unders": 2,
+            "pushes": 0,
+            "games": 4,
+            "over_pct": 0.5
+          },
+          "streak": {
+            "type": "U",
+            "length": 1,
+            "display": "U1"
+          },
+          "avg_game_total": 45.0,
+          "avg_posted_total": 43.611
+        }
+      },
+      "away": {
+        "last5": [
+          {
+            "date": "2026-11-09",
+            "season": 2026,
+            "week": 9,
+            "opponent": "MIN",
+            "home_away": "away",
+            "points_for": 23.0,
+            "points_against": 6.0,
+            "result": "W",
+            "team_spread": -3.0,
+            "ats": "W",
+            "cover_margin": 14.0,
+            "total_line": 45.5,
+            "total_points": 29.0,
+            "ou": "U"
+          },
+          {
+            "date": "2026-11-01",
+            "season": 2026,
+            "week": 8,
+            "opponent": "BAL",
+            "home_away": "home",
+            "points_for": 36.0,
+            "points_against": 10.0,
+            "result": "W",
+            "team_spread": -3.0,
+            "ats": "W",
+            "cover_margin": 23.0,
+            "total_line": 54.5,
+            "total_points": 46.0,
+            "ou": "U"
+          },
+          {
+            "date": "2026-10-18",
+            "season": 2026,
+            "week": 6,
+            "opponent": "LV",
+            "home_away": "away",
+            "points_for": 33.0,
+            "points_against": 30.0,
+            "result": "W",
+            "team_spread": -5.5,
+            "ats": "L",
+            "cover_margin": -2.5,
+            "total_line": 53.5,
+            "total_points": 63.0,
+            "ou": "O"
+          },
+          {
+            "date": "2026-10-12",
+            "season": 2026,
+            "week": 5,
+            "opponent": "LA",
+            "home_away": "away",
+            "points_for": 37.0,
+            "points_against": 34.0,
+            "result": "W",
+            "team_spread": 3.5,
+            "ats": "W",
+            "cover_margin": 6.5,
+            "total_line": 55.5,
+            "total_points": 71.0,
+            "ou": "O"
+          },
+          {
+            "date": "2026-10-04",
+            "season": 2026,
+            "week": 4,
+            "opponent": "NE",
+            "home_away": "home",
+            "points_for": 26.0,
+            "points_against": 29.0,
+            "result": "L",
+            "team_spread": -7.0,
+            "ats": "L",
+            "cover_margin": -10.0,
+            "total_line": 49.5,
+            "total_points": 55.0,
+            "ou": "O"
+          }
+        ],
+        "ats": {
+          "season": {
+            "record": "6-2",
+            "covered": 6,
+            "failed": 2,
+            "pushed": 0,
+            "games": 8,
+            "cover_pct": 0.75
+          },
+          "last5": {
+            "record": "3-2",
+            "covered": 3,
+            "failed": 2,
+            "pushed": 0,
+            "games": 5,
+            "cover_pct": 0.6
+          },
+          "venue": {
+            "venue": "away",
+            "record": "3-1",
+            "covered": 3,
+            "failed": 1,
+            "pushed": 0,
+            "games": 4,
+            "cover_pct": 0.75
+          },
+          "streak": {
+            "type": "W",
+            "length": 2,
+            "display": "W2"
+          },
+          "avg_cover_margin": 5.0,
+          "role": {
+            "role": "favorite",
+            "record": "5-2",
+            "covered": 5,
+            "failed": 2,
+            "pushed": 0,
+            "games": 7,
+            "cover_pct": 0.714
+          }
+        },
+        "over_under": {
+          "season": {
+            "record": "5-3",
+            "overs": 5,
+            "unders": 3,
+            "pushes": 0,
+            "games": 8,
+            "over_pct": 0.625
+          },
+          "last5": {
+            "record": "3-2",
+            "overs": 3,
+            "unders": 2,
+            "pushes": 0,
+            "games": 5,
+            "over_pct": 0.6
+          },
+          "venue": {
+            "venue": "away",
+            "record": "3-1",
+            "overs": 3,
+            "unders": 1,
+            "pushes": 0,
+            "games": 4,
+            "over_pct": 0.75
+          },
+          "streak": {
+            "type": "U",
+            "length": 2,
+            "display": "U2"
+          },
+          "avg_game_total": 55.375,
+          "avg_posted_total": 51.0
+        }
+      }
+    },
+    "scoring": {
+      "home": {
+        "season": {
+          "games": 9,
+          "ppg_for": 20.222,
+          "ppg_against": 24.778,
+          "avg_total": 45.0,
+          "plays_pg": 61.0,
+          "pass_rate": 0.603
+        },
+        "last5": {
+          "games": 5,
+          "ppg_for": 21.2,
+          "ppg_against": 27.8,
+          "avg_total": 49.0,
+          "plays_pg": 62.8,
+          "pass_rate": 0.596
+        },
+        "ppg_for_rank": 25,
+        "ppg_against_rank": 20,
+        "of": 32,
+        "over_share": {
+          "record": "4-5",
+          "over_pct": 0.444,
+          "games": 9,
+          "avg_game_total": 45.0,
+          "avg_posted_total": 43.611
+        }
+      },
+      "away": {
+        "season": {
+          "games": 8,
+          "ppg_for": 32.0,
+          "ppg_against": 23.375,
+          "avg_total": 55.375,
+          "plays_pg": 66.875,
+          "pass_rate": 0.561
+        },
+        "last5": {
+          "games": 5,
+          "ppg_for": 31.0,
+          "ppg_against": 21.8,
+          "avg_total": 52.8,
+          "plays_pg": 68.6,
+          "pass_rate": 0.548
+        },
+        "ppg_for_rank": 1,
+        "ppg_against_rank": 16,
+        "of": 32,
+        "over_share": {
+          "record": "5-3",
+          "over_pct": 0.625,
+          "games": 8,
+          "avg_game_total": 55.375,
+          "avg_posted_total": 51.0
+        }
+      }
+    },
+    "rankings": {
+      "counting_stats_available": false,
+      "home": {
+        "categories": {
+          "passing_offense": {
+            "rank": 30,
+            "of": 32,
+            "value": -0.097,
+            "last8_rank": 22
+          },
+          "passing_defense": {
+            "rank": 32,
+            "of": 32,
+            "value": 0.263,
+            "last8_rank": 29
+          },
+          "rushing_offense": {
+            "rank": 25,
+            "of": 32,
+            "value": -0.146,
+            "last8_rank": 21
+          },
+          "rushing_defense": {
+            "rank": 17,
+            "of": 32,
+            "value": -0.086,
+            "last8_rank": 6
+          },
+          "offense": {
+            "rank": 27,
+            "of": 32,
+            "value": -0.105,
+            "last8_rank": 21
+          },
+          "defense": {
+            "rank": 31,
+            "of": 32,
+            "value": 0.112,
+            "last8_rank": 26
+          }
+        },
+        "stats": null
+      },
+      "away": {
+        "categories": {
+          "passing_offense": {
+            "rank": 5,
+            "of": 32,
+            "value": 0.203,
+            "last8_rank": 6
+          },
+          "passing_defense": {
+            "rank": 4,
+            "of": 32,
+            "value": -0.082,
+            "last8_rank": 9
+          },
+          "rushing_offense": {
+            "rank": 2,
+            "of": 32,
+            "value": 0.032,
+            "last8_rank": 3
+          },
+          "rushing_defense": {
+            "rank": 24,
+            "of": 32,
+            "value": -0.05,
+            "last8_rank": 25
+          },
+          "offense": {
+            "rank": 2,
+            "of": 32,
+            "value": 0.139,
+            "last8_rank": 5
+          },
+          "defense": {
+            "rank": 5,
+            "of": 32,
+            "value": -0.07,
+            "last8_rank": 9
+          }
+        },
+        "stats": null
+      }
+    },
+    "situation": {
+      "game": {
+        "divisional": true,
+        "rematch": null,
+        "conditions_today": {
+          "indoors": false,
+          "cold": false,
+          "windy": false
+        },
+        "neutral_site": false,
+        "playoff_implications": true,
+        "playoff_note": "Playoff picture uses a simple tiebreak (win %, then point margin); real tiebreakers are more involved."
+      },
+      "away_travel_miles": 278.277,
+      "time_zones_crossed_east": 0.0,
+      "west_coast_early_body_clock": false,
+      "home": {
+        "rest_days": 7,
+        "off_bye": false,
+        "short_week": false,
+        "rest_label": "Normal week (7 days)",
+        "records": {
+          "indoors": {
+            "label": "In domes / closed roofs",
+            "games": 3,
+            "record": "0-3",
+            "ats": "0-2-1"
+          },
+          "cold": {
+            "label": "In the cold (40\u00b0F or colder)",
+            "games": 6,
+            "record": "1-5",
+            "ats": "1-5"
+          },
+          "windy": {
+            "label": "In the wind (15+ mph)",
+            "games": 2,
+            "record": "0-2",
+            "ats": "0-2"
+          }
+        },
+        "playoff": {
+          "available": true,
+          "label": "On the fringe (3 games back)",
+          "seed": null,
+          "games_back": 3.0,
+          "division_leader": false,
+          "in_push": true
+        }
+      },
+      "away": {
+        "rest_days": 6,
+        "off_bye": false,
+        "short_week": false,
+        "rest_label": "Normal week (6 days)",
+        "records": {
+          "indoors": {
+            "label": "In domes / closed roofs",
+            "games": 10,
+            "record": "6-4",
+            "ats": "5-5"
+          },
+          "cold": {
+            "label": "In the cold (40\u00b0F or colder)",
+            "games": 10,
+            "record": "8-2",
+            "ats": "5-5"
+          },
+          "windy": {
+            "label": "In the wind (15+ mph)",
+            "games": 5,
+            "record": "5-0",
+            "ats": "3-2"
+          }
+        },
+        "playoff": {
+          "available": true,
+          "label": "Leading its division (No. 1 seed)",
+          "seed": 1,
+          "games_back": 0.0,
+          "division_leader": true,
+          "in_push": true
+        }
+      }
+    },
+    "people": {
+      "home": {
+        "starter": {
+          "name": "G.Smith",
+          "rating": -0.029,
+          "changed_from_last_game": false,
+          "assumed": true
+        },
+        "backup": null,
+        "injuries": [
+          {
+            "name": "Trevin Wallace",
+            "position": "LB",
+            "status": "Out",
+            "injury": "Groin",
+            "practice": "Did Not Participate In Practice",
+            "updated": null
+          },
+          {
+            "name": "Harrison Phillips",
+            "position": "DT",
+            "status": "Questionable",
+            "injury": "Ankle",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Joseph Ossai",
+            "position": "DE",
+            "status": "Questionable",
+            "injury": "Ankle",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Nahshon Wright",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "Back",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Jarvis Brownlee Jr.",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "Illness",
+            "practice": "Limited Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "VJ Payne",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "Knee",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Garrett Wilson",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "Concussion",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Adonai Mitchell",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "Knee",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Omar Cooper Jr.",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "Ankle",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          }
+        ]
+      },
+      "away": {
+        "starter": {
+          "name": "J.Allen",
+          "rating": 0.122,
+          "changed_from_last_game": false,
+          "assumed": true
+        },
+        "backup": null,
+        "injuries": [
+          {
+            "name": "Spencer Brown",
+            "position": "T",
+            "status": "Doubtful",
+            "injury": "Ankle",
+            "practice": "Did Not Participate In Practice",
+            "updated": null
+          },
+          {
+            "name": "Sam Franklin Jr.",
+            "position": "S",
+            "status": "Questionable",
+            "injury": "Shoulder",
+            "practice": "Limited Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Christian Benford",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "Wrist",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Jordan Hancock",
+            "position": "CB",
+            "status": "Questionable",
+            "injury": "Hamstring",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          },
+          {
+            "name": "Ed Oliver",
+            "position": "DE",
+            "status": null,
+            "injury": null,
+            "practice": "Did Not Participate In Practice",
+            "updated": null
+          },
+          {
+            "name": "Terrel Bernard",
+            "position": "LB",
+            "status": null,
+            "injury": null,
+            "practice": "Did Not Participate In Practice",
+            "updated": null
+          },
+          {
+            "name": "Tyrell Shavers",
+            "position": "WR",
+            "status": "Questionable",
+            "injury": "Knee",
+            "practice": "Full Participation in Practice",
+            "updated": null
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "date": "2026-01-04",
+          "home": "BUF",
+          "away": "NYJ",
+          "home_score": 35.0,
+          "away_score": 8.0,
+          "total_points": 43.0,
+          "winner": "BUF",
+          "favorite_team": "BUF",
+          "favorite_spread": 12.5,
+          "spread_home": 12.5,
+          "home_ats": "W",
+          "total_line": 39.5,
+          "ou": "O"
+        },
+        {
+          "date": "2025-09-14",
+          "home": "NYJ",
+          "away": "BUF",
+          "home_score": 10.0,
+          "away_score": 30.0,
+          "total_points": 40.0,
+          "winner": "BUF",
+          "favorite_team": "BUF",
+          "favorite_spread": 6.0,
+          "spread_home": -6.0,
+          "home_ats": "L",
+          "total_line": 47.5,
+          "ou": "U"
+        },
+        {
+          "date": "2024-12-29",
+          "home": "BUF",
+          "away": "NYJ",
+          "home_score": 40.0,
+          "away_score": 14.0,
+          "total_points": 54.0,
+          "winner": "BUF",
+          "favorite_team": "BUF",
+          "favorite_spread": 10.0,
+          "spread_home": 10.0,
+          "home_ats": "W",
+          "total_line": 44.5,
+          "ou": "O"
+        }
+      ],
+      "meetings_note": "Regular-season games only, newest first.",
+      "referee": null,
+      "referee_note": "Referee crew not assigned yet (usually posted midweek)."
+    }
+  },
+  "model_blind_spots": [
+    "Injuries and inactives (shown for context only; they do not change the prediction)",
+    "Confirmed starting quarterbacks (the model assumes each team starts its last game's starter)",
+    "Depth charts, snap counts and coaching changes",
+    "Betting market movement and public betting trends"
+  ],
+  "notes": [
+    "Starting quarterbacks are assumed to be each team's last starter."
+  ],
+  "market": {
+    "spread_home": -8.5,
+    "moneyline_home": 330.0,
+    "moneyline_away": -425.0,
+    "win_prob_home": 0.223,
+    "model_margin_minus_spread": 0.379,
+    "favorite": "BUF",
+    "favorite_spread": 8.5,
+    "total_line": 50.5,
+    "model_total_minus_line": -3.107,
+    "total_lean": "under"
+  },
+  "betting_trends": {
+    "home": {
+      "ats": {
+        "season": {
+          "record": "4-4-1",
+          "covered": 4,
+          "failed": 4,
+          "pushed": 1,
+          "games": 9,
+          "cover_pct": 0.5
+        },
+        "last5": {
+          "record": "2-3",
+          "covered": 2,
+          "failed": 3,
+          "pushed": 0,
+          "games": 5,
+          "cover_pct": 0.4
+        },
+        "venue": {
+          "venue": "home",
+          "record": "2-2",
+          "covered": 2,
+          "failed": 2,
+          "pushed": 0,
+          "games": 4,
+          "cover_pct": 0.5
+        },
+        "streak": {
+          "type": "L",
+          "length": 3,
+          "display": "L3"
+        },
+        "avg_cover_margin": -1.778,
+        "role": {
+          "role": "underdog",
+          "record": "3-2-1",
+          "covered": 3,
+          "failed": 2,
+          "pushed": 1,
+          "games": 6,
+          "cover_pct": 0.6
+        }
+      },
+      "over_under": {
+        "season": {
+          "record": "4-5",
+          "overs": 4,
+          "unders": 5,
+          "pushes": 0,
+          "games": 9,
+          "over_pct": 0.444
+        },
+        "last5": {
+          "record": "3-2",
+          "overs": 3,
+          "unders": 2,
+          "pushes": 0,
+          "games": 5,
+          "over_pct": 0.6
+        },
+        "venue": {
+          "venue": "home",
+          "record": "2-2",
+          "overs": 2,
+          "unders": 2,
+          "pushes": 0,
+          "games": 4,
+          "over_pct": 0.5
+        },
+        "streak": {
+          "type": "U",
+          "length": 1,
+          "display": "U1"
+        },
+        "avg_game_total": 45.0,
+        "avg_posted_total": 43.611
+      }
+    },
+    "away": {
+      "ats": {
+        "season": {
+          "record": "6-2",
+          "covered": 6,
+          "failed": 2,
+          "pushed": 0,
+          "games": 8,
+          "cover_pct": 0.75
+        },
+        "last5": {
+          "record": "3-2",
+          "covered": 3,
+          "failed": 2,
+          "pushed": 0,
+          "games": 5,
+          "cover_pct": 0.6
+        },
+        "venue": {
+          "venue": "away",
+          "record": "3-1",
+          "covered": 3,
+          "failed": 1,
+          "pushed": 0,
+          "games": 4,
+          "cover_pct": 0.75
+        },
+        "streak": {
+          "type": "W",
+          "length": 2,
+          "display": "W2"
+        },
+        "avg_cover_margin": 5.0,
+        "role": {
+          "role": "favorite",
+          "record": "5-2",
+          "covered": 5,
+          "failed": 2,
+          "pushed": 0,
+          "games": 7,
+          "cover_pct": 0.714
+        }
+      },
+      "over_under": {
+        "season": {
+          "record": "5-3",
+          "overs": 5,
+          "unders": 3,
+          "pushes": 0,
+          "games": 8,
+          "over_pct": 0.625
+        },
+        "last5": {
+          "record": "3-2",
+          "overs": 3,
+          "unders": 2,
+          "pushes": 0,
+          "games": 5,
+          "over_pct": 0.6
+        },
+        "venue": {
+          "venue": "away",
+          "record": "3-1",
+          "overs": 3,
+          "unders": 1,
+          "pushes": 0,
+          "games": 4,
+          "over_pct": 0.75
+        },
+        "streak": {
+          "type": "U",
+          "length": 2,
+          "display": "U2"
+        },
+        "avg_game_total": 55.375,
+        "avg_posted_total": 51.0
+      }
+    },
+    "angles": [
+      {
+        "team": "BUF",
+        "text": "BUF is 3-1 against the spread on the road this season",
+        "games": 4
+      },
+      {
+        "team": "BUF",
+        "text": "The over is 3-1 in BUF's road games",
+        "games": 4
+      },
+      {
+        "team": "NYJ",
+        "text": "NYJ has failed to cover 3 games in a row",
+        "games": 3
+      }
+    ],
+    "note": "Historical records over small samples. They describe what has happened, not what will happen."
+  },
+  "chips": [
+    {
+      "kind": "situation",
+      "text": "Playoff push",
+      "team": null,
+      "weight": 3
+    },
+    {
+      "kind": "situation",
+      "text": "Divisional",
+      "team": null,
+      "weight": 4
+    },
+    {
+      "kind": "ats",
+      "text": "BUF 3-1 ATS on the road",
+      "team": "BUF",
+      "weight": 6
+    },
+    {
+      "kind": "ats",
+      "text": "NYJ failed to cover 3 straight",
+      "team": "NYJ",
+      "weight": 6
+    },
+    {
+      "kind": "ou",
+      "text": "Over 3-1 in BUF road games",
+      "team": "BUF",
+      "weight": 7
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-10-18T21:16:30+00:00",
+  "season": 2026,
+  "week": 6,
+  "note": "Ranks games by team quality, how even the ratings are, playoff stakes and rivalry. It does not pick winners.",
+  "game_of_the_week": {
+    "game_id": "2026_06_DAL_GB",
+    "card": "2026_06_DAL_GB.json",
+    "away": "DAL",
+    "home": "GB",
+    "kickoff_utc": "2026-10-19T00:20:00+00:00",
+    "score": 61.0,
+    "rating_gap": 2.4,
+    "playoff_swing": 0.219,
+    "reasons": [
+      "The ratings have these teams nearly even",
+      "Playoff odds swing about 22 points on the result"
+    ],
+    "tags": [
+      "toss_up",
+      "playoff_swing"
+    ]
+  },
+  "games": [
+    {
+      "game_id": "2026_06_DAL_GB",
+      "card": "2026_06_DAL_GB.json",
+      "away": "DAL",
+      "home": "GB",
+      "kickoff_utc": "2026-10-19T00:20:00+00:00",
+      "score": 61.0,
+      "rating_gap": 2.4,
+      "playoff_swing": 0.219,
+      "reasons": [
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 22 points on the result"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_06_BUF_LV",
+      "card": "2026_06_BUF_LV.json",
+      "away": "BUF",
+      "home": "LV",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "score": 52.4,
+      "rating_gap": 5.0,
+      "playoff_swing": 0.145,
+      "reasons": [
+        "Playoff odds swing about 14 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "card": "2026_06_LAC_KC.json",
+      "away": "LAC",
+      "home": "KC",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "score": 40.4,
+      "rating_gap": 9.1,
+      "playoff_swing": 0.06,
+      "reasons": [
+        "Division rivals"
+      ],
+      "tags": [
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_06_ARI_LA",
+      "card": "2026_06_ARI_LA.json",
+      "away": "ARI",
+      "home": "LA",
+      "kickoff_utc": "2026-10-18T20:05:00+00:00",
+      "score": 39.0,
+      "rating_gap": 10.5,
+      "playoff_swing": 0.129,
+      "reasons": [
+        "Playoff odds swing about 13 points on the result",
+        "Division rivals"
+      ],
+      "tags": [
+        "playoff_swing",
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_06_WAS_SF",
+      "card": "2026_06_WAS_SF.json",
+      "away": "WAS",
+      "home": "SF",
+      "kickoff_utc": "2026-10-20T00:15:00+00:00",
+      "score": 30.0,
+      "rating_gap": 11.7,
+      "playoff_swing": 0.076,
+      "reasons": [],
+      "tags": []
+    }
+  ],
+  "toss_ups": [
+    "2026_06_DAL_GB"
+  ],
+  "playoff_swing": [
+    "2026_06_DAL_GB",
+    "2026_06_BUF_LV",
+    "2026_06_ARI_LA"
+  ]
+}

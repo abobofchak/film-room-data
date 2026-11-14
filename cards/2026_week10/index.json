@@ -1,0 +1,933 @@
+{
+  "card_version": 1,
+  "model_version": "v15",
+  "generated_at": "2026-11-14T19:49:32+00:00",
+  "season": 2026,
+  "week": 10,
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "games": [
+    {
+      "game_id": "2026_10_NE_DET",
+      "kickoff_et": "2026-11-15 09:30 ET",
+      "kickoff_utc": "2026-11-15T14:30:00+00:00",
+      "away": "NE",
+      "home": "DET",
+      "predicted_margin_home": 2.993,
+      "favored_team": "DET",
+      "win_prob_favored": 0.554,
+      "margin_range_80": [
+        -13.579,
+        19.409
+      ],
+      "predicted_total": 50.584,
+      "projected_score": {
+        "home": 26.788,
+        "away": 23.796
+      },
+      "total_range_80": [
+        33.839,
+        68.069
+      ],
+      "away_name": "New England Patriots",
+      "home_name": "Detroit Lions",
+      "stadium": "FC Bayern Munich Stadium",
+      "city": null,
+      "weather": {
+        "indoors": true,
+        "source": "indoors",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "6-2",
+        "away": "5-4"
+      },
+      "market": {
+        "spread_home": 2.5,
+        "favorite": "DET",
+        "favorite_spread": 2.5,
+        "total_line": 49.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "NE 1-3 ATS on the road",
+          "team": "NE"
+        },
+        {
+          "kind": "ats",
+          "text": "NE 1-4 ATS last 5",
+          "team": "NE"
+        },
+        {
+          "kind": "ats",
+          "text": "NE failed to cover 4 straight",
+          "team": "NE"
+        }
+      ],
+      "badges": [
+        "neutral_site",
+        "playoff_push"
+      ],
+      "card": "2026_10_NE_DET.json"
+    },
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "JAX",
+      "home": "TEN",
+      "predicted_margin_home": -9.506,
+      "favored_team": "JAX",
+      "win_prob_favored": 0.801,
+      "margin_range_80": [
+        -26.078,
+        6.91
+      ],
+      "predicted_total": 41.519,
+      "projected_score": {
+        "home": 16.006,
+        "away": 25.512
+      },
+      "total_range_80": [
+        24.773,
+        59.003
+      ],
+      "away_name": "Jacksonville Jaguars",
+      "home_name": "Tennessee Titans",
+      "stadium": "Nissan Stadium",
+      "city": "Nashville, TN",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 55.0,
+        "wind_mph": 5.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "1-7",
+        "away": "6-2"
+      },
+      "market": {
+        "spread_home": -10.5,
+        "favorite": "JAX",
+        "favorite_spread": 10.5,
+        "total_line": 46.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "TEN off a bye",
+          "team": "TEN"
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "TEN 1-3 ATS at home",
+          "team": "TEN"
+        }
+      ],
+      "badges": [
+        "off_bye",
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_JAX_TEN.json"
+    },
+    {
+      "game_id": "2026_10_BUF_NYJ",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "BUF",
+      "home": "NYJ",
+      "predicted_margin_home": -8.121,
+      "favored_team": "BUF",
+      "win_prob_favored": 0.77,
+      "margin_range_80": [
+        -24.693,
+        8.295
+      ],
+      "predicted_total": 47.393,
+      "projected_score": {
+        "home": 19.636,
+        "away": 27.757
+      },
+      "total_range_80": [
+        30.648,
+        64.878
+      ],
+      "away_name": "Buffalo Bills",
+      "home_name": "New York Jets",
+      "stadium": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 51.0,
+        "wind_mph": 12.0,
+        "precip_chance_pct": 1.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "2-7",
+        "away": "7-1"
+      },
+      "market": {
+        "spread_home": -8.5,
+        "favorite": "BUF",
+        "favorite_spread": 8.5,
+        "total_line": 50.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "BUF 3-1 ATS on the road",
+          "team": "BUF"
+        },
+        {
+          "kind": "ats",
+          "text": "NYJ failed to cover 3 straight",
+          "team": "NYJ"
+        }
+      ],
+      "badges": [
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_BUF_NYJ.json"
+    },
+    {
+      "game_id": "2026_10_MIA_IND",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "MIA",
+      "home": "IND",
+      "predicted_margin_home": 4.738,
+      "favored_team": "IND",
+      "win_prob_favored": 0.644,
+      "margin_range_80": [
+        -11.834,
+        21.154
+      ],
+      "predicted_total": 43.918,
+      "projected_score": {
+        "home": 24.328,
+        "away": 19.59
+      },
+      "total_range_80": [
+        27.173,
+        61.403
+      ],
+      "away_name": "Miami Dolphins",
+      "home_name": "Indianapolis Colts",
+      "stadium": "Lucas Oil Stadium",
+      "city": "Indianapolis, IN",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 49.333,
+        "wind_mph": 5.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Mostly Sunny"
+      },
+      "records": {
+        "home": "2-7",
+        "away": "1-7"
+      },
+      "market": {
+        "spread_home": 4.5,
+        "favorite": "IND",
+        "favorite_spread": 4.5,
+        "total_line": 37.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        }
+      ],
+      "badges": [
+        "playoff_push"
+      ],
+      "card": "2026_10_MIA_IND.json"
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "MIN",
+      "home": "GB",
+      "predicted_margin_home": 2.305,
+      "favored_team": "GB",
+      "win_prob_favored": 0.579,
+      "margin_range_80": [
+        -14.267,
+        18.721
+      ],
+      "predicted_total": 40.75,
+      "projected_score": {
+        "home": 21.527,
+        "away": 19.223
+      },
+      "total_range_80": [
+        24.005,
+        58.234
+      ],
+      "away_name": "Minnesota Vikings",
+      "home_name": "Green Bay Packers",
+      "stadium": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 44.0,
+        "wind_mph": 1.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Mostly Sunny"
+      },
+      "records": {
+        "home": "6-3",
+        "away": "6-2"
+      },
+      "market": {
+        "spread_home": 2.5,
+        "favorite": "GB",
+        "favorite_spread": 2.5,
+        "total_line": 42.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "MIN 3-1 ATS on the road",
+          "team": "MIN"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_MIN_GB.json"
+    },
+    {
+      "game_id": "2026_10_HOU_CLE",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "HOU",
+      "home": "CLE",
+      "predicted_margin_home": -3.349,
+      "favored_team": "HOU",
+      "win_prob_favored": 0.614,
+      "margin_range_80": [
+        -19.921,
+        13.067
+      ],
+      "predicted_total": 41.077,
+      "projected_score": {
+        "home": 18.864,
+        "away": 22.213
+      },
+      "total_range_80": [
+        24.332,
+        58.561
+      ],
+      "away_name": "Houston Texans",
+      "home_name": "Cleveland Browns",
+      "stadium": "Huntington Bank Field",
+      "city": "Cleveland, OH",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 47.0,
+        "wind_mph": 15.0,
+        "precip_chance_pct": 17.0,
+        "summary": "Slight Chance Rain Showers"
+      },
+      "records": {
+        "home": "5-4",
+        "away": "3-5"
+      },
+      "market": {
+        "spread_home": -4.5,
+        "favorite": "HOU",
+        "favorite_spread": 4.5,
+        "total_line": 40.5
+      },
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Wind 15 mph",
+          "team": null
+        },
+        {
+          "kind": "weather",
+          "text": "Rain or snow possible",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "HOU 3-1 ATS on the road",
+          "team": "HOU"
+        }
+      ],
+      "badges": [
+        "windy",
+        "precipitation",
+        "playoff_push"
+      ],
+      "card": "2026_10_HOU_CLE.json"
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "KC",
+      "home": "ATL",
+      "predicted_margin_home": -4.744,
+      "favored_team": "KC",
+      "win_prob_favored": 0.653,
+      "margin_range_80": [
+        -21.316,
+        11.672
+      ],
+      "predicted_total": 48.284,
+      "projected_score": {
+        "home": 21.77,
+        "away": 26.514
+      },
+      "total_range_80": [
+        31.538,
+        65.768
+      ],
+      "away_name": "Kansas City Chiefs",
+      "home_name": "Atlanta Falcons",
+      "stadium": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 56.667,
+        "wind_mph": 0.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Partly Sunny"
+      },
+      "records": {
+        "home": "3-6",
+        "away": "6-2"
+      },
+      "market": {
+        "spread_home": -3.0,
+        "favorite": "KC",
+        "favorite_spread": 3.0,
+        "total_line": 47.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "KC 1-3 ATS on the road",
+          "team": "KC"
+        },
+        {
+          "kind": "ats",
+          "text": "ATL 1-4 ATS at home",
+          "team": "ATL"
+        },
+        {
+          "kind": "ats",
+          "text": "ATL 1-4 ATS last 5",
+          "team": "ATL"
+        }
+      ],
+      "badges": [
+        "playoff_push"
+      ],
+      "card": "2026_10_KC_ATL.json"
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "kickoff_et": "2026-11-15 13:00 ET",
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "away": "CAR",
+      "home": "NO",
+      "predicted_margin_home": 2.081,
+      "favored_team": "NO",
+      "win_prob_favored": 0.572,
+      "margin_range_80": [
+        -14.491,
+        18.497
+      ],
+      "predicted_total": 46.502,
+      "projected_score": {
+        "home": 24.292,
+        "away": 22.211
+      },
+      "total_range_80": [
+        29.757,
+        63.987
+      ],
+      "away_name": "Carolina Panthers",
+      "home_name": "New Orleans Saints",
+      "stadium": "Caesars Superdome",
+      "city": "New Orleans, LA",
+      "weather": {
+        "indoors": true,
+        "source": "indoors",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "3-5",
+        "away": "3-5"
+      },
+      "market": {
+        "spread_home": 2.5,
+        "favorite": "NO",
+        "favorite_spread": 2.5,
+        "total_line": 48.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "CAR failed to cover 3 straight",
+          "team": "CAR"
+        },
+        {
+          "kind": "ats",
+          "text": "NO 0-5 ATS at home",
+          "team": "NO"
+        }
+      ],
+      "badges": [
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_CAR_NO.json"
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "kickoff_et": "2026-11-15 16:05 ET",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "away": "LA",
+      "home": "ARI",
+      "predicted_margin_home": -6.861,
+      "favored_team": "LA",
+      "win_prob_favored": 0.723,
+      "margin_range_80": [
+        -23.433,
+        9.555
+      ],
+      "predicted_total": 45.867,
+      "projected_score": {
+        "home": 19.503,
+        "away": 26.364
+      },
+      "total_range_80": [
+        29.122,
+        63.352
+      ],
+      "away_name": "Los Angeles Rams",
+      "home_name": "Arizona Cardinals",
+      "stadium": "State Farm Stadium",
+      "city": "Glendale, AZ",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 76.0,
+        "wind_mph": 5.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Sunny"
+      },
+      "records": {
+        "home": "3-6",
+        "away": "5-4"
+      },
+      "market": {
+        "spread_home": -9.5,
+        "favorite": "LA",
+        "favorite_spread": 9.5,
+        "total_line": 39.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "LA 3-1 ATS on the road",
+          "team": "LA"
+        }
+      ],
+      "badges": [
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_LA_ARI.json"
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "kickoff_et": "2026-11-15 16:05 ET",
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "away": "SEA",
+      "home": "LV",
+      "predicted_margin_home": -1.492,
+      "favored_team": "SEA",
+      "win_prob_favored": 0.565,
+      "margin_range_80": [
+        -18.064,
+        14.924
+      ],
+      "predicted_total": 45.161,
+      "projected_score": {
+        "home": 21.834,
+        "away": 23.327
+      },
+      "total_range_80": [
+        28.416,
+        62.646
+      ],
+      "away_name": "Seattle Seahawks",
+      "home_name": "Las Vegas Raiders",
+      "stadium": "Allegiant Stadium",
+      "city": "Las Vegas, NV",
+      "weather": {
+        "indoors": true,
+        "source": "indoors",
+        "temp_f": null,
+        "wind_mph": null,
+        "precip_chance_pct": null,
+        "summary": null
+      },
+      "records": {
+        "home": "4-5",
+        "away": "5-4"
+      },
+      "market": {
+        "spread_home": -6.5,
+        "favorite": "SEA",
+        "favorite_spread": 6.5,
+        "total_line": 40.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "ats",
+          "text": "LV 3-1 ATS at home",
+          "team": "LV"
+        },
+        {
+          "kind": "ou",
+          "text": "Over 3-1 in LV home games",
+          "team": "LV"
+        },
+        {
+          "kind": "ou",
+          "text": "Over hit 7 straight (LV)",
+          "team": "LV"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "playoff_push"
+      ],
+      "card": "2026_10_SEA_LV.json"
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "kickoff_et": "2026-11-15 16:25 ET",
+      "kickoff_utc": "2026-11-15T21:25:00+00:00",
+      "away": "SF",
+      "home": "DAL",
+      "predicted_margin_home": -4.65,
+      "favored_team": "SF",
+      "win_prob_favored": 0.669,
+      "margin_range_80": [
+        -21.221,
+        11.766
+      ],
+      "predicted_total": 54.046,
+      "projected_score": {
+        "home": 24.698,
+        "away": 29.348
+      },
+      "total_range_80": [
+        37.301,
+        71.531
+      ],
+      "away_name": "San Francisco 49ers",
+      "home_name": "Dallas Cowboys",
+      "stadium": "AT&T Stadium",
+      "city": "Arlington, TX",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 51.0,
+        "wind_mph": 10.0,
+        "precip_chance_pct": 30.0,
+        "summary": "Chance Rain Showers"
+      },
+      "records": {
+        "home": "4-5",
+        "away": "7-1"
+      },
+      "market": {
+        "spread_home": -4.5,
+        "favorite": "SF",
+        "favorite_spread": 4.5,
+        "total_line": 55.5
+      },
+      "chips": [
+        {
+          "kind": "weather",
+          "text": "Rain or snow possible",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "SF crosses 2 time zones",
+          "team": "SF"
+        },
+        {
+          "kind": "ats",
+          "text": "DAL 1-4 ATS last 5",
+          "team": "DAL"
+        }
+      ],
+      "badges": [
+        "precipitation",
+        "playoff_push"
+      ],
+      "card": "2026_10_SF_DAL.json"
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "kickoff_et": "2026-11-15 20:20 ET",
+      "kickoff_utc": "2026-11-16T01:20:00+00:00",
+      "away": "PIT",
+      "home": "CIN",
+      "predicted_margin_home": 0.213,
+      "favored_team": "CIN",
+      "win_prob_favored": 0.518,
+      "margin_range_80": [
+        -16.359,
+        16.629
+      ],
+      "predicted_total": 51.457,
+      "projected_score": {
+        "home": 25.835,
+        "away": 25.622
+      },
+      "total_range_80": [
+        34.712,
+        68.942
+      ],
+      "away_name": "Pittsburgh Steelers",
+      "home_name": "Cincinnati Bengals",
+      "stadium": "Paycor Stadium",
+      "city": "Cincinnati, OH",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 40.25,
+        "wind_mph": 0.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Mostly Cloudy"
+      },
+      "records": {
+        "home": "6-2",
+        "away": "6-2"
+      },
+      "market": {
+        "spread_home": 3.5,
+        "favorite": "CIN",
+        "favorite_spread": 3.5,
+        "total_line": 49.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "PIT off a bye",
+          "team": "PIT"
+        },
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Divisional",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "Rematch this season",
+          "team": null
+        }
+      ],
+      "badges": [
+        "off_bye",
+        "divisional",
+        "playoff_push"
+      ],
+      "card": "2026_10_PIT_CIN.json"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "kickoff_et": "2026-11-16 20:15 ET",
+      "kickoff_utc": "2026-11-17T01:15:00+00:00",
+      "away": "LAC",
+      "home": "BAL",
+      "predicted_margin_home": 0.623,
+      "favored_team": "BAL",
+      "win_prob_favored": 0.506,
+      "margin_range_80": [
+        -15.949,
+        17.039
+      ],
+      "predicted_total": 39.89,
+      "projected_score": {
+        "home": 20.257,
+        "away": 19.634
+      },
+      "total_range_80": [
+        23.145,
+        57.375
+      ],
+      "away_name": "Los Angeles Chargers",
+      "home_name": "Baltimore Ravens",
+      "stadium": "M&T Bank Stadium",
+      "city": "Baltimore, MD",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 41.5,
+        "wind_mph": 2.0,
+        "precip_chance_pct": 0.0,
+        "summary": "Clear"
+      },
+      "records": {
+        "home": "4-5",
+        "away": "0-8"
+      },
+      "market": {
+        "spread_home": 4.5,
+        "favorite": "BAL",
+        "favorite_spread": 4.5,
+        "total_line": 38.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "Playoff push",
+          "team": null
+        },
+        {
+          "kind": "situation",
+          "text": "LAC crosses 3 time zones",
+          "team": "LAC"
+        },
+        {
+          "kind": "ats",
+          "text": "LAC 0-3 ATS on the road",
+          "team": "LAC"
+        },
+        {
+          "kind": "ats",
+          "text": "LAC failed to cover 4 straight",
+          "team": "LAC"
+        }
+      ],
+      "badges": [
+        "long_travel",
+        "playoff_push"
+      ],
+      "card": "2026_10_LAC_BAL.json"
+    }
+  ]
+}
