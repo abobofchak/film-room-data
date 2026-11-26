@@ -1,0 +1,1906 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-11-22T18:22:41+00:00",
+  "season": 2026,
+  "week": 11,
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "method": "power_points = how many points better than an average team, on a neutral field, from the model's team-strength inputs (Elo, recent form, EPA, quarterback). rank_change compares with the start of last week; positive means moved up.",
+  "teams": [
+    {
+      "rank": 1,
+      "team": "BUF",
+      "power_points": 7.242,
+      "record": "8-1",
+      "prev_rank": 1,
+      "rank_change": 0,
+      "points_change": 0.59,
+      "elo": 1697.592,
+      "offense_rank": 2,
+      "defense_rank": 5,
+      "qb": {
+        "name": "J.Allen",
+        "rating": 0.121
+      },
+      "next_game": {
+        "opponent": "MIA",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 15.003,
+        "win_prob": 0.889,
+        "game_id": "2026_11_MIA_BUF"
+      },
+      "categories": {
+        "offense": {
+          "rank": 2,
+          "value": 0.141,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 5,
+          "value": -0.062,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 3,
+          "value": 0.2,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 3,
+          "value": -0.076,
+          "rank_change": 1
+        },
+        "rushing_offense": {
+          "rank": 1,
+          "value": 0.044,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 26,
+          "value": -0.039,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 5,
+          "value": 0.121,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "team": "SF",
+      "power_points": 6.732,
+      "record": "8-1",
+      "prev_rank": 2,
+      "rank_change": 0,
+      "points_change": 0.165,
+      "elo": 1640.332,
+      "offense_rank": 1,
+      "defense_rank": 18,
+      "qb": {
+        "name": "B.Purdy",
+        "rating": 0.209
+      },
+      "next_game": {
+        "opponent": "MIN",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 4.208,
+        "win_prob": 0.61,
+        "game_id": "2026_11_MIN_SF"
+      },
+      "categories": {
+        "offense": {
+          "rank": 1,
+          "value": 0.169,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 18,
+          "value": 0.008,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 1,
+          "value": 0.288,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 20,
+          "value": 0.065,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 5,
+          "value": 0.007,
+          "rank_change": 2
+        },
+        "rushing_defense": {
+          "rank": 13,
+          "value": -0.085,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 1,
+          "value": 0.209,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "team": "KC",
+      "power_points": 6.494,
+      "record": "7-2",
+      "prev_rank": 3,
+      "rank_change": 0,
+      "points_change": 0.579,
+      "elo": 1582.232,
+      "offense_rank": 9,
+      "defense_rank": 8,
+      "qb": {
+        "name": "P.Mahomes",
+        "rating": 0.191
+      },
+      "next_game": {
+        "opponent": "ARI",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 14.507,
+        "win_prob": 0.887,
+        "game_id": "2026_11_ARI_KC"
+      },
+      "categories": {
+        "offense": {
+          "rank": 9,
+          "value": 0.067,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 8,
+          "value": -0.05,
+          "rank_change": 2
+        },
+        "passing_offense": {
+          "rank": 13,
+          "value": 0.097,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 12,
+          "value": 0.006,
+          "rank_change": 4
+        },
+        "rushing_offense": {
+          "rank": 7,
+          "value": -0.006,
+          "rank_change": -2
+        },
+        "rushing_defense": {
+          "rank": 2,
+          "value": -0.138,
+          "rank_change": 1
+        },
+        "quarterback": {
+          "rank": 2,
+          "value": 0.191,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "team": "CIN",
+      "power_points": 5.417,
+      "record": "7-2",
+      "prev_rank": 6,
+      "rank_change": 2,
+      "points_change": 0.909,
+      "elo": 1612.952,
+      "offense_rank": 4,
+      "defense_rank": 22,
+      "qb": {
+        "name": "J.Burrow",
+        "rating": 0.121
+      },
+      "next_game": {
+        "opponent": "WAS",
+        "home_away": "away",
+        "date": "2026-11-23",
+        "predicted_margin": 3.651,
+        "win_prob": 0.654,
+        "game_id": "2026_11_CIN_WAS"
+      },
+      "categories": {
+        "offense": {
+          "rank": 4,
+          "value": 0.117,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 22,
+          "value": 0.029,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 9,
+          "value": 0.154,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 18,
+          "value": 0.052,
+          "rank_change": 3
+        },
+        "rushing_offense": {
+          "rank": 4,
+          "value": 0.009,
+          "rank_change": 2
+        },
+        "rushing_defense": {
+          "rank": 29,
+          "value": -0.026,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 6,
+          "value": 0.121,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "team": "JAX",
+      "power_points": 4.961,
+      "record": "7-2",
+      "prev_rank": 5,
+      "rank_change": 0,
+      "points_change": 0.255,
+      "elo": 1652.582,
+      "offense_rank": 5,
+      "defense_rank": 3,
+      "qb": {
+        "name": "T.Lawrence",
+        "rating": 0.03
+      },
+      "next_game": {
+        "opponent": "NYG",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": 4.347,
+        "win_prob": 0.678,
+        "game_id": "2026_11_JAX_NYG"
+      },
+      "categories": {
+        "offense": {
+          "rank": 5,
+          "value": 0.098,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 3,
+          "value": -0.086,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 2,
+          "value": 0.208,
+          "rank_change": 3
+        },
+        "passing_defense": {
+          "rank": 4,
+          "value": -0.069,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 16,
+          "value": -0.081,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 6,
+          "value": -0.131,
+          "rank_change": -4
+        },
+        "quarterback": {
+          "rank": 16,
+          "value": 0.03,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "team": "DET",
+      "power_points": 4.944,
+      "record": "7-2",
+      "prev_rank": 10,
+      "rank_change": 4,
+      "points_change": 1.353,
+      "elo": 1622.451,
+      "offense_rank": 6,
+      "defense_rank": 15,
+      "qb": {
+        "name": "J.Goff",
+        "rating": 0.105
+      },
+      "next_game": {
+        "opponent": "TB",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 4.628,
+        "win_prob": 0.624,
+        "game_id": "2026_11_TB_DET"
+      },
+      "categories": {
+        "offense": {
+          "rank": 6,
+          "value": 0.089,
+          "rank_change": 3
+        },
+        "defense": {
+          "rank": 15,
+          "value": -0.008,
+          "rank_change": 4
+        },
+        "passing_offense": {
+          "rank": 6,
+          "value": 0.179,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 14,
+          "value": 0.024,
+          "rank_change": 3
+        },
+        "rushing_offense": {
+          "rank": 11,
+          "value": -0.039,
+          "rank_change": 3
+        },
+        "rushing_defense": {
+          "rank": 18,
+          "value": -0.074,
+          "rank_change": 2
+        },
+        "quarterback": {
+          "rank": 8,
+          "value": 0.105,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "team": "PIT",
+      "power_points": 4.852,
+      "record": "6-3",
+      "prev_rank": 4,
+      "rank_change": -3,
+      "points_change": -0.661,
+      "elo": 1556.74,
+      "offense_rank": 17,
+      "defense_rank": 16,
+      "qb": {
+        "name": "A.Rodgers",
+        "rating": 0.135
+      },
+      "next_game": {
+        "opponent": "PHI",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": 5.287,
+        "win_prob": 0.668,
+        "game_id": "2026_11_PIT_PHI"
+      },
+      "categories": {
+        "offense": {
+          "rank": 17,
+          "value": 0.003,
+          "rank_change": -2
+        },
+        "defense": {
+          "rank": 16,
+          "value": -0.004,
+          "rank_change": -7
+        },
+        "passing_offense": {
+          "rank": 21,
+          "value": -0.016,
+          "rank_change": -2
+        },
+        "passing_defense": {
+          "rank": 15,
+          "value": 0.028,
+          "rank_change": -5
+        },
+        "rushing_offense": {
+          "rank": 2,
+          "value": 0.029,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 11,
+          "value": -0.089,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 4,
+          "value": 0.135,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "team": "LA",
+      "power_points": 4.677,
+      "record": "6-4",
+      "prev_rank": 7,
+      "rank_change": -1,
+      "points_change": 0.528,
+      "elo": 1612.472,
+      "offense_rank": 3,
+      "defense_rank": 4,
+      "qb": {
+        "name": "M.Stafford",
+        "rating": 0.079
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 3,
+          "value": 0.121,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 4,
+          "value": -0.068,
+          "rank_change": 3
+        },
+        "passing_offense": {
+          "rank": 7,
+          "value": 0.175,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 9,
+          "value": -0.014,
+          "rank_change": 4
+        },
+        "rushing_offense": {
+          "rank": 3,
+          "value": 0.016,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 4,
+          "value": -0.138,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 9,
+          "value": 0.079,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "team": "MIN",
+      "power_points": 4.606,
+      "record": "7-2",
+      "prev_rank": 9,
+      "rank_change": 0,
+      "points_change": 0.992,
+      "elo": 1624.118,
+      "offense_rank": 27,
+      "defense_rank": 2,
+      "qb": {
+        "name": "K.Cousins",
+        "rating": 0.067
+      },
+      "next_game": {
+        "opponent": "SF",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -4.208,
+        "win_prob": 0.39,
+        "game_id": "2026_11_MIN_SF"
+      },
+      "categories": {
+        "offense": {
+          "rank": 27,
+          "value": -0.085,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 2,
+          "value": -0.121,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 28,
+          "value": -0.063,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 1,
+          "value": -0.124,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 24,
+          "value": -0.124,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 3,
+          "value": -0.138,
+          "rank_change": 4
+        },
+        "quarterback": {
+          "rank": 10,
+          "value": 0.067,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "team": "DEN",
+      "power_points": 3.977,
+      "record": "7-2",
+      "prev_rank": 8,
+      "rank_change": -2,
+      "points_change": 0.14,
+      "elo": 1645.312,
+      "offense_rank": 13,
+      "defense_rank": 9,
+      "qb": {
+        "name": "B.Nix",
+        "rating": 0.048
+      },
+      "next_game": {
+        "opponent": "LV",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 10.464,
+        "win_prob": 0.815,
+        "game_id": "2026_11_LV_DEN"
+      },
+      "categories": {
+        "offense": {
+          "rank": 13,
+          "value": 0.029,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 9,
+          "value": -0.045,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 14,
+          "value": 0.085,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 7,
+          "value": -0.027,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 15,
+          "value": -0.073,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 10,
+          "value": -0.09,
+          "rank_change": 3
+        },
+        "quarterback": {
+          "rank": 13,
+          "value": 0.048,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "team": "CHI",
+      "power_points": 2.879,
+      "record": "7-2",
+      "prev_rank": 11,
+      "rank_change": 0,
+      "points_change": 0.14,
+      "elo": 1622.608,
+      "offense_rank": 14,
+      "defense_rank": 12,
+      "qb": {
+        "name": "C.Williams",
+        "rating": 0.008
+      },
+      "next_game": {
+        "opponent": "NO",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 9.976,
+        "win_prob": 0.797,
+        "game_id": "2026_11_NO_CHI"
+      },
+      "categories": {
+        "offense": {
+          "rank": 14,
+          "value": 0.028,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 12,
+          "value": -0.022,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 15,
+          "value": 0.076,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 10,
+          "value": -0.007,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 13,
+          "value": -0.055,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 21,
+          "value": -0.059,
+          "rank_change": 2
+        },
+        "quarterback": {
+          "rank": 18,
+          "value": 0.008,
+          "rank_change": 1
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "team": "HOU",
+      "power_points": 2.078,
+      "record": "4-6",
+      "prev_rank": 13,
+      "rank_change": 1,
+      "points_change": 1.02,
+      "elo": 1535.287,
+      "offense_rank": 15,
+      "defense_rank": 6,
+      "qb": {
+        "name": "C.Stroud",
+        "rating": 0.063
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 15,
+          "value": 0.023,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 6,
+          "value": -0.06,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 11,
+          "value": 0.111,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 8,
+          "value": -0.02,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 28,
+          "value": -0.145,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 7,
+          "value": -0.128,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 11,
+          "value": 0.063,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "team": "GB",
+      "power_points": 1.302,
+      "record": "6-4",
+      "prev_rank": 12,
+      "rank_change": -1,
+      "points_change": -1.046,
+      "elo": 1546.841,
+      "offense_rank": 8,
+      "defense_rank": 14,
+      "qb": {
+        "name": "J.Love",
+        "rating": 0.135
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 8,
+          "value": 0.077,
+          "rank_change": -4
+        },
+        "defense": {
+          "rank": 14,
+          "value": -0.013,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 4,
+          "value": 0.198,
+          "rank_change": -2
+        },
+        "passing_defense": {
+          "rank": 17,
+          "value": 0.037,
+          "rank_change": -2
+        },
+        "rushing_offense": {
+          "rank": 27,
+          "value": -0.142,
+          "rank_change": -3
+        },
+        "rushing_defense": {
+          "rank": 15,
+          "value": -0.079,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 3,
+          "value": 0.135,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "team": "TB",
+      "power_points": 1.085,
+      "record": "3-6",
+      "prev_rank": 14,
+      "rank_change": 0,
+      "points_change": 0.14,
+      "elo": 1491.695,
+      "offense_rank": 19,
+      "defense_rank": 7,
+      "qb": {
+        "name": "B.Mayfield",
+        "rating": 0.024
+      },
+      "next_game": {
+        "opponent": "DET",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -4.628,
+        "win_prob": 0.376,
+        "game_id": "2026_11_TB_DET"
+      },
+      "categories": {
+        "offense": {
+          "rank": 19,
+          "value": -0.008,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 7,
+          "value": -0.053,
+          "rank_change": -2
+        },
+        "passing_offense": {
+          "rank": 22,
+          "value": -0.025,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 6,
+          "value": -0.034,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 9,
+          "value": -0.03,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 5,
+          "value": -0.132,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 17,
+          "value": 0.024,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "team": "SEA",
+      "power_points": 0.948,
+      "record": "6-4",
+      "prev_rank": 15,
+      "rank_change": 0,
+      "points_change": 0.032,
+      "elo": 1621.598,
+      "offense_rank": 11,
+      "defense_rank": 1,
+      "qb": {
+        "name": "D.Lock",
+        "rating": -0.044
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 11,
+          "value": 0.056,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 1,
+          "value": -0.14,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 5,
+          "value": 0.18,
+          "rank_change": 4
+        },
+        "passing_defense": {
+          "rank": 2,
+          "value": -0.12,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 21,
+          "value": -0.109,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 1,
+          "value": -0.172,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 23,
+          "value": -0.044,
+          "rank_change": 4
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "team": "CLE",
+      "power_points": -0.065,
+      "record": "6-4",
+      "prev_rank": 17,
+      "rank_change": 1,
+      "points_change": 0.559,
+      "elo": 1458.608,
+      "offense_rank": 32,
+      "defense_rank": 11,
+      "qb": {
+        "name": "D.Watson",
+        "rating": 0.042
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 32,
+          "value": -0.155,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 11,
+          "value": -0.025,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 32,
+          "value": -0.158,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 5,
+          "value": -0.038,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 30,
+          "value": -0.157,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 25,
+          "value": -0.04,
+          "rank_change": 1
+        },
+        "quarterback": {
+          "rank": 15,
+          "value": 0.042,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "team": "DAL",
+      "power_points": -0.129,
+      "record": "4-6",
+      "prev_rank": 16,
+      "rank_change": -1,
+      "points_change": -0.25,
+      "elo": 1450.642,
+      "offense_rank": 7,
+      "defense_rank": 31,
+      "qb": {
+        "name": "D.Prescott",
+        "rating": 0.111
+      },
+      "next_game": {
+        "opponent": "TEN",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 10.588,
+        "win_prob": 0.807,
+        "game_id": "2026_11_TEN_DAL"
+      },
+      "categories": {
+        "offense": {
+          "rank": 7,
+          "value": 0.085,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 31,
+          "value": 0.129,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 10,
+          "value": 0.151,
+          "rank_change": -3
+        },
+        "passing_defense": {
+          "rank": 29,
+          "value": 0.206,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 8,
+          "value": -0.028,
+          "rank_change": 2
+        },
+        "rushing_defense": {
+          "rank": 32,
+          "value": 0.027,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 7,
+          "value": 0.111,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "team": "WAS",
+      "power_points": -1.897,
+      "record": "3-5-1",
+      "prev_rank": 20,
+      "rank_change": 2,
+      "points_change": 0.688,
+      "elo": 1438.445,
+      "offense_rank": 18,
+      "defense_rank": 28,
+      "qb": {
+        "name": "J.Daniels",
+        "rating": 0.045
+      },
+      "next_game": {
+        "opponent": "CIN",
+        "home_away": "home",
+        "date": "2026-11-23",
+        "predicted_margin": -3.651,
+        "win_prob": 0.346,
+        "game_id": "2026_11_CIN_WAS"
+      },
+      "categories": {
+        "offense": {
+          "rank": 18,
+          "value": 0.0,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 28,
+          "value": 0.086,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 16,
+          "value": 0.053,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 26,
+          "value": 0.143,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 17,
+          "value": -0.088,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 30,
+          "value": -0.022,
+          "rank_change": -3
+        },
+        "quarterback": {
+          "rank": 14,
+          "value": 0.045,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "team": "ATL",
+      "power_points": -2.194,
+      "record": "3-7",
+      "prev_rank": 18,
+      "rank_change": -1,
+      "points_change": -0.497,
+      "elo": 1417.277,
+      "offense_rank": 22,
+      "defense_rank": 20,
+      "qb": {
+        "name": "M.Penix",
+        "rating": -0.002
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 22,
+          "value": -0.046,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 20,
+          "value": 0.016,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 25,
+          "value": -0.046,
+          "rank_change": -3
+        },
+        "passing_defense": {
+          "rank": 13,
+          "value": 0.019,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 14,
+          "value": -0.067,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 12,
+          "value": -0.086,
+          "rank_change": 3
+        },
+        "quarterback": {
+          "rank": 19,
+          "value": -0.002,
+          "rank_change": -1
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "team": "CAR",
+      "power_points": -2.7,
+      "record": "4-5",
+      "prev_rank": 25,
+      "rank_change": 5,
+      "points_change": 0.952,
+      "elo": 1441.334,
+      "offense_rank": 25,
+      "defense_rank": 26,
+      "qb": {
+        "name": "B.Young",
+        "rating": -0.102
+      },
+      "next_game": {
+        "opponent": "BAL",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 3.871,
+        "win_prob": 0.61,
+        "game_id": "2026_11_BAL_CAR"
+      },
+      "categories": {
+        "offense": {
+          "rank": 25,
+          "value": -0.059,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 26,
+          "value": 0.078,
+          "rank_change": 2
+        },
+        "passing_offense": {
+          "rank": 24,
+          "value": -0.045,
+          "rank_change": 2
+        },
+        "passing_defense": {
+          "rank": 27,
+          "value": 0.148,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 18,
+          "value": -0.096,
+          "rank_change": 2
+        },
+        "rushing_defense": {
+          "rank": 24,
+          "value": -0.045,
+          "rank_change": 6
+        },
+        "quarterback": {
+          "rank": 30,
+          "value": -0.102,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 21,
+      "team": "NYG",
+      "power_points": -3.179,
+      "record": "5-3-1",
+      "prev_rank": 21,
+      "rank_change": 0,
+      "points_change": -0.33,
+      "elo": 1460.915,
+      "offense_rank": 20,
+      "defense_rank": 25,
+      "qb": {
+        "name": "J.McCarthy",
+        "rating": -0.081
+      },
+      "next_game": {
+        "opponent": "JAX",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": -4.347,
+        "win_prob": 0.322,
+        "game_id": "2026_11_JAX_NYG"
+      },
+      "categories": {
+        "offense": {
+          "rank": 20,
+          "value": -0.013,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 25,
+          "value": 0.057,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 18,
+          "value": 0.046,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 23,
+          "value": 0.095,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 22,
+          "value": -0.112,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 31,
+          "value": 0.0,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 29,
+          "value": -0.081,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "team": "BAL",
+      "power_points": -3.34,
+      "record": "4-6",
+      "prev_rank": 22,
+      "rank_change": 0,
+      "points_change": -0.255,
+      "elo": 1453.006,
+      "offense_rank": 12,
+      "defense_rank": 17,
+      "qb": {
+        "name": "J.Brissett",
+        "rating": -0.045
+      },
+      "next_game": {
+        "opponent": "CAR",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -3.871,
+        "win_prob": 0.39,
+        "game_id": "2026_11_BAL_CAR"
+      },
+      "categories": {
+        "offense": {
+          "rank": 12,
+          "value": 0.055,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 17,
+          "value": 0.004,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 12,
+          "value": 0.102,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 19,
+          "value": 0.063,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 6,
+          "value": -0.004,
+          "rank_change": -2
+        },
+        "rushing_defense": {
+          "rank": 9,
+          "value": -0.116,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 25,
+          "value": -0.045,
+          "rank_change": 1
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "team": "LAC",
+      "power_points": -3.579,
+      "record": "1-8",
+      "prev_rank": 29,
+      "rank_change": 6,
+      "points_change": 0.861,
+      "elo": 1397.771,
+      "offense_rank": 28,
+      "defense_rank": 13,
+      "qb": {
+        "name": "J.Herbert",
+        "rating": 0.053
+      },
+      "next_game": {
+        "opponent": "NYJ",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": 3.74,
+        "win_prob": 0.638,
+        "game_id": "2026_11_NYJ_LAC"
+      },
+      "categories": {
+        "offense": {
+          "rank": 28,
+          "value": -0.086,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 13,
+          "value": -0.021,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 23,
+          "value": -0.042,
+          "rank_change": 4
+        },
+        "passing_defense": {
+          "rank": 11,
+          "value": 0.002,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 29,
+          "value": -0.152,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 16,
+          "value": -0.076,
+          "rank_change": 1
+        },
+        "quarterback": {
+          "rank": 12,
+          "value": 0.053,
+          "rank_change": 0
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "team": "NE",
+      "power_points": -3.905,
+      "record": "5-5",
+      "prev_rank": 19,
+      "rank_change": -5,
+      "points_change": -1.432,
+      "elo": 1521.218,
+      "offense_rank": 10,
+      "defense_rank": 21,
+      "qb": {
+        "name": "T.DeVito",
+        "rating": -0.156
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 10,
+          "value": 0.058,
+          "rank_change": -2
+        },
+        "defense": {
+          "rank": 21,
+          "value": 0.022,
+          "rank_change": -3
+        },
+        "passing_offense": {
+          "rank": 8,
+          "value": 0.168,
+          "rank_change": -5
+        },
+        "passing_defense": {
+          "rank": 22,
+          "value": 0.086,
+          "rank_change": -2
+        },
+        "rushing_offense": {
+          "rank": 19,
+          "value": -0.1,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 14,
+          "value": -0.084,
+          "rank_change": -4
+        },
+        "quarterback": {
+          "rank": 32,
+          "value": -0.156,
+          "rank_change": -1
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "team": "NO",
+      "power_points": -3.999,
+      "record": "3-6",
+      "prev_rank": 23,
+      "rank_change": -2,
+      "points_change": -0.543,
+      "elo": 1400.188,
+      "offense_rank": 24,
+      "defense_rank": 19,
+      "qb": {
+        "name": "T.Shough",
+        "rating": -0.012
+      },
+      "next_game": {
+        "opponent": "CHI",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -9.976,
+        "win_prob": 0.203,
+        "game_id": "2026_11_NO_CHI"
+      },
+      "categories": {
+        "offense": {
+          "rank": 24,
+          "value": -0.059,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 19,
+          "value": 0.015,
+          "rank_change": 2
+        },
+        "passing_offense": {
+          "rank": 19,
+          "value": 0.007,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 21,
+          "value": 0.073,
+          "rank_change": 1
+        },
+        "rushing_offense": {
+          "rank": 31,
+          "value": -0.188,
+          "rank_change": -3
+        },
+        "rushing_defense": {
+          "rank": 17,
+          "value": -0.076,
+          "rank_change": -1
+        },
+        "quarterback": {
+          "rank": 21,
+          "value": -0.012,
+          "rank_change": 4
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "team": "PHI",
+      "power_points": -4.028,
+      "record": "2-7",
+      "prev_rank": 27,
+      "rank_change": 1,
+      "points_change": 0.14,
+      "elo": 1393.344,
+      "offense_rank": 16,
+      "defense_rank": 10,
+      "qb": {
+        "name": "J.Milton",
+        "rating": -0.004
+      },
+      "next_game": {
+        "opponent": "PIT",
+        "home_away": "home",
+        "date": "2026-11-22",
+        "predicted_margin": -5.287,
+        "win_prob": 0.332,
+        "game_id": "2026_11_PIT_PHI"
+      },
+      "categories": {
+        "offense": {
+          "rank": 16,
+          "value": 0.004,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 10,
+          "value": -0.028,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 17,
+          "value": 0.047,
+          "rank_change": 0
+        },
+        "passing_defense": {
+          "rank": 16,
+          "value": 0.029,
+          "rank_change": -2
+        },
+        "rushing_offense": {
+          "rank": 12,
+          "value": -0.055,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 8,
+          "value": -0.122,
+          "rank_change": 1
+        },
+        "quarterback": {
+          "rank": 20,
+          "value": -0.004,
+          "rank_change": 4
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "team": "IND",
+      "power_points": -4.236,
+      "record": "3-8",
+      "prev_rank": 26,
+      "rank_change": -1,
+      "points_change": -0.564,
+      "elo": 1377.828,
+      "offense_rank": 23,
+      "defense_rank": 23,
+      "qb": {
+        "name": "D.Jones",
+        "rating": -0.061
+      },
+      "next_game": null,
+      "categories": {
+        "offense": {
+          "rank": 23,
+          "value": -0.056,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 23,
+          "value": 0.046,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 29,
+          "value": -0.081,
+          "rank_change": -1
+        },
+        "passing_defense": {
+          "rank": 24,
+          "value": 0.112,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 10,
+          "value": -0.032,
+          "rank_change": -2
+        },
+        "rushing_defense": {
+          "rank": 27,
+          "value": -0.038,
+          "rank_change": -3
+        },
+        "quarterback": {
+          "rank": 27,
+          "value": -0.061,
+          "rank_change": 1
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "team": "LV",
+      "power_points": -4.411,
+      "record": "4-6",
+      "prev_rank": 24,
+      "rank_change": -4,
+      "points_change": -0.869,
+      "elo": 1391.879,
+      "offense_rank": 31,
+      "defense_rank": 27,
+      "qb": {
+        "name": "F.Mendoza",
+        "rating": -0.038
+      },
+      "next_game": {
+        "opponent": "DEN",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -10.464,
+        "win_prob": 0.185,
+        "game_id": "2026_11_LV_DEN"
+      },
+      "categories": {
+        "offense": {
+          "rank": 31,
+          "value": -0.119,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 27,
+          "value": 0.083,
+          "rank_change": -1
+        },
+        "passing_offense": {
+          "rank": 27,
+          "value": -0.056,
+          "rank_change": -2
+        },
+        "passing_defense": {
+          "rank": 28,
+          "value": 0.184,
+          "rank_change": -1
+        },
+        "rushing_offense": {
+          "rank": 32,
+          "value": -0.202,
+          "rank_change": 0
+        },
+        "rushing_defense": {
+          "rank": 22,
+          "value": -0.056,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 22,
+          "value": -0.038,
+          "rank_change": -2
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "team": "NYJ",
+      "power_points": -5.285,
+      "record": "2-8",
+      "prev_rank": 28,
+      "rank_change": -1,
+      "points_change": -1.001,
+      "elo": 1323.516,
+      "offense_rank": 29,
+      "defense_rank": 30,
+      "qb": {
+        "name": "C.Klubnik",
+        "rating": -0.044
+      },
+      "next_game": {
+        "opponent": "LAC",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -3.74,
+        "win_prob": 0.362,
+        "game_id": "2026_11_NYJ_LAC"
+      },
+      "categories": {
+        "offense": {
+          "rank": 29,
+          "value": -0.105,
+          "rank_change": 0
+        },
+        "defense": {
+          "rank": 30,
+          "value": 0.123,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 31,
+          "value": -0.106,
+          "rank_change": -1
+        },
+        "passing_defense": {
+          "rank": 32,
+          "value": 0.259,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 25,
+          "value": -0.128,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 23,
+          "value": -0.055,
+          "rank_change": -5
+        },
+        "quarterback": {
+          "rank": 24,
+          "value": -0.044,
+          "rank_change": -3
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "team": "MIA",
+      "power_points": -5.705,
+      "record": "1-8",
+      "prev_rank": 31,
+      "rank_change": 1,
+      "points_change": -1.007,
+      "elo": 1354.156,
+      "offense_rank": 21,
+      "defense_rank": 24,
+      "qb": {
+        "name": "K.McCord",
+        "rating": -0.061
+      },
+      "next_game": {
+        "opponent": "BUF",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -15.003,
+        "win_prob": 0.111,
+        "game_id": "2026_11_MIA_BUF"
+      },
+      "categories": {
+        "offense": {
+          "rank": 21,
+          "value": -0.044,
+          "rank_change": 2
+        },
+        "defense": {
+          "rank": 24,
+          "value": 0.054,
+          "rank_change": 1
+        },
+        "passing_offense": {
+          "rank": 20,
+          "value": -0.009,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 25,
+          "value": 0.14,
+          "rank_change": 3
+        },
+        "rushing_offense": {
+          "rank": 20,
+          "value": -0.103,
+          "rank_change": -1
+        },
+        "rushing_defense": {
+          "rank": 20,
+          "value": -0.062,
+          "rank_change": 1
+        },
+        "quarterback": {
+          "rank": 26,
+          "value": -0.061,
+          "rank_change": -5
+        }
+      }
+    },
+    {
+      "rank": 31,
+      "team": "ARI",
+      "power_points": -6.085,
+      "record": "3-7",
+      "prev_rank": 30,
+      "rank_change": -1,
+      "points_change": -1.564,
+      "elo": 1367.089,
+      "offense_rank": 26,
+      "defense_rank": 29,
+      "qb": {
+        "name": "C.Beck",
+        "rating": -0.08
+      },
+      "next_game": {
+        "opponent": "KC",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -14.507,
+        "win_prob": 0.113,
+        "game_id": "2026_11_ARI_KC"
+      },
+      "categories": {
+        "offense": {
+          "rank": 26,
+          "value": -0.072,
+          "rank_change": -1
+        },
+        "defense": {
+          "rank": 29,
+          "value": 0.111,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 26,
+          "value": -0.054,
+          "rank_change": -2
+        },
+        "passing_defense": {
+          "rank": 31,
+          "value": 0.24,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 23,
+          "value": -0.12,
+          "rank_change": -2
+        },
+        "rushing_defense": {
+          "rank": 19,
+          "value": -0.066,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 28,
+          "value": -0.08,
+          "rank_change": -7
+        }
+      }
+    },
+    {
+      "rank": 32,
+      "team": "TEN",
+      "power_points": -7.456,
+      "record": "1-8",
+      "prev_rank": 32,
+      "rank_change": 0,
+      "points_change": -0.026,
+      "elo": 1295.997,
+      "offense_rank": 30,
+      "defense_rank": 32,
+      "qb": {
+        "name": "C.Ward",
+        "rating": -0.137
+      },
+      "next_game": {
+        "opponent": "DAL",
+        "home_away": "away",
+        "date": "2026-11-22",
+        "predicted_margin": -10.588,
+        "win_prob": 0.193,
+        "game_id": "2026_11_TEN_DAL"
+      },
+      "categories": {
+        "offense": {
+          "rank": 30,
+          "value": -0.119,
+          "rank_change": 1
+        },
+        "defense": {
+          "rank": 32,
+          "value": 0.136,
+          "rank_change": 0
+        },
+        "passing_offense": {
+          "rank": 30,
+          "value": -0.104,
+          "rank_change": 1
+        },
+        "passing_defense": {
+          "rank": 30,
+          "value": 0.228,
+          "rank_change": 0
+        },
+        "rushing_offense": {
+          "rank": 26,
+          "value": -0.133,
+          "rank_change": 1
+        },
+        "rushing_defense": {
+          "rank": 28,
+          "value": -0.03,
+          "rank_change": 0
+        },
+        "quarterback": {
+          "rank": 31,
+          "value": -0.137,
+          "rank_change": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "model_version": "v15",
+  "generated_at": "2026-10-25T14:55:57+00:00",
+  "season": 2026,
+  "week": 7,
+  "note": "Ranks games by team quality, how even the ratings are, playoff stakes and rivalry. It does not pick winners.",
+  "game_of_the_week": {
+    "game_id": "2026_07_CIN_BAL",
+    "card": "2026_07_CIN_BAL.json",
+    "away": "CIN",
+    "home": "BAL",
+    "kickoff_utc": "2026-10-25T17:00:00+00:00",
+    "score": 84.8,
+    "rating_gap": 1.0,
+    "playoff_swing": 0.248,
+    "reasons": [
+      "Two top-half teams in the power rankings",
+      "The ratings have these teams nearly even",
+      "Playoff odds swing about 25 points on the result",
+      "Division rivals"
+    ],
+    "tags": [
+      "toss_up",
+      "playoff_swing",
+      "division"
+    ]
+  },
+  "games": [
+    {
+      "game_id": "2026_07_CIN_BAL",
+      "card": "2026_07_CIN_BAL.json",
+      "away": "CIN",
+      "home": "BAL",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 84.8,
+      "rating_gap": 1.0,
+      "playoff_swing": 0.248,
+      "reasons": [
+        "Two top-half teams in the power rankings",
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 25 points on the result",
+        "Division rivals"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing",
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_07_GB_DET",
+      "card": "2026_07_GB_DET.json",
+      "away": "GB",
+      "home": "DET",
+      "kickoff_utc": "2026-10-25T20:25:00+00:00",
+      "score": 77.5,
+      "rating_gap": 3.6,
+      "playoff_swing": 0.267,
+      "reasons": [
+        "Two top-half teams in the power rankings",
+        "Playoff odds swing about 27 points on the result",
+        "Division rivals"
+      ],
+      "tags": [
+        "playoff_swing",
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_07_DAL_PHI",
+      "card": "2026_07_DAL_PHI.json",
+      "away": "DAL",
+      "home": "PHI",
+      "kickoff_utc": "2026-10-27T00:15:00+00:00",
+      "score": 71.0,
+      "rating_gap": 1.8,
+      "playoff_swing": 0.22,
+      "reasons": [
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 22 points on the result",
+        "Division rivals"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing",
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_07_KC_SEA",
+      "card": "2026_07_KC_SEA.json",
+      "away": "KC",
+      "home": "SEA",
+      "kickoff_utc": "2026-10-26T00:20:00+00:00",
+      "score": 64.5,
+      "rating_gap": 2.0,
+      "playoff_swing": 0.137,
+      "reasons": [
+        "Two top-half teams in the power rankings",
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 14 points on the result"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_LA_LV",
+      "card": "2026_07_LA_LV.json",
+      "away": "LA",
+      "home": "LV",
+      "kickoff_utc": "2026-10-25T20:25:00+00:00",
+      "score": 57.4,
+      "rating_gap": 2.3,
+      "playoff_swing": 0.173,
+      "reasons": [
+        "The ratings have these teams nearly even",
+        "Playoff odds swing about 17 points on the result"
+      ],
+      "tags": [
+        "toss_up",
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "card": "2026_07_TB_CAR.json",
+      "away": "TB",
+      "home": "CAR",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 56.4,
+      "rating_gap": 3.2,
+      "playoff_swing": 0.179,
+      "reasons": [
+        "Playoff odds swing about 18 points on the result",
+        "Division rivals"
+      ],
+      "tags": [
+        "playoff_swing",
+        "division"
+      ]
+    },
+    {
+      "game_id": "2026_07_NYG_HOU",
+      "card": "2026_07_NYG_HOU.json",
+      "away": "NYG",
+      "home": "HOU",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 54.4,
+      "rating_gap": 4.2,
+      "playoff_swing": 0.197,
+      "reasons": [
+        "Playoff odds swing about 20 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_PIT_NO",
+      "card": "2026_07_PIT_NO.json",
+      "away": "PIT",
+      "home": "NO",
+      "kickoff_utc": "2026-10-25T13:30:00+00:00",
+      "score": 50.8,
+      "rating_gap": 5.2,
+      "playoff_swing": 0.168,
+      "reasons": [
+        "Playoff odds swing about 17 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_SF_ATL",
+      "card": "2026_07_SF_ATL.json",
+      "away": "SF",
+      "home": "ATL",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 48.4,
+      "rating_gap": 5.3,
+      "playoff_swing": 0.095,
+      "reasons": [
+        "Playoff odds swing about 9 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_DEN_ARI",
+      "card": "2026_07_DEN_ARI.json",
+      "away": "DEN",
+      "home": "ARI",
+      "kickoff_utc": "2026-10-25T20:05:00+00:00",
+      "score": 40.9,
+      "rating_gap": 5.8,
+      "playoff_swing": 0.137,
+      "reasons": [
+        "Playoff odds swing about 14 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_CLE_TEN",
+      "card": "2026_07_CLE_TEN.json",
+      "away": "CLE",
+      "home": "TEN",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 33.7,
+      "rating_gap": 5.7,
+      "playoff_swing": 0.12,
+      "reasons": [
+        "Playoff odds swing about 12 points on the result"
+      ],
+      "tags": [
+        "playoff_swing"
+      ]
+    },
+    {
+      "game_id": "2026_07_IND_MIN",
+      "card": "2026_07_IND_MIN.json",
+      "away": "IND",
+      "home": "MIN",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 32.3,
+      "rating_gap": 8.8,
+      "playoff_swing": 0.075,
+      "reasons": [],
+      "tags": []
+    },
+    {
+      "game_id": "2026_07_MIA_NYJ",
+      "card": "2026_07_MIA_NYJ.json",
+      "away": "MIA",
+      "home": "NYJ",
+      "kickoff_utc": "2026-10-25T17:00:00+00:00",
+      "score": 30.2,
+      "rating_gap": 3.7,
+      "playoff_swing": 0.017,
+      "reasons": [
+        "Division rivals"
+      ],
+      "tags": [
+        "division"
+      ]
+    }
+  ],
+  "toss_ups": [
+    "2026_07_CIN_BAL",
+    "2026_07_DAL_PHI",
+    "2026_07_KC_SEA"
+  ],
+  "playoff_swing": [
+    "2026_07_GB_DET",
+    "2026_07_CIN_BAL",
+    "2026_07_DAL_PHI"
+  ]
+}

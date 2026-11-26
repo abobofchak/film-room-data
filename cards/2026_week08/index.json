@@ -1,0 +1,72 @@
+{
+  "card_version": 1,
+  "model_version": "v15",
+  "generated_at": "2026-11-02T21:10:53+00:00",
+  "season": 2026,
+  "week": 8,
+  "disclaimer": "For information and entertainment only. Not betting advice.",
+  "games": [
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "kickoff_et": "2026-11-02 20:15 ET",
+      "kickoff_utc": "2026-11-03T01:15:00+00:00",
+      "away": "CHI",
+      "home": "SEA",
+      "predicted_margin_home": 3.286,
+      "favored_team": "SEA",
+      "win_prob_favored": 0.642,
+      "margin_range_80": [
+        -13.267,
+        19.706
+      ],
+      "predicted_total": 43.916,
+      "projected_score": {
+        "home": 23.601,
+        "away": 20.315
+      },
+      "total_range_80": [
+        27.228,
+        61.381
+      ],
+      "away_name": "Chicago Bears",
+      "home_name": "Seattle Seahawks",
+      "stadium": "Lumen Field",
+      "city": "Seattle, WA",
+      "weather": {
+        "indoors": false,
+        "source": "nws_forecast",
+        "temp_f": 49.5,
+        "wind_mph": 1.0,
+        "precip_chance_pct": 2.0,
+        "summary": "Cloudy"
+      },
+      "records": {
+        "home": "4-3",
+        "away": "5-2"
+      },
+      "market": {
+        "spread_home": 3.5,
+        "favorite": "SEA",
+        "favorite_spread": 3.5,
+        "total_line": 46.5
+      },
+      "chips": [
+        {
+          "kind": "situation",
+          "text": "CHI travels 1,734 mi",
+          "team": "CHI"
+        },
+        {
+          "kind": "ats",
+          "text": "CHI 4-1 ATS last 5",
+          "team": "CHI"
+        }
+      ],
+      "badges": [
+        "qb_injury",
+        "long_travel"
+      ],
+      "card": "2026_08_CHI_SEA.json"
+    }
+  ]
+}
